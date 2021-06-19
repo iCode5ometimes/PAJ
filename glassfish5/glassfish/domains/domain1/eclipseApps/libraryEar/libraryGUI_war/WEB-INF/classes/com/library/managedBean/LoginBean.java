@@ -52,7 +52,7 @@ public class LoginBean {
 			userDTO = userDAORemote.loginUser(loginDTO);
 			facesContext.getExternalContext().getSessionMap().put("userDTO", userDTO);
 			System.out.println("user logged");
-			return "/pages/userWelcomePage.xhtml?faces-redirect=true";
+			return "/pages/bookList.xhtml?faces-redirect=true";
 
 		} catch (LoginException e) {
 			System.out.println("Invalid email or password");

@@ -1,6 +1,8 @@
 package com.library.util;
 
+import com.library.model.Book;
 import com.library.model.User;
+import com.libraryDTO.BookDTO;
 import com.libraryDTO.UserDTO;
 
 public class DtoToEntity {
@@ -12,6 +14,13 @@ public class DtoToEntity {
 							 userDTO.getPassword(),
 							 userDTO.getSurname());
 		return user;
+	}
+	
+	public Book convertBook(BookDTO bookDTO) {
+		Book book = new Book(bookDTO.getTitle(), 
+						     bookDTO.getAuthor());
+		
+		return book;
 	}
 	
 }

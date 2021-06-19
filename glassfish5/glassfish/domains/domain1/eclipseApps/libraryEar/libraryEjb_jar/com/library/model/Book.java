@@ -26,6 +26,12 @@ public class Book implements Serializable {
 
 	public Book() {
 	}
+	
+	public Book(String title, Author author) {
+		super();
+		this.title = title;
+		this.author = author;
+	}
 
 	public int getIdbook() {
 		return this.idbook;
