@@ -2,6 +2,8 @@ package com.library.managedBean;
 
 import javax.ejb.EJB;
 import javax.faces.application.FacesMessage;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
 
 import com.library.exception.LoginException;
@@ -9,6 +11,8 @@ import com.libraryDAO.UserDAORemote;
 import com.libraryDTO.LoginDTO;
 import com.libraryDTO.UserDTO;
 
+@ManagedBean
+@SessionScoped
 public class LoginBean {
 	
 	LoginDTO loginDTO = new LoginDTO();
@@ -48,7 +52,7 @@ public class LoginBean {
 			userDTO = userDAORemote.loginUser(loginDTO);
 			facesContext.getExternalContext().getSessionMap().put("userDTO", userDTO);
 			System.out.println("user logged");
-			return "/adminFilter/admin.xhtml?faces-redirect=true";
+			return "/pages/userWelcomePage.xhtml?faces-redirect=true";
 
 		} catch (LoginException e) {
 			System.out.println("Invalid email or password");

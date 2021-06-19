@@ -1072,3 +1072,1879 @@ java.lang.IllegalStateException: getOutputStream() has already been called for t
 [2021-06-19T14:05:36.480+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=56 _ThreadName=admin-listener(3)] [timeMillis: 1624100736480] [levelValue: 800] [[
   libraryEar was successfully deployed in 3.659 milliseconds.]]
 
+[2021-06-19T14:42:37.203+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=177 _ThreadName=Thread-54] [timeMillis: 1624102957203] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2021-06-19T14:42:37.223+0300] [glassfish 5.0] [INFO] [NCLS-BOOTSTRAP-00028] [javax.enterprise.bootstrap] [tid: _ThreadID=177 _ThreadName=Thread-54] [timeMillis: 1624102957223] [levelValue: 800] [[
+  Unregistered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@2dbd803f from service registry.]]
+
+[2021-06-19T14:42:37.223+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=177 _ThreadName=Thread-8] [timeMillis: 1624102957223] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2021-06-19T14:42:37.228+0300] [glassfish 5.0] [INFO] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=177 _ThreadName=Thread-54] [timeMillis: 1624102957228] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2021-06-19T14:42:37.228+0300] [glassfish 5.0] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=177 _ThreadName=Thread-54] [timeMillis: 1624102957228] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2021-06-19T14:42:37.298+0300] [glassfish 5.0] [INFO] [] [org.eclipse.persistence.session./file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb.connection] [tid: _ThreadID=183 _ThreadName=RunLevelControllerThread-1624102957265] [timeMillis: 1624102957298] [levelValue: 800] [[
+  /file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb logout successful]]
+
+[2021-06-19T14:42:37.353+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=183 _ThreadName=Thread-8] [timeMillis: 1624102957353] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource]]]
+
+[2021-06-19T14:42:37.362+0300] [glassfish 5.0] [INFO] [ra.stop-successful] [javax.enterprise.resource.resourceadapter.com.sun.enterprise.connectors.service] [tid: _ThreadID=189 _ThreadName=Thread-65] [timeMillis: 1624102957362] [levelValue: 800] [[
+  RAR7094: __cp_jdbc_ra shutdown successful.]]
+
+[2021-06-19T14:43:08.316+0300] [glassfish 5.0] [INFO] [NCLS-LOGGING-00009] [javax.enterprise.logging] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1624102988248] [timeMillis: 1624102988316] [levelValue: 800] [[
+  Running GlassFish Version: GlassFish Server Open Source Edition  5.0.1  (build 5)]]
+
+[2021-06-19T14:43:08.317+0300] [glassfish 5.0] [INFO] [NCLS-LOGGING-00010] [javax.enterprise.logging] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1624102988248] [timeMillis: 1624102988317] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2021-06-19T14:43:08.389+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624102988247] [timeMillis: 1624102988389] [levelValue: 800] [[
+  Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2021-06-19T14:43:08.390+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624102988247] [timeMillis: 1624102988390] [levelValue: 800] [[
+  Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2021-06-19T14:43:08.394+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624102988247] [timeMillis: 1624102988394] [levelValue: 800] [[
+  Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.]]
+
+[2021-06-19T14:43:08.625+0300] [glassfish 5.0] [INFO] [SEC-SVCS-00100] [javax.enterprise.security.services] [tid: _ThreadID=29 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102988625] [levelValue: 800] [[
+  Authorization Service has successfully initialized.]]
+
+[2021-06-19T14:43:08.675+0300] [glassfish 5.0] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=29 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102988675] [levelValue: 800] [[
+  Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry]]
+
+[2021-06-19T14:43:08.707+0300] [glassfish 5.0] [INFO] [jts.startup_msg] [javax.enterprise.system.core.transaction.com.sun.jts.CosTransactions] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102988707] [levelValue: 800] [[
+  JTS5014: Recoverable JTS instance, serverId = [100]]]
+
+[2021-06-19T14:43:08.753+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624102988247] [timeMillis: 1624102988753] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 20ms - bound to [/0.0.0.0:8080]]]
+
+[2021-06-19T14:43:08.772+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624102988247] [timeMillis: 1624102988772] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 1ms - bound to [/0.0.0.0:8181]]]
+
+[2021-06-19T14:43:08.777+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624102988247] [timeMillis: 1624102988777] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 1ms - bound to [/0.0.0.0:4848]]]
+
+[2021-06-19T14:43:08.803+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1624102988248] [timeMillis: 1624102988803] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 1ms - bound to [/0.0.0.0:3700]]]
+
+[2021-06-19T14:43:08.812+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102988812] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:43:09.118+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102989118] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:43:09.688+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01002] [javax.enterprise.system.core.security] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102989688] [levelValue: 800] [[
+  Java security manager is disabled.]]
+
+[2021-06-19T14:43:09.688+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01010] [javax.enterprise.system.core.security] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102989688] [levelValue: 800] [[
+  Entering Security Startup Service.]]
+
+[2021-06-19T14:43:09.690+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01143] [javax.enterprise.system.core.security] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102989690] [levelValue: 800] [[
+  Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.]]
+
+[2021-06-19T14:43:09.715+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01011] [javax.enterprise.system.core.security] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102989715] [levelValue: 800] [[
+  Security Service(s) started successfully.]]
+
+[2021-06-19T14:43:10.769+0300] [glassfish 5.0] [INFO] [jts.startup_msg] [javax.enterprise.system.core.transaction.com.sun.jts.CosTransactions] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102990769] [levelValue: 800] [[
+  JTS5014: Recoverable JTS instance, serverId = [3700]]]
+
+[2021-06-19T14:43:11.228+0300] [glassfish 5.0] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991228] [levelValue: 800] [[
+  Portable JNDI names for EJB UserDAO: [java:global/libraryEar/libraryEjb/UserDAO!com.library.dao.UserDAO, java:global/libraryEar/libraryEjb/UserDAO!com.libraryDAO.UserDAORemote]]]
+
+[2021-06-19T14:43:11.228+0300] [glassfish 5.0] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991228] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB UserDAO: [com.libraryDAO.UserDAORemote, com.libraryDAO.UserDAORemote#com.libraryDAO.UserDAORemote]]]
+
+[2021-06-19T14:43:11.278+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Version] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991278] [levelValue: 800] [[
+  WELD-000900: 3.0.0 (Final)]]
+
+[2021-06-19T14:43:11.482+0300] [glassfish 5.0] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991482] [levelValue: 800] [[
+  HV000001: Hibernate Validator 6.0.10.Final]]
+
+[2021-06-19T14:43:11.786+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991786] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.glassfish.jms.injection.JMSCDIExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:43:11.802+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991802] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.hibernate.validator.cdi.ValidationExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:43:11.808+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991808] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] org.glassfish.sse.impl.ServerSentEventCdiExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:43:11.815+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991815] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:43:11.827+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991827] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider$JaxRsParamProducer is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:43:11.836+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991836] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.servlet.internal.CdiExternalRequestScope is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:43:11.839+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991839] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorMandatory is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:43:11.845+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991845] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNever is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:43:11.846+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991846] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNotSupported is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:43:11.847+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991847] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequired is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:43:11.849+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991849] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequiresNew is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:43:11.850+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991850] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorSupports is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:43:11.855+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991855] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.ibm.jbatch.container.cdi.BatchProducerBean is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:43:11.878+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991878] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:43:11.880+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991880] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionHolder is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:43:11.882+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991882] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionInterceptor is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:43:11.884+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102991884] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.TransactionalExceptionMapper is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:43:12.776+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624102988253] [timeMillis: 1624102992776] [levelValue: 800] [[
+  Loading application libraryEar done in 4.118 ms]]
+
+[2021-06-19T14:43:12.777+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1624102992777] [levelValue: 800] [[
+  GlassFish Server Open Source Edition  5.0.1  (5) startup time : Felix (1.820ms), startup services(4.535ms), total(6.355ms)]]
+
+[2021-06-19T14:43:12.861+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624102988247] [timeMillis: 1624102992861] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 4ms - bound to [/0.0.0.0:7676]]]
+
+[2021-06-19T14:43:12.881+0300] [glassfish 5.0] [INFO] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=80 _ThreadName=Thread-21] [timeMillis: 1624102992881] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://192.168.56.1:8686/jndi/rmi://192.168.56.1:8686/jmxrmi]]
+
+[2021-06-19T14:43:14.102+0300] [glassfish 5.0] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=54 _ThreadName=admin-listener(3)] [timeMillis: 1624102994102] [levelValue: 800] [[
+  Listening to REST requests at context: /management/domain.]]
+
+[2021-06-19T14:43:14.179+0300] [glassfish 5.0] [INFO] [NCLS-BOOTSTRAP-00027] [javax.enterprise.bootstrap] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1624102994179] [levelValue: 800] [[
+  Registered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@3b569985 as OSGi service registration: org.apache.felix.framework.ServiceRegistrationImpl@3a022576.]]
+
+[2021-06-19T14:43:14.320+0300] [glassfish 5.0] [INFO] [] [org.jvnet.hk2.osgiadapter] [tid: _ThreadID=21 _ThreadName=FelixStartLevel] [timeMillis: 1624102994320] [levelValue: 800] [[
+  Skipping registration of inhabitant for service reference [org.osgi.service.cm.ManagedService] as the service object could not be obtained.]]
+
+[2021-06-19T14:43:14.322+0300] [glassfish 5.0] [INFO] [] [org.jvnet.hk2.osgiadapter] [tid: _ThreadID=21 _ThreadName=FelixStartLevel] [timeMillis: 1624102994322] [levelValue: 800] [[
+  Skipping registration of inhabitant for service reference [org.osgi.service.metatype.MetaTypeProvider] as the service object could not be obtained.]]
+
+[2021-06-19T14:43:14.329+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=100 _ThreadName=Thread-22] [timeMillis: 1624102994329] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:43:14.761+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=100 _ThreadName=Thread-22] [timeMillis: 1624102994761] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:8080]]
+
+[2021-06-19T14:43:14.765+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=100 _ThreadName=Thread-22] [timeMillis: 1624102994765] [levelValue: 800] [[
+  Created HTTP listener http-listener-2 on host/port 0.0.0.0:8181]]
+
+[2021-06-19T14:43:14.767+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=100 _ThreadName=Thread-22] [timeMillis: 1624102994767] [levelValue: 800] [[
+  Created HTTP listener admin-listener on host/port 0.0.0.0:4848]]
+
+[2021-06-19T14:43:14.783+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=100 _ThreadName=Thread-22] [timeMillis: 1624102994783] [levelValue: 800] [[
+  Created virtual server server]]
+
+[2021-06-19T14:43:14.785+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=100 _ThreadName=Thread-22] [timeMillis: 1624102994785] [levelValue: 800] [[
+  Created virtual server __asadmin]]
+
+[2021-06-19T14:43:14.912+0300] [glassfish 5.0] [INFO] [AS-WEB-CORE-00306] [javax.enterprise.web.core] [tid: _ThreadID=100 _ThreadName=Thread-22] [timeMillis: 1624102994912] [levelValue: 800] [[
+  Setting JAAS app name glassfish-web]]
+
+[2021-06-19T14:43:14.912+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00201] [javax.enterprise.web] [tid: _ThreadID=100 _ThreadName=Thread-22] [timeMillis: 1624102994912] [levelValue: 800] [[
+  Virtual server server loaded default web module ]]
+
+[2021-06-19T14:43:15.131+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=100 _ThreadName=Thread-22] [timeMillis: 1624102995131] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:43:15.140+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=100 _ThreadName=Thread-22] [timeMillis: 1624102995140] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:43:15.140+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=100 _ThreadName=Thread-22] [timeMillis: 1624102995140] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:43:15.842+0300] [glassfish 5.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=100 _ThreadName=Thread-22] [timeMillis: 1624102995842] [levelValue: 800] [[
+  Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '']]
+
+[2021-06-19T14:43:16.659+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=100 _ThreadName=Thread-22] [timeMillis: 1624102996659] [levelValue: 800] [[
+  Loading application [__admingui] at [/]]]
+
+[2021-06-19T14:43:16.660+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=100 _ThreadName=Thread-22] [timeMillis: 1624102996660] [levelValue: 800] [[
+  Loading application __admingui done in 2.482 ms]]
+
+[2021-06-19T14:44:05.817+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.container.ejb.org.glassfish.ejb.startup] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103045817] [levelValue: 800] [[
+  keepstate options resolved to true, saving appId 106436627359334400 for application libraryEar.]]
+
+[2021-06-19T14:44:06.461+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103046461] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:44:06.743+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103046743] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:44:06.795+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103046795] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:44:06.806+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103046806] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:44:06.937+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.dol] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103046937] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:44:08.140+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048140] [levelValue: 800] [[
+  com.library.model.BorrowOrder actually got transformed]]
+
+[2021-06-19T14:44:08.192+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048192] [levelValue: 800] [[
+  com.library.model.User actually got transformed]]
+
+[2021-06-19T14:44:08.202+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048202] [levelValue: 800] [[
+  com.library.model.Author actually got transformed]]
+
+[2021-06-19T14:44:08.205+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048205] [levelValue: 800] [[
+  com.library.model.Book actually got transformed]]
+
+[2021-06-19T14:44:08.241+0300] [glassfish 5.0] [INFO] [] [org.eclipse.persistence.session./file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048241] [levelValue: 800] [[
+  EclipseLink, version: Eclipse Persistence Services - 2.7.0.v20170811-d680af5]]
+
+[2021-06-19T14:44:08.605+0300] [glassfish 5.0] [INFO] [] [org.eclipse.persistence.session./file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb.connection] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048605] [levelValue: 800] [[
+  /file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb login successful]]
+
+[2021-06-19T14:44:08.675+0300] [glassfish 5.0] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048675] [levelValue: 800] [[
+  Portable JNDI names for EJB UserDAO: [java:global/libraryEar/libraryEjb/UserDAO!com.library.dao.UserDAO, java:global/libraryEar/libraryEjb/UserDAO!com.libraryDAO.UserDAORemote]]]
+
+[2021-06-19T14:44:08.675+0300] [glassfish 5.0] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048675] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB UserDAO: [com.libraryDAO.UserDAORemote, com.libraryDAO.UserDAORemote#com.libraryDAO.UserDAORemote]]]
+
+[2021-06-19T14:44:08.752+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048752] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.hibernate.validator.cdi.ValidationExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:44:08.758+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048758] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] org.glassfish.sse.impl.ServerSentEventCdiExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:44:08.760+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048760] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:44:08.763+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048763] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.glassfish.jms.injection.JMSCDIExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:44:08.764+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048764] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider$JaxRsParamProducer is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:44:08.765+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048765] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.servlet.internal.CdiExternalRequestScope is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:44:08.766+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048766] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorMandatory is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:44:08.767+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048767] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNever is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:44:08.768+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048768] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNotSupported is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:44:08.768+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048768] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequired is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:44:08.769+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048769] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequiresNew is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:44:08.770+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048770] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorSupports is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:44:08.770+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048770] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.ibm.jbatch.container.cdi.BatchProducerBean is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:44:08.773+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048773] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionHolder is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:44:08.774+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048774] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionInterceptor is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:44:08.774+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048774] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.TransactionalExceptionMapper is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:44:08.775+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048775] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:44:08.912+0300] [glassfish 5.0] [WARNING] [AS-WEB-UTIL-00035] [javax.enterprise.web.util] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048912] [levelValue: 900] [[
+  Unable to load class org.eclipse.persistence.jpa.rs.service.JPARSApplication, reason: java.lang.ClassNotFoundException: org.eclipse.persistence.jpa.rs.service.JPARSApplication]]
+
+[2021-06-19T14:44:08.945+0300] [glassfish 5.0] [WARNING] [AS-WEB-UTIL-00035] [javax.enterprise.web.util] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048945] [levelValue: 900] [[
+  Unable to load class org.eclipse.persistence.jpa.rs.service.JPARSApplication, reason: java.lang.ClassNotFoundException: org.eclipse.persistence.jpa.rs.service.JPARSApplication]]
+
+[2021-06-19T14:44:08.951+0300] [glassfish 5.0] [INFO] [] [org.glassfish.soteria.servlet.SamRegistrationInstaller] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048951] [levelValue: 800] [[
+  Initializing Soteria 1.0 for context '/libraryGUI']]
+
+[2021-06-19T14:44:08.982+0300] [glassfish 5.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103048982] [levelValue: 800] [[
+  Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '/libraryGUI']]
+
+[2021-06-19T14:44:09.231+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103049231] [levelValue: 800] [[
+  Loading application [libraryEar#libraryGUI.war] at [libraryGUI]]]
+
+[2021-06-19T14:44:09.275+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1624103049275] [levelValue: 800] [[
+  libraryEar was successfully deployed in 3.479 milliseconds.]]
+
+[2021-06-19T14:44:09.927+0300] [glassfish 5.0] [WARNING] [] [javax.enterprise.system.container.web.com.sun.web.security] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624103049927] [levelValue: 900] [[
+  Context path from ServletContext: /libraryGUI differs from path from bundle: libraryGUI]]
+
+[2021-06-19T14:45:43.702+0300] [glassfish 5.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.lifecycle] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624103143702] [levelValue: 900] [[
+  /index.xhtml @25,40 value="#{loginBean.loginDTO.email}": Target Unreachable, identifier 'loginBean' resolved to null
+javax.el.PropertyNotFoundException: /index.xhtml @25,40 value="#{loginBean.loginDTO.email}": Target Unreachable, identifier 'loginBean' resolved to null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:106)
+	at com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer.getConvertedValue(HtmlBasicInputRenderer.java:95)
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1122)
+	at javax.faces.component.UIInput.validate(UIInput.java:1030)
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1334)
+	at javax.faces.component.UIInput.processValidators(UIInput.java:757)
+	at javax.faces.component.UIForm.processValidators(UIForm.java:269)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1298)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1298)
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1332)
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:77)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:201)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:670)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1540)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:119)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:611)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:550)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:114)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:332)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:199)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:463)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:168)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:242)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:539)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:593)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:573)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, identifier 'loginBean' resolved to null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:173)
+	at com.sun.el.parser.AstValue.getType(AstValue.java:85)
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:201)
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:104)
+	... 41 more
+]]
+
+[2021-06-19T14:45:43.704+0300] [glassfish 5.0] [WARNING] [] [javax.enterprise.web] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624103143704] [levelValue: 900] [[
+  StandardWrapperValve[Faces Servlet]: Servlet.service() for servlet Faces Servlet threw exception
+javax.el.PropertyNotFoundException: Target Unreachable, identifier 'loginBean' resolved to null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:173)
+	at com.sun.el.parser.AstValue.getType(AstValue.java:85)
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:201)
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:104)
+	at com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer.getConvertedValue(HtmlBasicInputRenderer.java:95)
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1122)
+	at javax.faces.component.UIInput.validate(UIInput.java:1030)
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1334)
+	at javax.faces.component.UIInput.processValidators(UIInput.java:757)
+	at javax.faces.component.UIForm.processValidators(UIForm.java:269)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1298)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1298)
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1332)
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:77)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:201)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:670)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1540)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:119)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:611)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:550)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:114)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:332)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:199)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:463)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:168)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:242)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:539)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:593)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:573)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2021-06-19T14:47:45.005+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.container.ejb.org.glassfish.ejb.startup] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103265005] [levelValue: 800] [[
+  keepstate options resolved to true, saving appId 106436627359334400 for application libraryEar.]]
+
+[2021-06-19T14:47:45.034+0300] [glassfish 5.0] [INFO] [] [org.eclipse.persistence.session./file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb.connection] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103265034] [levelValue: 800] [[
+  /file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb logout successful]]
+
+[2021-06-19T14:47:45.541+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103265541] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:47:45.782+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103265782] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:47:45.821+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103265821] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:47:45.837+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103265837] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:47:45.897+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103265897] [levelValue: 800] [[
+  com.library.model.BorrowOrder actually got transformed]]
+
+[2021-06-19T14:47:45.900+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103265900] [levelValue: 800] [[
+  com.library.model.User actually got transformed]]
+
+[2021-06-19T14:47:45.903+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103265903] [levelValue: 800] [[
+  com.library.model.Author actually got transformed]]
+
+[2021-06-19T14:47:45.906+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103265906] [levelValue: 800] [[
+  com.library.model.Book actually got transformed]]
+
+[2021-06-19T14:47:45.919+0300] [glassfish 5.0] [INFO] [] [org.eclipse.persistence.session./file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103265919] [levelValue: 800] [[
+  EclipseLink, version: Eclipse Persistence Services - 2.7.0.v20170811-d680af5]]
+
+[2021-06-19T14:47:45.927+0300] [glassfish 5.0] [INFO] [] [org.eclipse.persistence.session./file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb.connection] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103265927] [levelValue: 800] [[
+  /file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb login successful]]
+
+[2021-06-19T14:47:45.974+0300] [glassfish 5.0] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103265974] [levelValue: 800] [[
+  Portable JNDI names for EJB UserDAO: [java:global/libraryEar/libraryEjb/UserDAO!com.library.dao.UserDAO, java:global/libraryEar/libraryEjb/UserDAO!com.libraryDAO.UserDAORemote]]]
+
+[2021-06-19T14:47:45.974+0300] [glassfish 5.0] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103265974] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB UserDAO: [com.libraryDAO.UserDAORemote, com.libraryDAO.UserDAORemote#com.libraryDAO.UserDAORemote]]]
+
+[2021-06-19T14:47:46.043+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266043] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] org.glassfish.sse.impl.ServerSentEventCdiExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:47:46.044+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266044] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.glassfish.jms.injection.JMSCDIExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:47:46.047+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266047] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.hibernate.validator.cdi.ValidationExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:47:46.048+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266048] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:47:46.054+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266054] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider$JaxRsParamProducer is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:47:46.055+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266055] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.servlet.internal.CdiExternalRequestScope is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:47:46.056+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266056] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorMandatory is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:47:46.057+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266057] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNever is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:47:46.058+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266058] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNotSupported is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:47:46.059+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266059] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequired is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:47:46.060+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266060] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequiresNew is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:47:46.060+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266060] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorSupports is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:47:46.063+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266063] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.ibm.jbatch.container.cdi.BatchProducerBean is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:47:46.067+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266067] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionHolder is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:47:46.067+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266067] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionInterceptor is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:47:46.068+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266068] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.TransactionalExceptionMapper is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:47:46.069+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266069] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:47:46.180+0300] [glassfish 5.0] [WARNING] [AS-WEB-UTIL-00035] [javax.enterprise.web.util] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266180] [levelValue: 900] [[
+  Unable to load class org.eclipse.persistence.jpa.rs.service.JPARSApplication, reason: java.lang.ClassNotFoundException: org.eclipse.persistence.jpa.rs.service.JPARSApplication]]
+
+[2021-06-19T14:47:46.183+0300] [glassfish 5.0] [WARNING] [AS-WEB-UTIL-00035] [javax.enterprise.web.util] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266183] [levelValue: 900] [[
+  Unable to load class org.eclipse.persistence.jpa.rs.service.JPARSApplication, reason: java.lang.ClassNotFoundException: org.eclipse.persistence.jpa.rs.service.JPARSApplication]]
+
+[2021-06-19T14:47:46.188+0300] [glassfish 5.0] [INFO] [] [org.glassfish.soteria.servlet.SamRegistrationInstaller] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266188] [levelValue: 800] [[
+  Initializing Soteria 1.0 for context '/libraryGUI']]
+
+[2021-06-19T14:47:46.195+0300] [glassfish 5.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266195] [levelValue: 800] [[
+  Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '/libraryGUI']]
+
+[2021-06-19T14:47:46.360+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266360] [levelValue: 800] [[
+  Loading application [libraryEar#libraryGUI.war] at [libraryGUI]]]
+
+[2021-06-19T14:47:46.370+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=152 _ThreadName=admin-listener(6)] [timeMillis: 1624103266370] [levelValue: 800] [[
+  libraryEar was successfully deployed in 1.434 milliseconds.]]
+
+[2021-06-19T14:47:46.642+0300] [glassfish 5.0] [WARNING] [] [javax.enterprise.web.core] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624103266642] [levelValue: 900] [[
+  Error invoking requestInitialized method on ServletRequestListener org.jboss.weld.module.web.servlet.WeldListener
+org.jboss.weld.exceptions.IllegalStateException: WELD-000227: Bean identifier index inconsistency detected - the distributed container probably does not work with identical applications
+Expected hash: 291208423
+Current index: BeanIdentifierIndex [hash=-669604207, indexed=1] 
+     0: WELD%ManagedBean%libraryEar|com.sun.faces.flow.FlowCDIExtension|com.sun.faces.push.WebsocketChannelManager|com.sun.faces.push.WebsocketChannelManager[@javax.enterprise.context.SessionScoped()]{com.sun.faces.push.WebsocketChannelManager.socketSessions[@javax.inject.Inject()];com.sun.faces.push.WebsocketChannelManager.socketUsers[@javax.inject.Inject()];com.sun.faces.push.WebsocketChannelManager.deregisterSessionScope[@javax.annotation.PreDestroy()]();}|false
+
+	at org.jboss.weld.module.web.context.http.HttpSessionContextImpl.checkBeanIdentifierIndexConsistency(HttpSessionContextImpl.java:103)
+	at org.jboss.weld.module.web.context.http.HttpSessionContextImpl.associate(HttpSessionContextImpl.java:49)
+	at org.jboss.weld.module.web.context.http.HttpSessionContextImpl.associate(HttpSessionContextImpl.java:25)
+	at org.jboss.weld.module.web.servlet.HttpContextLifecycle.requestInitialized(HttpContextLifecycle.java:243)
+	at org.jboss.weld.module.web.servlet.WeldInitialListener.requestInitialized(WeldInitialListener.java:152)
+	at org.apache.catalina.core.StandardContext.fireRequestInitializedEvent(StandardContext.java:4866)
+	at org.apache.catalina.core.StandardHostValve.preInvoke(StandardHostValve.java:595)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:106)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:332)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:199)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:463)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:168)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:242)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:539)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:593)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:573)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2021-06-19T14:47:46.643+0300] [glassfish 5.0] [WARNING] [] [javax.enterprise.system.container.web.com.sun.web.security] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624103266643] [levelValue: 900] [[
+  Context path from ServletContext: /libraryGUI differs from path from bundle: libraryGUI]]
+
+[2021-06-19T14:47:59.553+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=192 _ThreadName=Thread-55] [timeMillis: 1624103279553] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2021-06-19T14:47:59.560+0300] [glassfish 5.0] [INFO] [NCLS-BOOTSTRAP-00028] [javax.enterprise.bootstrap] [tid: _ThreadID=192 _ThreadName=Thread-55] [timeMillis: 1624103279560] [levelValue: 800] [[
+  Unregistered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@3b569985 from service registry.]]
+
+[2021-06-19T14:47:59.561+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=192 _ThreadName=Thread-8] [timeMillis: 1624103279561] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2021-06-19T14:47:59.564+0300] [glassfish 5.0] [INFO] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=192 _ThreadName=Thread-55] [timeMillis: 1624103279564] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2021-06-19T14:47:59.564+0300] [glassfish 5.0] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=192 _ThreadName=Thread-55] [timeMillis: 1624103279564] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2021-06-19T14:47:59.627+0300] [glassfish 5.0] [INFO] [] [org.eclipse.persistence.session./file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb.connection] [tid: _ThreadID=197 _ThreadName=RunLevelControllerThread-1624103279596] [timeMillis: 1624103279627] [levelValue: 800] [[
+  /file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb logout successful]]
+
+[2021-06-19T14:47:59.670+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=196 _ThreadName=Thread-8] [timeMillis: 1624103279670] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource]]]
+
+[2021-06-19T14:47:59.680+0300] [glassfish 5.0] [INFO] [ra.stop-successful] [javax.enterprise.resource.resourceadapter.com.sun.enterprise.connectors.service] [tid: _ThreadID=201 _ThreadName=Thread-63] [timeMillis: 1624103279680] [levelValue: 800] [[
+  RAR7094: __cp_jdbc_ra shutdown successful.]]
+
+[2021-06-19T14:48:18.559+0300] [glassfish 5.0] [INFO] [NCLS-LOGGING-00009] [javax.enterprise.logging] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1624103298484] [timeMillis: 1624103298559] [levelValue: 800] [[
+  Running GlassFish Version: GlassFish Server Open Source Edition  5.0.1  (build 5)]]
+
+[2021-06-19T14:48:18.560+0300] [glassfish 5.0] [INFO] [NCLS-LOGGING-00010] [javax.enterprise.logging] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1624103298484] [timeMillis: 1624103298560] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2021-06-19T14:48:18.630+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103298484] [timeMillis: 1624103298630] [levelValue: 800] [[
+  Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2021-06-19T14:48:18.630+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103298484] [timeMillis: 1624103298630] [levelValue: 800] [[
+  Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2021-06-19T14:48:18.633+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103298484] [timeMillis: 1624103298633] [levelValue: 800] [[
+  Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.]]
+
+[2021-06-19T14:48:18.866+0300] [glassfish 5.0] [INFO] [SEC-SVCS-00100] [javax.enterprise.security.services] [tid: _ThreadID=29 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103298866] [levelValue: 800] [[
+  Authorization Service has successfully initialized.]]
+
+[2021-06-19T14:48:18.919+0300] [glassfish 5.0] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1624103298484] [timeMillis: 1624103298919] [levelValue: 800] [[
+  Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry]]
+
+[2021-06-19T14:48:18.932+0300] [glassfish 5.0] [INFO] [jts.startup_msg] [javax.enterprise.system.core.transaction.com.sun.jts.CosTransactions] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103298932] [levelValue: 800] [[
+  JTS5014: Recoverable JTS instance, serverId = [100]]]
+
+[2021-06-19T14:48:19.005+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103298484] [timeMillis: 1624103299005] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 18ms - bound to [/0.0.0.0:8080]]]
+
+[2021-06-19T14:48:19.023+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103298484] [timeMillis: 1624103299023] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 1ms - bound to [/0.0.0.0:8181]]]
+
+[2021-06-19T14:48:19.032+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103298484] [timeMillis: 1624103299032] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 4ms - bound to [/0.0.0.0:4848]]]
+
+[2021-06-19T14:48:19.140+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=29 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103299140] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 28ms - bound to [/0.0.0.0:3700]]]
+
+[2021-06-19T14:48:19.683+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103299683] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:48:20.141+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103300141] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:48:20.626+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103300626] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:48:20.642+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103300642] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:48:21.094+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01002] [javax.enterprise.system.core.security] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103301094] [levelValue: 800] [[
+  Java security manager is disabled.]]
+
+[2021-06-19T14:48:21.094+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01010] [javax.enterprise.system.core.security] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103301094] [levelValue: 800] [[
+  Entering Security Startup Service.]]
+
+[2021-06-19T14:48:21.096+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01143] [javax.enterprise.system.core.security] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103301096] [levelValue: 800] [[
+  Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.]]
+
+[2021-06-19T14:48:21.120+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01011] [javax.enterprise.system.core.security] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103301120] [levelValue: 800] [[
+  Security Service(s) started successfully.]]
+
+[2021-06-19T14:48:21.253+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.dol] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103301253] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:48:21.421+0300] [glassfish 5.0] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103301421] [levelValue: 800] [[
+  HV000001: Hibernate Validator 6.0.10.Final]]
+
+[2021-06-19T14:48:22.209+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103302209] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:8080]]
+
+[2021-06-19T14:48:22.213+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103302213] [levelValue: 800] [[
+  Created HTTP listener http-listener-2 on host/port 0.0.0.0:8181]]
+
+[2021-06-19T14:48:22.214+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103302214] [levelValue: 800] [[
+  Created HTTP listener admin-listener on host/port 0.0.0.0:4848]]
+
+[2021-06-19T14:48:22.230+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103302230] [levelValue: 800] [[
+  Created virtual server server]]
+
+[2021-06-19T14:48:22.232+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103302232] [levelValue: 800] [[
+  Created virtual server __asadmin]]
+
+[2021-06-19T14:48:22.307+0300] [glassfish 5.0] [INFO] [AS-WEB-CORE-00306] [javax.enterprise.web.core] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103302307] [levelValue: 800] [[
+  Setting JAAS app name glassfish-web]]
+
+[2021-06-19T14:48:22.308+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00201] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103302308] [levelValue: 800] [[
+  Virtual server server loaded default web module ]]
+
+[2021-06-19T14:48:23.874+0300] [glassfish 5.0] [INFO] [jts.startup_msg] [javax.enterprise.system.core.transaction.com.sun.jts.CosTransactions] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103303874] [levelValue: 800] [[
+  JTS5014: Recoverable JTS instance, serverId = [3700]]]
+
+[2021-06-19T14:48:24.278+0300] [glassfish 5.0] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304278] [levelValue: 800] [[
+  Portable JNDI names for EJB UserDAO: [java:global/libraryEar/libraryEjb/UserDAO!com.library.dao.UserDAO, java:global/libraryEar/libraryEjb/UserDAO!com.libraryDAO.UserDAORemote]]]
+
+[2021-06-19T14:48:24.279+0300] [glassfish 5.0] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304279] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB UserDAO: [com.libraryDAO.UserDAORemote, com.libraryDAO.UserDAORemote#com.libraryDAO.UserDAORemote]]]
+
+[2021-06-19T14:48:24.329+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Version] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304329] [levelValue: 800] [[
+  WELD-000900: 3.0.0 (Final)]]
+
+[2021-06-19T14:48:24.757+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304757] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.hibernate.validator.cdi.ValidationExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:48:24.762+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304762] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.glassfish.jms.injection.JMSCDIExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:48:24.764+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304764] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] org.glassfish.sse.impl.ServerSentEventCdiExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:48:24.770+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304770] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:48:24.785+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304785] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider$JaxRsParamProducer is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:48:24.793+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304793] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.servlet.internal.CdiExternalRequestScope is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:48:24.799+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304799] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorMandatory is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:48:24.801+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304801] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNever is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:48:24.802+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304802] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNotSupported is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:48:24.804+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304804] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequired is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:48:24.804+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304804] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequiresNew is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:48:24.805+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304805] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorSupports is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:48:24.815+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304815] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.ibm.jbatch.container.cdi.BatchProducerBean is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:48:24.857+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304857] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionHolder is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:48:24.860+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304860] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionInterceptor is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:48:24.862+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304862] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.TransactionalExceptionMapper is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:48:24.863+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103304863] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:48:25.333+0300] [glassfish 5.0] [WARNING] [AS-WEB-UTIL-00035] [javax.enterprise.web.util] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103305333] [levelValue: 900] [[
+  Unable to load class org.eclipse.persistence.jpa.rs.service.JPARSApplication, reason: java.lang.ClassNotFoundException: org.eclipse.persistence.jpa.rs.service.JPARSApplication]]
+
+[2021-06-19T14:48:25.343+0300] [glassfish 5.0] [WARNING] [AS-WEB-UTIL-00035] [javax.enterprise.web.util] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103305343] [levelValue: 900] [[
+  Unable to load class org.eclipse.persistence.jpa.rs.service.JPARSApplication, reason: java.lang.ClassNotFoundException: org.eclipse.persistence.jpa.rs.service.JPARSApplication]]
+
+[2021-06-19T14:48:25.392+0300] [glassfish 5.0] [INFO] [] [org.glassfish.soteria.servlet.SamRegistrationInstaller] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103305392] [levelValue: 800] [[
+  Initializing Soteria 1.0 for context '/libraryGUI']]
+
+[2021-06-19T14:48:25.506+0300] [glassfish 5.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103305506] [levelValue: 800] [[
+  Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '/libraryGUI']]
+
+[2021-06-19T14:48:26.171+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103306171] [levelValue: 800] [[
+  Loading application [libraryEar#libraryGUI.war] at [libraryGUI]]]
+
+[2021-06-19T14:48:26.172+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103306172] [levelValue: 800] [[
+  Loading application libraryEar done in 7.311 ms]]
+
+[2021-06-19T14:48:26.174+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1624103306174] [levelValue: 800] [[
+  GlassFish Server Open Source Edition  5.0.1  (5) startup time : Felix (1.777ms), startup services(7.694ms), total(9.471ms)]]
+
+[2021-06-19T14:48:26.196+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103298490] [timeMillis: 1624103306196] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 3ms - bound to [/0.0.0.0:7676]]]
+
+[2021-06-19T14:48:26.303+0300] [glassfish 5.0] [INFO] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=90 _ThreadName=Thread-29] [timeMillis: 1624103306303] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://192.168.56.1:8686/jndi/rmi://192.168.56.1:8686/jmxrmi]]
+
+[2021-06-19T14:48:27.641+0300] [glassfish 5.0] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=59 _ThreadName=admin-listener(3)] [timeMillis: 1624103307641] [levelValue: 800] [[
+  Listening to REST requests at context: /management/domain.]]
+
+[2021-06-19T14:48:27.706+0300] [glassfish 5.0] [INFO] [NCLS-BOOTSTRAP-00027] [javax.enterprise.bootstrap] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1624103307706] [levelValue: 800] [[
+  Registered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@3e48e859 as OSGi service registration: org.apache.felix.framework.ServiceRegistrationImpl@31ddd4a4.]]
+
+[2021-06-19T14:48:27.823+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=109 _ThreadName=Thread-30] [timeMillis: 1624103307823] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:48:28.110+0300] [glassfish 5.0] [INFO] [] [org.jvnet.hk2.osgiadapter] [tid: _ThreadID=21 _ThreadName=FelixStartLevel] [timeMillis: 1624103308110] [levelValue: 800] [[
+  Skipping registration of inhabitant for service reference [org.osgi.service.cm.ManagedService] as the service object could not be obtained.]]
+
+[2021-06-19T14:48:28.115+0300] [glassfish 5.0] [INFO] [] [org.jvnet.hk2.osgiadapter] [tid: _ThreadID=21 _ThreadName=FelixStartLevel] [timeMillis: 1624103308115] [levelValue: 800] [[
+  Skipping registration of inhabitant for service reference [org.osgi.service.metatype.MetaTypeProvider] as the service object could not be obtained.]]
+
+[2021-06-19T14:48:28.235+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=109 _ThreadName=Thread-30] [timeMillis: 1624103308235] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:48:28.240+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=109 _ThreadName=Thread-30] [timeMillis: 1624103308240] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:48:28.241+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=109 _ThreadName=Thread-30] [timeMillis: 1624103308241] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:48:28.797+0300] [glassfish 5.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=109 _ThreadName=Thread-30] [timeMillis: 1624103308797] [levelValue: 800] [[
+  Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '']]
+
+[2021-06-19T14:48:29.183+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=109 _ThreadName=Thread-30] [timeMillis: 1624103309183] [levelValue: 800] [[
+  Loading application [__admingui] at [/]]]
+
+[2021-06-19T14:48:29.183+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=109 _ThreadName=Thread-30] [timeMillis: 1624103309183] [levelValue: 800] [[
+  Loading application __admingui done in 1.478 ms]]
+
+[2021-06-19T14:48:32.858+0300] [glassfish 5.0] [WARNING] [] [javax.enterprise.system.container.web.com.sun.web.security] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624103312858] [levelValue: 900] [[
+  Context path from ServletContext: /libraryGUI differs from path from bundle: libraryGUI]]
+
+[2021-06-19T14:48:40.521+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624103320521] [levelValue: 800] [[
+  com.library.model.User actually got transformed]]
+
+[2021-06-19T14:48:40.575+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624103320575] [levelValue: 800] [[
+  com.library.model.BorrowOrder actually got transformed]]
+
+[2021-06-19T14:48:40.611+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624103320611] [levelValue: 800] [[
+  com.library.model.Author actually got transformed]]
+
+[2021-06-19T14:48:40.613+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624103320613] [levelValue: 800] [[
+  com.library.model.Book actually got transformed]]
+
+[2021-06-19T14:48:40.662+0300] [glassfish 5.0] [INFO] [] [org.eclipse.persistence.session./file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624103320662] [levelValue: 800] [[
+  EclipseLink, version: Eclipse Persistence Services - 2.7.0.v20170811-d680af5]]
+
+[2021-06-19T14:48:41.002+0300] [glassfish 5.0] [INFO] [] [org.eclipse.persistence.session./file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb.connection] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624103321002] [levelValue: 800] [[
+  /file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb login successful]]
+
+[2021-06-19T14:48:41.026+0300] [glassfish 5.0] [WARNING] [AS-EJB-00056] [javax.enterprise.ejb.container] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624103321026] [levelValue: 900] [[
+  A system exception occurred during an invocation on EJB UserDAO, method: public com.libraryDTO.UserDTO com.library.dao.UserDAO.loginUser(com.libraryDTO.LoginDTO) throws com.library.exception.LoginException]]
+
+[2021-06-19T14:48:41.026+0300] [glassfish 5.0] [WARNING] [] [javax.enterprise.ejb.container] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624103321026] [levelValue: 900] [[
+  
+javax.ejb.EJBException
+	at com.sun.ejb.containers.EJBContainerTransactionManager.processSystemException(EJBContainerTransactionManager.java:752)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.completeNewTx(EJBContainerTransactionManager.java:702)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.postInvokeTx(EJBContainerTransactionManager.java:507)
+	at com.sun.ejb.containers.BaseContainer.postInvokeTx(BaseContainer.java:4600)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2108)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2078)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:212)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy222.loginUser(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.StubInvocationHandlerImpl.privateInvoke(StubInvocationHandlerImpl.java:229)
+	at com.sun.corba.ee.impl.presentation.rmi.StubInvocationHandlerImpl.invoke(StubInvocationHandlerImpl.java:140)
+	at com.sun.corba.ee.impl.presentation.rmi.codegen.CodegenStubBase.invoke(CodegenStubBase.java:226)
+	at com.libraryDAO.__UserDAORemote_Remote_DynamicStub.loginUser(com/libraryDAO/__UserDAORemote_Remote_DynamicStub.java)
+	at com.libraryDAO._UserDAORemote_Wrapper.loginUser(com/libraryDAO/_UserDAORemote_Wrapper.java)
+	at com.library.managedBean.LoginBean.loginUser(LoginBean.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.el.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:181)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:289)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:304)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:107)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:330)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:870)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1418)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:201)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:670)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1540)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:119)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:611)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:550)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:114)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:332)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:199)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:463)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:168)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:242)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:539)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:593)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:573)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: You have attempted to set a parameter value using a name of username that does not exist in the query string SELECT u FROM User u WHERE u.email = :email.
+	at org.eclipse.persistence.internal.jpa.QueryImpl.setParameterInternal(QueryImpl.java:939)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.setParameter(EJBQueryImpl.java:607)
+	at com.library.dao.UserDAO.loginUser(UserDAO.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:1081)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1153)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4820)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:824)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:883)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:823)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:883)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:823)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:369)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4792)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4780)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	... 57 more
+]]
+
+[2021-06-19T14:48:41.027+0300] [glassfish 5.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.lifecycle] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624103321027] [levelValue: 900] [[
+  #{loginBean.loginUser}: javax.ejb.EJBException
+javax.faces.FacesException: #{loginBean.loginUser}: javax.ejb.EJBException
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:119)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:330)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:870)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1418)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:201)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:670)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1540)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:119)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:611)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:550)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:114)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:332)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:199)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:463)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:168)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:242)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:539)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:593)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:573)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.el.EvaluationException: javax.ejb.EJBException
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 35 more
+Caused by: javax.ejb.EJBException
+	at com.sun.ejb.containers.EJBContainerTransactionManager.processSystemException(EJBContainerTransactionManager.java:752)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.completeNewTx(EJBContainerTransactionManager.java:702)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.postInvokeTx(EJBContainerTransactionManager.java:507)
+	at com.sun.ejb.containers.BaseContainer.postInvokeTx(BaseContainer.java:4600)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2108)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2078)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:212)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy222.loginUser(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.StubInvocationHandlerImpl.privateInvoke(StubInvocationHandlerImpl.java:229)
+	at com.sun.corba.ee.impl.presentation.rmi.StubInvocationHandlerImpl.invoke(StubInvocationHandlerImpl.java:140)
+	at com.sun.corba.ee.impl.presentation.rmi.codegen.CodegenStubBase.invoke(CodegenStubBase.java:226)
+	at com.libraryDAO.__UserDAORemote_Remote_DynamicStub.loginUser(com/libraryDAO/__UserDAORemote_Remote_DynamicStub.java)
+	at com.libraryDAO._UserDAORemote_Wrapper.loginUser(com/libraryDAO/_UserDAORemote_Wrapper.java)
+	at com.library.managedBean.LoginBean.loginUser(LoginBean.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.el.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:181)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:289)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:304)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:107)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 36 more
+Caused by: java.lang.IllegalArgumentException: You have attempted to set a parameter value using a name of username that does not exist in the query string SELECT u FROM User u WHERE u.email = :email.
+	at org.eclipse.persistence.internal.jpa.QueryImpl.setParameterInternal(QueryImpl.java:939)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.setParameter(EJBQueryImpl.java:607)
+	at com.library.dao.UserDAO.loginUser(UserDAO.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:1081)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1153)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4820)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:824)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:883)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:823)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:883)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:823)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:369)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4792)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4780)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	... 57 more
+]]
+
+[2021-06-19T14:48:41.029+0300] [glassfish 5.0] [WARNING] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624103321029] [levelValue: 900] [[
+  StandardWrapperValve[Faces Servlet]: Servlet.service() for servlet Faces Servlet threw exception
+java.lang.IllegalArgumentException: You have attempted to set a parameter value using a name of username that does not exist in the query string SELECT u FROM User u WHERE u.email = :email.
+	at org.eclipse.persistence.internal.jpa.QueryImpl.setParameterInternal(QueryImpl.java:939)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.setParameter(EJBQueryImpl.java:607)
+	at com.library.dao.UserDAO.loginUser(UserDAO.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:1081)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1153)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4820)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:824)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:883)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:823)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:883)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:823)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:369)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4792)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4780)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy222.loginUser(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.StubInvocationHandlerImpl.privateInvoke(StubInvocationHandlerImpl.java:229)
+	at com.sun.corba.ee.impl.presentation.rmi.StubInvocationHandlerImpl.invoke(StubInvocationHandlerImpl.java:140)
+	at com.sun.corba.ee.impl.presentation.rmi.codegen.CodegenStubBase.invoke(CodegenStubBase.java:226)
+	at com.libraryDAO.__UserDAORemote_Remote_DynamicStub.loginUser(com/libraryDAO/__UserDAORemote_Remote_DynamicStub.java)
+	at com.libraryDAO._UserDAORemote_Wrapper.loginUser(com/libraryDAO/_UserDAORemote_Wrapper.java)
+	at com.library.managedBean.LoginBean.loginUser(LoginBean.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.el.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:181)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:289)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:304)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:107)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:330)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:870)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1418)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:201)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:670)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1540)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:119)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:611)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:550)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:114)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:332)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:199)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:463)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:168)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:242)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:539)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:593)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:573)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2021-06-19T14:50:12.432+0300] [glassfish 5.0] [WARNING] [] [javax.enterprise.system.container.web.com.sun.web.security] [tid: _ThreadID=56 _ThreadName=admin-listener(1)] [timeMillis: 1624103412432] [levelValue: 900] [[
+  Context path from ServletContext:  differs from path from bundle: /]]
+
+[2021-06-19T14:50:13.666+0300] [glassfish 5.0] [INFO] [] [org.glassfish.admingui] [tid: _ThreadID=60 _ThreadName=admin-listener(4)] [timeMillis: 1624103413666] [levelValue: 800] [[
+  Redirecting to &#x2f;index.xhtml]]
+
+[2021-06-19T14:52:39.495+0300] [glassfish 5.0] [WARNING] [AS-EJB-00056] [javax.enterprise.ejb.container] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624103559495] [levelValue: 900] [[
+  A system exception occurred during an invocation on EJB UserDAO, method: public com.libraryDTO.UserDTO com.library.dao.UserDAO.loginUser(com.libraryDTO.LoginDTO) throws com.library.exception.LoginException]]
+
+[2021-06-19T14:52:39.495+0300] [glassfish 5.0] [WARNING] [] [javax.enterprise.ejb.container] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624103559495] [levelValue: 900] [[
+  
+javax.ejb.EJBException
+	at com.sun.ejb.containers.EJBContainerTransactionManager.processSystemException(EJBContainerTransactionManager.java:752)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.completeNewTx(EJBContainerTransactionManager.java:702)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.postInvokeTx(EJBContainerTransactionManager.java:507)
+	at com.sun.ejb.containers.BaseContainer.postInvokeTx(BaseContainer.java:4600)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2108)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2078)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:212)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy222.loginUser(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.StubInvocationHandlerImpl.privateInvoke(StubInvocationHandlerImpl.java:229)
+	at com.sun.corba.ee.impl.presentation.rmi.StubInvocationHandlerImpl.invoke(StubInvocationHandlerImpl.java:140)
+	at com.sun.corba.ee.impl.presentation.rmi.codegen.CodegenStubBase.invoke(CodegenStubBase.java:226)
+	at com.libraryDAO.__UserDAORemote_Remote_DynamicStub.loginUser(com/libraryDAO/__UserDAORemote_Remote_DynamicStub.java)
+	at com.libraryDAO._UserDAORemote_Wrapper.loginUser(com/libraryDAO/_UserDAORemote_Wrapper.java)
+	at com.library.managedBean.LoginBean.loginUser(LoginBean.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.el.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:181)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:289)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:304)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:107)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:330)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:870)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1418)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:201)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:670)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1540)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:119)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:611)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:550)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:114)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:332)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:199)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:463)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:168)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:242)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:539)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:593)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:573)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: You have attempted to set a parameter value using a name of username that does not exist in the query string SELECT u FROM User u WHERE u.email = :email.
+	at org.eclipse.persistence.internal.jpa.QueryImpl.setParameterInternal(QueryImpl.java:939)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.setParameter(EJBQueryImpl.java:607)
+	at com.library.dao.UserDAO.loginUser(UserDAO.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:1081)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1153)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4820)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:824)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:883)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:823)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:883)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:823)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:369)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4792)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4780)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	... 57 more
+]]
+
+[2021-06-19T14:52:39.496+0300] [glassfish 5.0] [WARNING] [] [javax.enterprise.resource.webcontainer.jsf.lifecycle] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624103559496] [levelValue: 900] [[
+  #{loginBean.loginUser}: javax.ejb.EJBException
+javax.faces.FacesException: #{loginBean.loginUser}: javax.ejb.EJBException
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:119)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:330)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:870)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1418)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:201)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:670)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1540)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:119)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:611)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:550)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:114)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:332)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:199)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:463)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:168)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:242)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:539)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:593)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:573)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.el.EvaluationException: javax.ejb.EJBException
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:101)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 35 more
+Caused by: javax.ejb.EJBException
+	at com.sun.ejb.containers.EJBContainerTransactionManager.processSystemException(EJBContainerTransactionManager.java:752)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.completeNewTx(EJBContainerTransactionManager.java:702)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.postInvokeTx(EJBContainerTransactionManager.java:507)
+	at com.sun.ejb.containers.BaseContainer.postInvokeTx(BaseContainer.java:4600)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2108)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2078)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:212)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy222.loginUser(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.StubInvocationHandlerImpl.privateInvoke(StubInvocationHandlerImpl.java:229)
+	at com.sun.corba.ee.impl.presentation.rmi.StubInvocationHandlerImpl.invoke(StubInvocationHandlerImpl.java:140)
+	at com.sun.corba.ee.impl.presentation.rmi.codegen.CodegenStubBase.invoke(CodegenStubBase.java:226)
+	at com.libraryDAO.__UserDAORemote_Remote_DynamicStub.loginUser(com/libraryDAO/__UserDAORemote_Remote_DynamicStub.java)
+	at com.libraryDAO._UserDAORemote_Wrapper.loginUser(com/libraryDAO/_UserDAORemote_Wrapper.java)
+	at com.library.managedBean.LoginBean.loginUser(LoginBean.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.el.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:181)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:289)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:304)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:107)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	... 36 more
+Caused by: java.lang.IllegalArgumentException: You have attempted to set a parameter value using a name of username that does not exist in the query string SELECT u FROM User u WHERE u.email = :email.
+	at org.eclipse.persistence.internal.jpa.QueryImpl.setParameterInternal(QueryImpl.java:939)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.setParameter(EJBQueryImpl.java:607)
+	at com.library.dao.UserDAO.loginUser(UserDAO.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:1081)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1153)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4820)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:824)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:883)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:823)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:883)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:823)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:369)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4792)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4780)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	... 57 more
+]]
+
+[2021-06-19T14:52:39.497+0300] [glassfish 5.0] [WARNING] [] [javax.enterprise.web] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624103559497] [levelValue: 900] [[
+  StandardWrapperValve[Faces Servlet]: Servlet.service() for servlet Faces Servlet threw exception
+java.lang.IllegalArgumentException: You have attempted to set a parameter value using a name of username that does not exist in the query string SELECT u FROM User u WHERE u.email = :email.
+	at org.eclipse.persistence.internal.jpa.QueryImpl.setParameterInternal(QueryImpl.java:939)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.setParameter(EJBQueryImpl.java:607)
+	at com.library.dao.UserDAO.loginUser(UserDAO.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:1081)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1153)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4820)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:824)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:883)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:823)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:883)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:823)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:369)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4792)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4780)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy222.loginUser(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.StubInvocationHandlerImpl.privateInvoke(StubInvocationHandlerImpl.java:229)
+	at com.sun.corba.ee.impl.presentation.rmi.StubInvocationHandlerImpl.invoke(StubInvocationHandlerImpl.java:140)
+	at com.sun.corba.ee.impl.presentation.rmi.codegen.CodegenStubBase.invoke(CodegenStubBase.java:226)
+	at com.libraryDAO.__UserDAORemote_Remote_DynamicStub.loginUser(com/libraryDAO/__UserDAORemote_Remote_DynamicStub.java)
+	at com.libraryDAO._UserDAORemote_Wrapper.loginUser(com/libraryDAO/_UserDAORemote_Wrapper.java)
+	at com.library.managedBean.LoginBean.loginUser(LoginBean.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.el.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:181)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:289)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:304)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:107)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:330)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:870)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1418)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:201)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:670)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1540)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:119)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:611)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:550)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:114)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:332)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:199)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:463)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:168)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:242)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:539)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:593)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:573)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2021-06-19T14:54:25.920+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=143 _ThreadName=Thread-48] [timeMillis: 1624103665920] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2021-06-19T14:54:25.932+0300] [glassfish 5.0] [INFO] [NCLS-BOOTSTRAP-00028] [javax.enterprise.bootstrap] [tid: _ThreadID=143 _ThreadName=Thread-48] [timeMillis: 1624103665932] [levelValue: 800] [[
+  Unregistered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@3e48e859 from service registry.]]
+
+[2021-06-19T14:54:25.932+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=143 _ThreadName=Thread-8] [timeMillis: 1624103665932] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2021-06-19T14:54:25.935+0300] [glassfish 5.0] [INFO] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=143 _ThreadName=Thread-48] [timeMillis: 1624103665935] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2021-06-19T14:54:25.936+0300] [glassfish 5.0] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=143 _ThreadName=Thread-48] [timeMillis: 1624103665936] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2021-06-19T14:54:26.020+0300] [glassfish 5.0] [INFO] [] [org.eclipse.persistence.session./file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb.connection] [tid: _ThreadID=147 _ThreadName=RunLevelControllerThread-1624103665970] [timeMillis: 1624103666020] [levelValue: 800] [[
+  /file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb logout successful]]
+
+[2021-06-19T14:54:26.036+0300] [glassfish 5.0] [SEVERE] [] [javax.enterprise.web.util] [tid: _ThreadID=147 _ThreadName=RunLevelControllerThread-1624103665970] [timeMillis: 1624103666036] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1efe5d8b]) and a value of type [org.glassfish.admingui.theme.AdminguiThemeContext] (value [org.glassfish.admingui.theme.AdminguiThemeContext@6133484a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2021-06-19T14:54:26.061+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=146 _ThreadName=Thread-8] [timeMillis: 1624103666061] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource]]]
+
+[2021-06-19T14:54:26.068+0300] [glassfish 5.0] [INFO] [ra.stop-successful] [javax.enterprise.resource.resourceadapter.com.sun.enterprise.connectors.service] [tid: _ThreadID=153 _ThreadName=Thread-58] [timeMillis: 1624103666068] [levelValue: 800] [[
+  RAR7094: __cp_jdbc_ra shutdown successful.]]
+
+[2021-06-19T14:54:44.455+0300] [glassfish 5.0] [INFO] [NCLS-LOGGING-00009] [javax.enterprise.logging] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1624103684384] [timeMillis: 1624103684455] [levelValue: 800] [[
+  Running GlassFish Version: GlassFish Server Open Source Edition  5.0.1  (build 5)]]
+
+[2021-06-19T14:54:44.457+0300] [glassfish 5.0] [INFO] [NCLS-LOGGING-00010] [javax.enterprise.logging] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1624103684384] [timeMillis: 1624103684457] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2021-06-19T14:54:44.530+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103684389] [timeMillis: 1624103684530] [levelValue: 800] [[
+  Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2021-06-19T14:54:44.531+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103684389] [timeMillis: 1624103684531] [levelValue: 800] [[
+  Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2021-06-19T14:54:44.534+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103684389] [timeMillis: 1624103684534] [levelValue: 800] [[
+  Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.]]
+
+[2021-06-19T14:54:44.770+0300] [glassfish 5.0] [INFO] [SEC-SVCS-00100] [javax.enterprise.security.services] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1624103684384] [timeMillis: 1624103684770] [levelValue: 800] [[
+  Authorization Service has successfully initialized.]]
+
+[2021-06-19T14:54:44.804+0300] [glassfish 5.0] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=29 _ThreadName=RunLevelControllerThread-1624103684389] [timeMillis: 1624103684804] [levelValue: 800] [[
+  Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry]]
+
+[2021-06-19T14:54:44.835+0300] [glassfish 5.0] [INFO] [jts.startup_msg] [javax.enterprise.system.core.transaction.com.sun.jts.CosTransactions] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103684835] [levelValue: 800] [[
+  JTS5014: Recoverable JTS instance, serverId = [100]]]
+
+[2021-06-19T14:54:44.896+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103684389] [timeMillis: 1624103684896] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 19ms - bound to [/0.0.0.0:8080]]]
+
+[2021-06-19T14:54:44.912+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103684389] [timeMillis: 1624103684912] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 1ms - bound to [/0.0.0.0:8181]]]
+
+[2021-06-19T14:54:44.917+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624103684389] [timeMillis: 1624103684917] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 1ms - bound to [/0.0.0.0:4848]]]
+
+[2021-06-19T14:54:44.998+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1624103684384] [timeMillis: 1624103684998] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 49ms - bound to [/0.0.0.0:3700]]]
+
+[2021-06-19T14:54:45.537+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103685537] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:54:45.999+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103685999] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:54:46.222+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103686222] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:54:46.238+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103686238] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:54:46.692+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01002] [javax.enterprise.system.core.security] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103686692] [levelValue: 800] [[
+  Java security manager is disabled.]]
+
+[2021-06-19T14:54:46.692+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01010] [javax.enterprise.system.core.security] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103686692] [levelValue: 800] [[
+  Entering Security Startup Service.]]
+
+[2021-06-19T14:54:46.694+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01143] [javax.enterprise.system.core.security] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103686694] [levelValue: 800] [[
+  Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.]]
+
+[2021-06-19T14:54:46.715+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01011] [javax.enterprise.system.core.security] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103686715] [levelValue: 800] [[
+  Security Service(s) started successfully.]]
+
+[2021-06-19T14:54:46.850+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.dol] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103686850] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:54:46.999+0300] [glassfish 5.0] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103686999] [levelValue: 800] [[
+  HV000001: Hibernate Validator 6.0.10.Final]]
+
+[2021-06-19T14:54:47.764+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103687764] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:8080]]
+
+[2021-06-19T14:54:47.768+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103687768] [levelValue: 800] [[
+  Created HTTP listener http-listener-2 on host/port 0.0.0.0:8181]]
+
+[2021-06-19T14:54:47.770+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103687770] [levelValue: 800] [[
+  Created HTTP listener admin-listener on host/port 0.0.0.0:4848]]
+
+[2021-06-19T14:54:47.785+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103687785] [levelValue: 800] [[
+  Created virtual server server]]
+
+[2021-06-19T14:54:47.786+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103687786] [levelValue: 800] [[
+  Created virtual server __asadmin]]
+
+[2021-06-19T14:54:47.854+0300] [glassfish 5.0] [INFO] [AS-WEB-CORE-00306] [javax.enterprise.web.core] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103687854] [levelValue: 800] [[
+  Setting JAAS app name glassfish-web]]
+
+[2021-06-19T14:54:47.854+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00201] [javax.enterprise.web] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103687854] [levelValue: 800] [[
+  Virtual server server loaded default web module ]]
+
+[2021-06-19T14:54:49.388+0300] [glassfish 5.0] [INFO] [jts.startup_msg] [javax.enterprise.system.core.transaction.com.sun.jts.CosTransactions] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103689388] [levelValue: 800] [[
+  JTS5014: Recoverable JTS instance, serverId = [3700]]]
+
+[2021-06-19T14:54:49.913+0300] [glassfish 5.0] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103689913] [levelValue: 800] [[
+  Portable JNDI names for EJB UserDAO: [java:global/libraryEar/libraryEjb/UserDAO!com.library.dao.UserDAO, java:global/libraryEar/libraryEjb/UserDAO!com.libraryDAO.UserDAORemote]]]
+
+[2021-06-19T14:54:49.913+0300] [glassfish 5.0] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103689913] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB UserDAO: [com.libraryDAO.UserDAORemote, com.libraryDAO.UserDAORemote#com.libraryDAO.UserDAORemote]]]
+
+[2021-06-19T14:54:49.980+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Version] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103689980] [levelValue: 800] [[
+  WELD-000900: 3.0.0 (Final)]]
+
+[2021-06-19T14:54:50.615+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103690615] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] org.glassfish.sse.impl.ServerSentEventCdiExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:54:50.622+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103690622] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:54:50.645+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103690645] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.hibernate.validator.cdi.ValidationExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:54:50.650+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103690650] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.glassfish.jms.injection.JMSCDIExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:54:50.666+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103690666] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider$JaxRsParamProducer is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:50.674+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103690674] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.servlet.internal.CdiExternalRequestScope is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:50.689+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103690689] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorMandatory is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:50.692+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103690692] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNever is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:50.693+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103690693] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNotSupported is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:50.694+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103690694] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequired is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:50.696+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103690696] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequiresNew is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:50.697+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103690697] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorSupports is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:50.699+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103690699] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.ibm.jbatch.container.cdi.BatchProducerBean is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:50.724+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103690724] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionHolder is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:50.726+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103690726] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionInterceptor is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:50.729+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103690729] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.TransactionalExceptionMapper is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:50.731+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103690731] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:51.234+0300] [glassfish 5.0] [WARNING] [AS-WEB-UTIL-00035] [javax.enterprise.web.util] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103691234] [levelValue: 900] [[
+  Unable to load class org.eclipse.persistence.jpa.rs.service.JPARSApplication, reason: java.lang.ClassNotFoundException: org.eclipse.persistence.jpa.rs.service.JPARSApplication]]
+
+[2021-06-19T14:54:51.237+0300] [glassfish 5.0] [WARNING] [AS-WEB-UTIL-00035] [javax.enterprise.web.util] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103691237] [levelValue: 900] [[
+  Unable to load class org.eclipse.persistence.jpa.rs.service.JPARSApplication, reason: java.lang.ClassNotFoundException: org.eclipse.persistence.jpa.rs.service.JPARSApplication]]
+
+[2021-06-19T14:54:51.334+0300] [glassfish 5.0] [INFO] [] [org.glassfish.soteria.servlet.SamRegistrationInstaller] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103691334] [levelValue: 800] [[
+  Initializing Soteria 1.0 for context '/libraryGUI']]
+
+[2021-06-19T14:54:51.385+0300] [glassfish 5.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103691385] [levelValue: 800] [[
+  Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '/libraryGUI']]
+
+[2021-06-19T14:54:52.041+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103692041] [levelValue: 800] [[
+  Loading application [libraryEar#libraryGUI.war] at [libraryGUI]]]
+
+[2021-06-19T14:54:52.043+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624103684383] [timeMillis: 1624103692043] [levelValue: 800] [[
+  Loading application libraryEar done in 7.252 ms]]
+
+[2021-06-19T14:54:52.044+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1624103692044] [levelValue: 800] [[
+  GlassFish Server Open Source Edition  5.0.1  (5) startup time : Felix (1.773ms), startup services(7.665ms), total(9.438ms)]]
+
+[2021-06-19T14:54:52.058+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1624103684384] [timeMillis: 1624103692058] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 3ms - bound to [/0.0.0.0:7676]]]
+
+[2021-06-19T14:54:52.150+0300] [glassfish 5.0] [INFO] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=91 _ThreadName=Thread-29] [timeMillis: 1624103692150] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://192.168.56.1:8686/jndi/rmi://192.168.56.1:8686/jmxrmi]]
+
+[2021-06-19T14:54:53.642+0300] [glassfish 5.0] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=57 _ThreadName=admin-listener(5)] [timeMillis: 1624103693642] [levelValue: 800] [[
+  Listening to REST requests at context: /management/domain.]]
+
+[2021-06-19T14:54:53.954+0300] [glassfish 5.0] [INFO] [NCLS-BOOTSTRAP-00027] [javax.enterprise.bootstrap] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1624103693954] [levelValue: 800] [[
+  Registered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@1a5f7e7c as OSGi service registration: org.apache.felix.framework.ServiceRegistrationImpl@5b22b970.]]
+
+[2021-06-19T14:54:54.069+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=110 _ThreadName=Thread-30] [timeMillis: 1624103694069] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:54:54.080+0300] [glassfish 5.0] [INFO] [] [org.jvnet.hk2.osgiadapter] [tid: _ThreadID=21 _ThreadName=FelixStartLevel] [timeMillis: 1624103694080] [levelValue: 800] [[
+  Skipping registration of inhabitant for service reference [org.osgi.service.cm.ManagedService] as the service object could not be obtained.]]
+
+[2021-06-19T14:54:54.082+0300] [glassfish 5.0] [INFO] [] [org.jvnet.hk2.osgiadapter] [tid: _ThreadID=21 _ThreadName=FelixStartLevel] [timeMillis: 1624103694082] [levelValue: 800] [[
+  Skipping registration of inhabitant for service reference [org.osgi.service.metatype.MetaTypeProvider] as the service object could not be obtained.]]
+
+[2021-06-19T14:54:54.195+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=110 _ThreadName=Thread-30] [timeMillis: 1624103694195] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:54:54.199+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=110 _ThreadName=Thread-30] [timeMillis: 1624103694199] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:54:54.200+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=110 _ThreadName=Thread-30] [timeMillis: 1624103694200] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:54:54.772+0300] [glassfish 5.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=110 _ThreadName=Thread-30] [timeMillis: 1624103694772] [levelValue: 800] [[
+  Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '']]
+
+[2021-06-19T14:54:55.175+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=110 _ThreadName=Thread-30] [timeMillis: 1624103695175] [levelValue: 800] [[
+  Loading application [__admingui] at [/]]]
+
+[2021-06-19T14:54:55.176+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=110 _ThreadName=Thread-30] [timeMillis: 1624103695176] [levelValue: 800] [[
+  Loading application __admingui done in 1.223 ms]]
+
+[2021-06-19T14:54:57.942+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.container.ejb.org.glassfish.ejb.startup] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103697942] [levelValue: 800] [[
+  keepstate options resolved to true, saving appId 106436627359334400 for application libraryEar.]]
+
+[2021-06-19T14:54:58.554+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103698554] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:54:58.755+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103698755] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:54:58.783+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103698783] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:54:58.786+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103698786] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-19T14:54:58.873+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103698873] [levelValue: 800] [[
+  com.library.model.BorrowOrder actually got transformed]]
+
+[2021-06-19T14:54:58.910+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103698910] [levelValue: 800] [[
+  com.library.model.User actually got transformed]]
+
+[2021-06-19T14:54:58.946+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103698946] [levelValue: 800] [[
+  com.library.model.Author actually got transformed]]
+
+[2021-06-19T14:54:58.948+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103698948] [levelValue: 800] [[
+  com.library.model.Book actually got transformed]]
+
+[2021-06-19T14:54:58.985+0300] [glassfish 5.0] [INFO] [] [org.eclipse.persistence.session./file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103698985] [levelValue: 800] [[
+  EclipseLink, version: Eclipse Persistence Services - 2.7.0.v20170811-d680af5]]
+
+[2021-06-19T14:54:59.319+0300] [glassfish 5.0] [INFO] [] [org.eclipse.persistence.session./file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb.connection] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699319] [levelValue: 800] [[
+  /file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb login successful]]
+
+[2021-06-19T14:54:59.389+0300] [glassfish 5.0] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699389] [levelValue: 800] [[
+  Portable JNDI names for EJB UserDAO: [java:global/libraryEar/libraryEjb/UserDAO!com.library.dao.UserDAO, java:global/libraryEar/libraryEjb/UserDAO!com.libraryDAO.UserDAORemote]]]
+
+[2021-06-19T14:54:59.389+0300] [glassfish 5.0] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699389] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB UserDAO: [com.libraryDAO.UserDAORemote, com.libraryDAO.UserDAORemote#com.libraryDAO.UserDAORemote]]]
+
+[2021-06-19T14:54:59.451+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699451] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] org.glassfish.sse.impl.ServerSentEventCdiExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:54:59.456+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699456] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.hibernate.validator.cdi.ValidationExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:54:59.460+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699460] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:54:59.464+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699464] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.glassfish.jms.injection.JMSCDIExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-19T14:54:59.465+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699465] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider$JaxRsParamProducer is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:59.466+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699466] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.servlet.internal.CdiExternalRequestScope is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:59.468+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699468] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorMandatory is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:59.468+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699468] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNever is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:59.469+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699469] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNotSupported is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:59.470+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699470] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequired is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:59.470+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699470] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequiresNew is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:59.471+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699471] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorSupports is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:59.471+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699471] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.ibm.jbatch.container.cdi.BatchProducerBean is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:59.474+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699474] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionHolder is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:59.474+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699474] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionInterceptor is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:59.475+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699475] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.TransactionalExceptionMapper is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:59.475+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699475] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!]]
+
+[2021-06-19T14:54:59.574+0300] [glassfish 5.0] [WARNING] [AS-WEB-UTIL-00035] [javax.enterprise.web.util] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699574] [levelValue: 900] [[
+  Unable to load class org.eclipse.persistence.jpa.rs.service.JPARSApplication, reason: java.lang.ClassNotFoundException: org.eclipse.persistence.jpa.rs.service.JPARSApplication]]
+
+[2021-06-19T14:54:59.577+0300] [glassfish 5.0] [WARNING] [AS-WEB-UTIL-00035] [javax.enterprise.web.util] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699577] [levelValue: 900] [[
+  Unable to load class org.eclipse.persistence.jpa.rs.service.JPARSApplication, reason: java.lang.ClassNotFoundException: org.eclipse.persistence.jpa.rs.service.JPARSApplication]]
+
+[2021-06-19T14:54:59.583+0300] [glassfish 5.0] [INFO] [] [org.glassfish.soteria.servlet.SamRegistrationInstaller] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699583] [levelValue: 800] [[
+  Initializing Soteria 1.0 for context '/libraryGUI']]
+
+[2021-06-19T14:54:59.591+0300] [glassfish 5.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699591] [levelValue: 800] [[
+  Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '/libraryGUI']]
+
+[2021-06-19T14:54:59.785+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699785] [levelValue: 800] [[
+  Loading application [libraryEar#libraryGUI.war] at [libraryGUI]]]
+
+[2021-06-19T14:54:59.816+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=53 _ThreadName=admin-listener(1)] [timeMillis: 1624103699816] [levelValue: 800] [[
+  libraryEar was successfully deployed in 1.914 milliseconds.]]
+
+[2021-06-19T14:55:00.292+0300] [glassfish 5.0] [WARNING] [] [javax.enterprise.system.container.web.com.sun.web.security] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624103700292] [levelValue: 900] [[
+  Context path from ServletContext: /libraryGUI differs from path from bundle: libraryGUI]]
+
+[2021-06-19T14:55:13.100+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624103713100] [levelValue: 800] [[
+  user logged]]
+
+[2021-06-19T14:55:13.111+0300] [glassfish 5.0] [WARNING] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624103713111] [levelValue: 900] [[
+  StandardWrapperValve[Faces Servlet]: Servlet.service() for servlet Faces Servlet threw exception
+javax.faces.view.facelets.FaceletException: Error Parsing /pages/userWelcomePage.xhtml: Error Traced[line: 6] The element type "meta" must be terminated by the matching end-tag "</meta>".
+	at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:487)
+	at com.sun.faces.facelets.compiler.SAXCompiler.doMetadataCompile(SAXCompiler.java:470)
+	at com.sun.faces.facelets.compiler.Compiler.metadataCompile(Compiler.java:130)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.createMetadataFacelet(DefaultFaceletFactory.java:497)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.access$200(DefaultFaceletFactory.java:107)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory$2.newInstance(DefaultFaceletFactory.java:208)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory$2.newInstance(DefaultFaceletFactory.java:205)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache$2.newInstance(DefaultFaceletCache.java:100)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache$2.newInstance(DefaultFaceletCache.java:93)
+	at com.sun.faces.util.ExpiringConcurrentCache$1.call(ExpiringConcurrentCache.java:100)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at com.sun.faces.util.ExpiringConcurrentCache.get(ExpiringConcurrentCache.java:115)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache.getViewMetadataFacelet(DefaultFaceletCache.java:148)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache.getViewMetadataFacelet(DefaultFaceletCache.java:63)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getMetadataFacelet(DefaultFaceletFactory.java:310)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getMetadataFacelet(DefaultFaceletFactory.java:240)
+	at com.sun.faces.application.view.ViewMetadataImpl.createMetadataView(ViewMetadataImpl.java:146)
+	at com.sun.faces.lifecycle.RestoreViewPhase.execute(RestoreViewPhase.java:247)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:100)
+	at com.sun.faces.lifecycle.RestoreViewPhase.doPhase(RestoreViewPhase.java:133)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:201)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:670)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1540)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:119)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:611)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:550)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:114)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:332)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:199)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:463)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:168)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:242)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:539)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:593)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:573)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="libraryEjb">
+		<jta-data-source>jdbc/libraryResource</jta-data-source>
+		<class>com.library.model.Author</class>
+		<class>com.library.model.Book</class>
+		<class>com.library.model.BorrowOrder</class>
+		<class>com.library.model.User</class>
+	</persistence-unit>
+</persistence>

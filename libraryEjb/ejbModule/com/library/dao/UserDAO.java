@@ -90,7 +90,7 @@ public class UserDAO implements UserDAORemote {
 		User user = null;
 		try {
 			user = entityManager.createNamedQuery("findUserByEmail", User.class)
-					.setParameter("username", loginDTO.getEmail()).getSingleResult();
+					.setParameter("email", loginDTO.getEmail()).getSingleResult();
 		} catch (NoResultException e) {
 			throw new LoginException("Wrong authentication!");
 		}
