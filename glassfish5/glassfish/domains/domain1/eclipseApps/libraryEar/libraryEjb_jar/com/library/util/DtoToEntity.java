@@ -18,7 +18,8 @@ public class DtoToEntity {
 	
 	public Book convertBook(BookDTO bookDTO) {
 		Book book = new Book(bookDTO.getTitle(), 
-						     bookDTO.getAuthor());
+						     bookDTO.getAuthorName(),
+						     bookDTO.getAuthorSurname());
 		
 		return book;
 	}

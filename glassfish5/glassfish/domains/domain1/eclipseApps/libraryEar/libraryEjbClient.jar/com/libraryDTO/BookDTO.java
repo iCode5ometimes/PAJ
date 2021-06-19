@@ -8,16 +8,18 @@ public class BookDTO implements Serializable {
 	
 	private int id;
 	private String title;
-	private String author;
+	private String authorName;
+	private String authorSurname;
 	
 	public BookDTO() {
 		super();
 	}
 	
-	public BookDTO(String title, String author) {
+	public BookDTO(String title, String authorName, String authorSurname) {
 		super();
 		this.title = title;
-		this.author = author;
+		this.authorName = authorName;
+		this.authorSurname = authorSurname;
 	}
 
 	public int getId() {
@@ -36,17 +38,26 @@ public class BookDTO implements Serializable {
 		this.title = title;
 	}
 
-	public String getAuthor() {
-		return author;
+	public String getAuthorName() {
+		return authorName;
 	}
 
-	public void setAuthor(String author) {
-		this.author = author;
+	public void setAuthorName(String authorName) {
+		this.authorName = authorName;
+	}
+
+	public String getAuthorSurname() {
+		return authorSurname;
+	}
+
+	public void setAuthorSurname(String authorSurname) {
+		this.authorSurname = authorSurname;
 	}
 
 	@Override
 	public String toString() {
-		return "BookDTO [id=" + id + ", title=" + title + ", author=" + author + "]";
+		return "BookDTO [id=" + id + ", title=" + title + ", authorName=" + authorName + ", authorSurname="
+				+ authorSurname + "]";
 	}
 
 	@Override
@@ -55,7 +66,8 @@ public class BookDTO implements Serializable {
 		int result = 1;
 		result = prime * result + id;
 		result = prime * result + ((title == null) ? 0 : title.hashCode());
-		result = prime * result + ((author == null) ? 0 : author.hashCode());
+		result = prime * result + ((authorSurname == null) ? 0 : authorSurname.hashCode());
+		result = prime * result + ((authorName == null) ? 0 : authorName.hashCode());
 		return result;
 	}
 
@@ -78,11 +90,18 @@ public class BookDTO implements Serializable {
 		if(this.id != other.id) {
 			return false;
 		}
-		if(this.author == null) {
-			if(other.author != null) {
+		if(this.authorSurname == null) {
+			if(other.authorSurname != null) {
 				return false;
 			}
-		}else if(!this.author.equals(other.author)) {
+		}else if(!this.authorSurname.equals(other.authorSurname)) {
+			return false;
+		}
+		if(this.authorName == null) {
+			if(other.authorName != null) {
+				return false;
+			}
+		}else if(!this.authorName.equals(other.authorName)) {
 			return false;
 		}
 		return true;

@@ -19,7 +19,8 @@ public class EntityToDTO {
 	
 	public BookDTO convertBook(Book book) {
 		BookDTO bookDTO = new BookDTO(book.getTitle(),
-								      book.getAuthor().getName());
+								      book.getAuthor().getName(),
+								      book.getAuthor().getSurname());
 		
 		bookDTO.setId(book.getIdbook());
 		return bookDTO;
