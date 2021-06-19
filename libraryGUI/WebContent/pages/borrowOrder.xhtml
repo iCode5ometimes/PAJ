@@ -21,21 +21,33 @@
             </div>
             <hr/>
             <div class="form-group">
-                <h:outputLabel for="name" class="control-label col-sm-2">Book title:</h:outputLabel>
+                <h:outputLabel for="title" class="control-label col-sm-2">Book title:</h:outputLabel>
                 <div class="col-sm-4">
-                    <h:outputLabel id="name-id" value="#{bookBorrowDTO.title}" class="form-control"/>
+                    <h:outputLabel value="#{bookDTO.title}" class="form-control"/>
                 </div>
             </div>
             <div class="form-group">
-                <h:outputLabel for="variant" class="control-label col-sm-2">Author:</h:outputLabel>
+                <h:outputLabel for="author" class="control-label col-sm-2">Author:</h:outputLabel>
                 <div class="col-sm-4">
-                    <h:outputLabel id="variant-id" value="#{bookBorrowDTO.authorName} #{bookBorrowDTO.authorSurname}" class="form-control"/>
+                    <h:outputLabel value="#{bookDTO.authorName} #{bookDTO.authorSurname}" class="form-control"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <h:outputLabel for="startDate" class="control-label col-sm-2">Starting date:</h:outputLabel>
+                <div class="col-sm-4">
+                    <h:inputText id="startingDate-id" value="#{borrowOrderDTO.startingFrom}" class="form-control"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <h:outputLabel for="startDate" class="control-label col-sm-2">Ending at:</h:outputLabel>
+                <div class="col-sm-4">
+                    <h:inputText id="endingDate-id" value="#{borrowOrderDTO.endingAt}" class="form-control"/>
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-4">
-                    <h:commandButton value="Confirm" action="#{bookBean.confirmBookBorrowOrder(editRecordObj)}" class="btn btn-primary updateBtnStyle" />
+                    <h:commandButton value="Confirm" action="#{borrowOrderBean.confirmBookBorrowOrder(bookDTO, borrowOrderDTO)}" class="btn btn-primary updateBtnStyle" />
                 </div>
             </div>
         </h:form>

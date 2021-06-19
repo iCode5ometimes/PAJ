@@ -1,8 +1,10 @@
 package com.library.util;
 
 import com.library.model.Book;
+import com.library.model.BorrowOrder;
 import com.library.model.User;
 import com.libraryDTO.BookDTO;
+import com.libraryDTO.BorrowOrderDTO;
 import com.libraryDTO.UserDTO;
 
 public class EntityToDTO {
@@ -26,4 +28,13 @@ public class EntityToDTO {
 		return bookDTO;
 	}
 	
+	public BorrowOrderDTO convertBorrowOrder(BorrowOrder borrowOrder) {
+		BorrowOrderDTO borrowOrderDTO = new BorrowOrderDTO(borrowOrder.getBookName(), 
+														   borrowOrder.getEndingAt().toString(), 
+														   borrowOrder.getStartingFrom().toString(), 
+														   borrowOrder.getIdborrowOrder());
+		
+		borrowOrderDTO.setId(borrowOrder.getIdborrowOrder());
+		return borrowOrderDTO;
+	}
 }

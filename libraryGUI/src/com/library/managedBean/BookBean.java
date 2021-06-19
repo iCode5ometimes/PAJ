@@ -12,14 +12,17 @@ import javax.faces.context.FacesContext;
 
 import com.libraryDAO.BookDAORemote;
 import com.libraryDTO.BookDTO;
+import com.libraryDTO.BorrowOrderDTO;
 
+@SuppressWarnings("deprecation")
 @ManagedBean
 @RequestScoped
 public class BookBean {
 	
 	static final Logger LOGGER = Logger.getLogger(LoginBean.class.getName());
 	
-	private BookDTO bookBorrowDTO = new BookDTO();
+	private BookDTO bookDTO = new BookDTO();
+	private BorrowOrderDTO borrowOrderDTO = new BorrowOrderDTO();
 	
 	public ArrayList<BookDTO> bookList;
 
@@ -45,15 +48,16 @@ public class BookBean {
 	}
 	
 	public String borrowBookOrder(int bookId) {
-		bookBorrowDTO = bookDAORemote.findById(bookId);
-		LOGGER.log(Level.INFO, "Trying to launch book borrow page with the details: ", bookBorrowDTO.toString());
+		bookDTO = bookDAORemote.findById(bookId);
+		LOGGER.log(Level.INFO, "Trying to launch book borrow page with the details: ", bookDTO.toString());
 		FacesContext facesContext = FacesContext.getCurrentInstance();
-		facesContext.getExternalContext().getSessionMap().put("bookBorrowDTO", bookBorrowDTO);
+		facesContext.getExternalContext().getSessionMap().put("bookDTO", bookDTO);
+		facesContext.getExternalContext().getSessionMap().put("borrowOrderDTO", borrowOrderDTO);
 		return "borrowOrder.xhtml?faces-redirect=true";
 	}
 	
-	public String confirmBookBorrowOrder(BookDTO bookDTO) {
-		return "/pages/bookList.xhtml?faces-redirect=true";
-	}
+//	public String confirmBookBorrowOrder(BookDTO bookDTO) {
+//		return "/pages/bookList.xhtml?faces-redirect=true";
+//	}
 	
 }

@@ -22,12 +22,12 @@ public class LoginDTO {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
 	public LoginDTO(String email, String password) {
 		super();
 		this.email = email;
 		this.password = password;
 	}
-	
 	@Override
 	public String toString() {
 		return "LoginDTO [email=" + email + ", password=" + password + "]";

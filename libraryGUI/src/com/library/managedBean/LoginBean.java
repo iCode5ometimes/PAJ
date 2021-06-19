@@ -11,6 +11,7 @@ import com.libraryDAO.UserDAORemote;
 import com.libraryDTO.LoginDTO;
 import com.libraryDTO.UserDTO;
 
+@SuppressWarnings("deprecation")
 @ManagedBean
 @SessionScoped
 public class LoginBean {

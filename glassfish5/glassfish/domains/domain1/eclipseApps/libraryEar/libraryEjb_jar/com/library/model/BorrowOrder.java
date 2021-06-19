@@ -37,6 +37,17 @@ public class BorrowOrder implements Serializable {
 	public BorrowOrder() {
 	}
 
+	@SuppressWarnings("deprecation")
+	public BorrowOrder(String bookName, String endingAt, String startingFrom, int user) {
+		super();
+		this.bookName = bookName;
+		this.endingAt = new Date(endingAt);
+		this.startingFrom = new Date(startingFrom);
+		this.user.setIduser(user);
+	}
+
+
+
 	public int getIdborrowOrder() {
 		return this.idborrowOrder;
 	}

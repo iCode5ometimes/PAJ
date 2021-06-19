@@ -19,6 +19,11 @@ public class UserDTO implements Serializable {
 		this.email = email;
 	}
 
+	public UserDTO() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public int getId() {
 		return id;
 	}
