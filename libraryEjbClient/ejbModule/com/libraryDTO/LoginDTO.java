@@ -18,6 +18,10 @@ public class LoginDTO {
 		this.password = password;
 	}
 	
+	public LoginDTO() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	public LoginDTO(String email, String password) {
 		super();
 		this.email = email;
