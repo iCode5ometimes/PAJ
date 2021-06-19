@@ -8,6 +8,7 @@ import javax.annotation.PostConstruct;
 import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
+import javax.faces.context.FacesContext;
 
 import com.libraryDAO.BookDAORemote;
 import com.libraryDTO.BookDTO;
@@ -18,7 +19,7 @@ public class BookBean {
 	
 	static final Logger LOGGER = Logger.getLogger(LoginBean.class.getName());
 	
-	private BookDTO bookDTO = new BookDTO();
+	private BookDTO bookBorrowDTO = new BookDTO();
 	
 	public ArrayList<BookDTO> bookList;
 
@@ -41,6 +42,18 @@ public class BookBean {
 	public ArrayList<BookDTO> bookList(){
 		LOGGER.log(Level.INFO, "All books with the details are:  ", bookDAORemote.findAll().toString());
 		return bookList;
+	}
+	
+	public String borrowBookOrder(int bookId) {
+		bookBorrowDTO = bookDAORemote.findById(bookId);
+		LOGGER.log(Level.INFO, "Trying to launch book borrow page with the details: ", bookBorrowDTO.toString());
+		FacesContext facesContext = FacesContext.getCurrentInstance();
+		facesContext.getExternalContext().getSessionMap().put("bookBorrowDTO", bookBorrowDTO);
+		return "borrowOrder.xhtml?faces-redirect=true";
+	}
+	
+	public String confirmBookBorrowOrder(BookDTO bookDTO) {
+		return "/pages/bookList.xhtml?faces-redirect=true";
 	}
 	
 }

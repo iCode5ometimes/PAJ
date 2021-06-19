@@ -33,6 +33,10 @@
                 <f:facet name="header"> Author</f:facet>
                 <h:outputText value="#{book.authorName} #{book.authorSurname}" />
             </h:column>
+            <h:column>
+                <f:facet name="header">Borrow</f:facet>
+                <h:commandButton action="#{bookBean.borrowBookOrder(book.id)}" value="Borrow" class="btn btn-primary" />
+            </h:column>
         </h:dataTable>
     </h:form>
 </h:body>
