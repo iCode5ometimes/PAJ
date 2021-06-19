@@ -27,10 +27,10 @@ public class Book implements Serializable {
 	public Book() {
 	}
 	
-	public Book(String title, Author author) {
+	public Book(String title, String author) {
 		super();
 		this.title = title;
-		this.author = author;
+		this.author.setName(author);
 	}
 
 	public int getIdbook() {

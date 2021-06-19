@@ -653,11 +653,10 @@
   <applications>
     <application object-type="user" name="libraryEar" directory-deployed="true" location="${com.sun.aas.instanceRootURI}/eclipseApps/libraryEar/">
       <property name="archiveType" value="ear"></property>
-      <property name="org.glassfish.ejb.startup.keepstate" value="true"></property>
       <property name="keepstate" value="true"></property>
       <property name="isComposite" value="true"></property>
       <property name="appLocation" value="${com.sun.aas.instanceRootURI}/eclipseApps/libraryEar/"></property>
-      <property name="org.glassfish.ejb.container.application_unique_id" value="106436627359334400"></property>
+      <property name="org.glassfish.ejb.container.application_unique_id" value="106438362147782656"></property>
       <property name="defaultAppName" value="libraryEar"></property>
       <module name="libraryEjb.jar">
         <engine sniffer="ejb"></engine>

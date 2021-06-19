@@ -11,6 +11,5 @@
 			<attribute name="owner.project.facets" value="jst.utility"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="/libraryEjb"/>
 	<classpathentry kind="output" path="ejbModule"/>
 </classpath>
