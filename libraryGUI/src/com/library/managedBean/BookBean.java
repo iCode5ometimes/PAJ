@@ -77,11 +77,11 @@ public class BookBean {
 	}
 	
 	public String confirmBookBorrowOrder(BookDTO bookDTO, BorrowOrderDTO borrowOrderDTO) {
-		userDTO.addBorrowOrder(borrowOrderDTO);
-		borrowOrderDTO.setUser(userDTO);
 		borrowOrderDTO.setBookName(bookDTO.getTitle());
+		userDTO.getBorrowOrders().clear();
+		userDTO.addBorrowOrder(borrowOrderDTO);
 		
-		borrowOrderDAORemote.create(borrowOrderDTO);
+		userDAORemote.update(userDTO);
 		
 	    return "/pages/bookList.xhtml?faces-redirect=true";
 	}

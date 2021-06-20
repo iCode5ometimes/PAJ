@@ -26,7 +26,7 @@ public class BorrowOrder implements Serializable {
 	private String startingFrom;
 
 	//bi-directional many-to-one association to User
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private User user;
 
 	public BorrowOrder() {
