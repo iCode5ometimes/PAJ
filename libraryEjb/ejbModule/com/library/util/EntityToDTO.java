@@ -29,10 +29,12 @@ public class EntityToDTO {
 	}
 	
 	public BorrowOrderDTO convertBorrowOrder(BorrowOrder borrowOrder) {
+		UserDTO userDTO = convertUser(borrowOrder.getUser());
+		
 		BorrowOrderDTO borrowOrderDTO = new BorrowOrderDTO(borrowOrder.getBookName(), 
-														   borrowOrder.getEndingAt().toString(), 
-														   borrowOrder.getStartingFrom().toString(), 
-														   borrowOrder.getIdborrowOrder());
+														   borrowOrder.getEndingAt(), 
+														   borrowOrder.getStartingFrom(), 
+														   userDTO);
 		
 		borrowOrderDTO.setId(borrowOrder.getIdborrowOrder());
 		return borrowOrderDTO;

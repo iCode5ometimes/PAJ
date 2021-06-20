@@ -24,7 +24,7 @@ public class Author implements Serializable {
 	private String surname;
 
 	//bi-directional many-to-one association to Book
-	@OneToMany(mappedBy="author")
+	@OneToMany(mappedBy="author", cascade = CascadeType.PERSIST)
 	private List<Book> books;
 
 	public Author() {

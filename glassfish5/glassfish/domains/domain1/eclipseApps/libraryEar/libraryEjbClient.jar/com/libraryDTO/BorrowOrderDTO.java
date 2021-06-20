@@ -9,7 +9,7 @@ public class BorrowOrderDTO implements Serializable{
 	private String bookName;
 	private String endingAt;
 	private String startingFrom;
-	private int user;
+	private UserDTO user;
 	
 	public BorrowOrderDTO() {
 		super();
@@ -48,15 +48,15 @@ public class BorrowOrderDTO implements Serializable{
 		this.startingFrom = startingFrom;
 	}
 
-	public int getUser() {
+	public UserDTO getUser() {
 		return user;
 	}
 
-	public void setUser(int user) {
+	public void setUser(UserDTO user) {
 		this.user = user;
 	}
 
-	public BorrowOrderDTO(String bookName, String endingAt, String startingFrom, int user) {
+	public BorrowOrderDTO(String bookName, String endingAt, String startingFrom, UserDTO user) {
 		super();
 		this.bookName = bookName;
 		this.endingAt = endingAt;
@@ -78,7 +78,7 @@ public class BorrowOrderDTO implements Serializable{
 		result = prime * result + ((bookName == null) ? 0 : bookName.hashCode());
 		result = prime * result + ((endingAt == null) ? 0 : endingAt.hashCode());
 		result = prime * result + ((startingFrom == null) ? 0 : startingFrom.hashCode());
-		result = prime * result + user;
+		result = prime * result + ((user == null) ? 0 : user.hashCode());
 		return result;
 	}
 
@@ -101,7 +101,11 @@ public class BorrowOrderDTO implements Serializable{
 		if(this.id != other.id) {
 			return false;
 		}
-		if(this.user != other.user) {
+		if(this.user == null) {
+			if(other.user != null) {
+				return false;
+			}
+		}else if(!this.user.equals(other.user)) {
 			return false;
 		}
 		if(this.endingAt == null) {

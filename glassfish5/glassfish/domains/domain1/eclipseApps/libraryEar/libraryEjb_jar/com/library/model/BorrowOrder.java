@@ -23,11 +23,9 @@ public class BorrowOrder implements Serializable {
 	@Column(name="book_name")
 	private String bookName;
 
-	@Temporal(TemporalType.TIMESTAMP)
-	private Date endingAt;
+	private String endingAt;
 
-	@Temporal(TemporalType.TIMESTAMP)
-	private Date startingFrom;
+	private String startingFrom;
 
 	//bi-directional many-to-one association to User
 	@ManyToOne
@@ -37,13 +35,12 @@ public class BorrowOrder implements Serializable {
 	public BorrowOrder() {
 	}
 
-	@SuppressWarnings("deprecation")
-	public BorrowOrder(String bookName, String endingAt, String startingFrom, int user) {
+	public BorrowOrder(String bookName, String endingAt, String startingFrom, User user) {
 		super();
 		this.bookName = bookName;
-		this.endingAt = new Date(endingAt);
-		this.startingFrom = new Date(startingFrom);
-		this.user.setIduser(user);
+		this.endingAt = endingAt;
+		this.startingFrom = startingFrom;
+		this.user = user;
 	}
 
 
@@ -64,19 +61,19 @@ public class BorrowOrder implements Serializable {
 		this.bookName = bookName;
 	}
 
-	public Date getEndingAt() {
+	public String getEndingAt() {
 		return this.endingAt;
 	}
 
-	public void setEndingAt(Date endingAt) {
+	public void setEndingAt(String endingAt) {
 		this.endingAt = endingAt;
 	}
 
-	public Date getStartingFrom() {
+	public String getStartingFrom() {
 		return this.startingFrom;
 	}
 
-	public void setStartingFrom(Date startingFrom) {
+	public void setStartingFrom(String startingFrom) {
 		this.startingFrom = startingFrom;
 	}
 

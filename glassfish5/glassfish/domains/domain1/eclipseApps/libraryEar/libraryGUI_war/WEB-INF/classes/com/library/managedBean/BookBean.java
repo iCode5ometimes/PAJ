@@ -9,10 +9,14 @@ import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 import javax.faces.context.FacesContext;
+import javax.servlet.http.HttpSession;
 
 import com.libraryDAO.BookDAORemote;
+import com.libraryDAO.BorrowOrderDAORemote;
+import com.libraryDAO.UserDAORemote;
 import com.libraryDTO.BookDTO;
 import com.libraryDTO.BorrowOrderDTO;
+import com.libraryDTO.UserDTO;
 
 @SuppressWarnings("deprecation")
 @ManagedBean
@@ -23,6 +27,7 @@ public class BookBean {
 	
 	private BookDTO bookDTO = new BookDTO();
 	private BorrowOrderDTO borrowOrderDTO = new BorrowOrderDTO();
+	private UserDTO userDTO = new UserDTO();
 	
 	public ArrayList<BookDTO> bookList;
 
@@ -36,11 +41,26 @@ public class BookBean {
 	
 	@EJB
 	private BookDAORemote bookDAORemote;
+	@EJB
+	private UserDAORemote userDAORemote;
+	@EJB
+	private BorrowOrderDAORemote borrowOrderDAORemote;
 	
 	@PostConstruct
 	public void init() {
 		bookList = (ArrayList<BookDTO>) bookDAORemote.findAll();
+		fetchLoggedUser();
 	}
+	
+    private void fetchLoggedUser() {
+        final FacesContext context = FacesContext.getCurrentInstance();
+        HttpSession session = (HttpSession) context.getExternalContext().getSession(true);
+        LoginBean loggedUser = (LoginBean) session.getAttribute("loginBean");
+        if (loggedUser == null)
+            return;
+        userDTO = userDAORemote.findById(loggedUser.getUserDTO().getId());
+        System.out.println("User logged has id: " + userDTO.getId());
+    }
 	
 	public ArrayList<BookDTO> bookList(){
 		LOGGER.log(Level.INFO, "All books with the details are:  ", bookDAORemote.findAll().toString());
@@ -56,8 +76,15 @@ public class BookBean {
 		return "borrowOrder.xhtml?faces-redirect=true";
 	}
 	
-//	public String confirmBookBorrowOrder(BookDTO bookDTO) {
-//		return "/pages/bookList.xhtml?faces-redirect=true";
-//	}
+	public String confirmBookBorrowOrder(BookDTO bookDTO, BorrowOrderDTO borrowOrderDTO) {
+		borrowOrderDTO.setUser(userDTO);
+		borrowOrderDTO.setBookName(bookDTO.getTitle());
+		
+		System.out.println(borrowOrderDTO.toString());
+		
+		borrowOrderDAORemote.create(borrowOrderDTO);
+		
+	    return "/pages/bookList.xhtml?faces-redirect=true";
+	}
 	
 }
