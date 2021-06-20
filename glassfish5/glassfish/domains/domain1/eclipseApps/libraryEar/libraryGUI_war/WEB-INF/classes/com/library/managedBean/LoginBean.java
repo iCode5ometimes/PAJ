@@ -12,6 +12,7 @@ import com.library.exception.DeleteAccountException;
 import com.library.exception.LoginException;
 import com.libraryDAO.UserDAORemote;
 import com.libraryDTO.ChangePasswordDTO;
+import com.libraryDTO.DeleteAccountDTO;
 import com.libraryDTO.LoginDTO;
 import com.libraryDTO.UserDTO;
 
@@ -22,6 +23,7 @@ public class LoginBean {
 	
 	LoginDTO loginDTO = new LoginDTO();
 	ChangePasswordDTO changePasswordDTO = new ChangePasswordDTO();
+	DeleteAccountDTO deleteAccountDTO = new DeleteAccountDTO();
 	
 	@EJB
 	UserDAORemote userDAORemote;
@@ -88,14 +90,14 @@ public class LoginBean {
 	
 	public String navigateToDeleteUserAccountPage() {
 		FacesContext facesContext = FacesContext.getCurrentInstance();
-		facesContext.getExternalContext().getSessionMap().put("changePasswordDTO", changePasswordDTO);
+		facesContext.getExternalContext().getSessionMap().put("deleteAccountDTO", deleteAccountDTO);
 		return "/pages/deleteUserAccount.xhtml?faces-redirect=true";
 	}
 	
-	public String deleteUserAccount(ChangePasswordDTO changePasswordDTO){
+	public String deleteUserAccount(DeleteAccountDTO deleteAccountDTO){
 		FacesContext facesContext = FacesContext.getCurrentInstance();
 		try {
-			UserDTO userDTO = userDAORemote.findByEmail(changePasswordDTO);
+			UserDTO userDTO = userDAORemote.findByEmail(deleteAccountDTO);
 			userDAORemote.delete(userDTO.getId());
 			return "/index?faces-redirect=true";
 		}catch (DeleteAccountException e) {

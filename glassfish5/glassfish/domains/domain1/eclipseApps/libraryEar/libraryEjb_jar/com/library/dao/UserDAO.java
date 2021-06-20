@@ -17,6 +17,7 @@ import com.library.util.DtoToEntity;
 import com.library.util.EntityToDTO;
 import com.libraryDAO.UserDAORemote;
 import com.libraryDTO.ChangePasswordDTO;
+import com.libraryDTO.DeleteAccountDTO;
 import com.libraryDTO.LoginDTO;
 import com.libraryDTO.UserDTO;
 
@@ -129,15 +130,15 @@ public class UserDAO implements UserDAORemote {
 	}
 
 	@Override
-	public UserDTO findByEmail(ChangePasswordDTO changePasswordDTO) throws DeleteAccountException{
+	public UserDTO findByEmail(DeleteAccountDTO deleteAccountDTO) throws DeleteAccountException{
 		User user = null;
 		try {
 			user = entityManager.createNamedQuery("findUserByEmail", User.class)
-					.setParameter("email", changePasswordDTO.getEmail()).getSingleResult();
+					.setParameter("email", deleteAccountDTO.getEmail()).getSingleResult();
 		} catch (NoResultException e) {
 			throw new DeleteAccountException("Account not found!");
 		}
-		if (!changePasswordDTO.getNewPassword().equals(changePasswordDTO.getOldPassword())) {
+		if (!deleteAccountDTO.getPassword().equals(deleteAccountDTO.getConfirmedPassword())) {
 			throw new DeleteAccountException("Passwords don't match!");
 		}
 		

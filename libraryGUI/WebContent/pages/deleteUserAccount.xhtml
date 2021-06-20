@@ -22,23 +22,23 @@
 		<h:inputText class="effect-input" required="true" label="Email address"
 			placeholder="Email"
 			validatorMessage="Enter email address"
-			value="#{changePasswordDTO.email}"></h:inputText>
+			value="#{deleteAccountDTO.email}"></h:inputText>
 		<br />
 		<h:outputLabel for="title" style="color: white">Password</h:outputLabel>
 		<br /> 
 		<h:inputSecret class="effect-input" label="Password" required="true"
 			placeholder="Password"
 			validatorMessage="Enter password"
-			value="#{changePasswordDTO.oldPassword}"></h:inputSecret>
+			value="#{deleteAccountDTO.password}"></h:inputSecret>
 		<br />
 		<h:outputLabel for="title" style="color: white">Confirm password</h:outputLabel>
 		<br />
 		<h:inputSecret class="effect-input" label="Password" required="true"
 			placeholder="Password"
 			validatorMessage="Enter password"
-			value="#{changePasswordDTO.newPassword}"></h:inputSecret>
+			value="#{deleteAccountDTO.confirmedPassword}"></h:inputSecret>
 		<br />
-		<h:commandButton class="btns" value="Delete your account" action="#{loginBean.deleteUserAccount(changePasswordDTO)}"></h:commandButton>
+		<h:commandButton class="btns" value="Delete your account" action="#{loginBean.deleteUserAccount(deleteAccountDTO)}"></h:commandButton>
 		<h:messages infoStyle="color:darkgreen" errorStyle="color:orange"></h:messages>
 		</span>
 	

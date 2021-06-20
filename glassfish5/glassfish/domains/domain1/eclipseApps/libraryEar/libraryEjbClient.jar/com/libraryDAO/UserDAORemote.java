@@ -6,6 +6,7 @@ import com.library.exception.ChangePasswordException;
 import com.library.exception.DeleteAccountException;
 import com.library.exception.LoginException;
 import com.libraryDTO.ChangePasswordDTO;
+import com.libraryDTO.DeleteAccountDTO;
 import com.libraryDTO.LoginDTO;
 import com.libraryDTO.UserDTO;
 
@@ -16,5 +17,5 @@ public interface UserDAORemote extends GenericDAO<UserDTO> {
 
 	Boolean updatePassword(ChangePasswordDTO changePasswordDTO) throws ChangePasswordException;
 	
-	UserDTO findByEmail(ChangePasswordDTO changePasswordDTO) throws DeleteAccountException;
+	UserDTO findByEmail(DeleteAccountDTO deleteAccountDTO) throws DeleteAccountException;
 }
