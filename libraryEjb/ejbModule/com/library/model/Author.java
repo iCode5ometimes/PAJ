@@ -12,7 +12,6 @@ import java.util.List;
 @Entity
 @NamedQuery(name="Author.findAll", query="SELECT a FROM Author a")
 public class Author implements Serializable {
-
 	private static final long serialVersionUID = 1L;
 
 	@Id
@@ -24,10 +23,21 @@ public class Author implements Serializable {
 	private String surname;
 
 	//bi-directional many-to-one association to Book
-	@OneToMany(mappedBy="author", cascade = CascadeType.PERSIST)
+	@OneToMany(mappedBy="author")
 	private List<Book> books;
 
 	public Author() {
+	}
+
+	public Author(String name, String surname) {
+		super();
+		this.name = name;
+		this.surname = surname;
+	}
+
+	@Override
+	public String toString() {
+		return "Author [idauthor=" + idauthor + ", name=" + name + ", surname=" + surname + "]";
 	}
 
 	public int getIdauthor() {
@@ -74,11 +84,6 @@ public class Author implements Serializable {
 		book.setAuthor(null);
 
 		return book;
-	}
-	
-	@Override
-	public String toString() {
-		return "Author [name=" + name + ", surname=" + surname + "]";
 	}
 
 }

@@ -11,12 +11,12 @@
 			<attribute name="owner.project.facets" value="jst.ejb"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/libraryEjbClient"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/eclipselink">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
 			<attribute name="owner.project.facets" value="jpt.jpa"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/libraryEjbClient"/>
 	<classpathentry kind="output" path="ejbModule"/>
 </classpath>

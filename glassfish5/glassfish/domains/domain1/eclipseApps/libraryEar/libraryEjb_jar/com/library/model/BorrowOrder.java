@@ -2,7 +2,6 @@ package com.library.model;
 
 import java.io.Serializable;
 import javax.persistence.*;
-import java.util.Date;
 
 
 /**
@@ -20,7 +19,6 @@ public class BorrowOrder implements Serializable {
 	@Column(name="idborrow_order")
 	private int idborrowOrder;
 
-	@Column(name="book_name")
 	private String bookName;
 
 	private String endingAt;
@@ -28,8 +26,7 @@ public class BorrowOrder implements Serializable {
 	private String startingFrom;
 
 	//bi-directional many-to-one association to User
-	@ManyToOne(cascade = CascadeType.PERSIST)
-	@JoinColumn(name="user_id")
+	@ManyToOne
 	private User user;
 
 	public BorrowOrder() {

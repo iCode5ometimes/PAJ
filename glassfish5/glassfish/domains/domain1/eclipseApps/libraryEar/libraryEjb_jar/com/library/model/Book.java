@@ -21,17 +21,21 @@ public class Book implements Serializable {
 
 	//bi-directional many-to-one association to Author
 	@ManyToOne
-	@JoinColumn(name="author_id")
 	private Author author;
 
 	public Book() {
 	}
-	
+
 	public Book(String title, String authorName, String authorSurname) {
 		super();
 		this.title = title;
 		this.author.setName(authorName);
 		this.author.setSurname(authorSurname);
+	}
+
+	@Override
+	public String toString() {
+		return "Book [idbook=" + idbook + ", title=" + title + ", author=" + author + "]";
 	}
 
 	public int getIdbook() {

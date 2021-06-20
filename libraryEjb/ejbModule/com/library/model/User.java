@@ -2,6 +2,8 @@ package com.library.model;
 
 import java.io.Serializable;
 import javax.persistence.*;
+
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -14,10 +16,6 @@ import java.util.List;
 @NamedQuery(name = "findUserByEmail", query = "SELECT u FROM User u WHERE u.email = :email")
 public class User implements Serializable {
 	private static final long serialVersionUID = 1L;
-
-	public static long getSerialversionuid() {
-		return serialVersionUID;
-	}
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -32,14 +30,8 @@ public class User implements Serializable {
 	private String surname;
 
 	//bi-directional many-to-one association to BorrowOrder
-	@OneToMany(mappedBy="user", cascade = CascadeType.PERSIST)
-	private List<BorrowOrder> borrowOrders;
-
-	@Override
-	public String toString() {
-		return "User [iduser=" + iduser + ", email=" + email + ", name=" + name + ", password=" + password
-				+ ", surname=" + surname + "]";
-	}
+	@OneToMany(mappedBy="user", fetch = FetchType.LAZY)
+	private List<BorrowOrder> borrowOrders = new ArrayList<BorrowOrder>();
 
 	public User() {
 	}
@@ -50,6 +42,12 @@ public class User implements Serializable {
 		this.name = name;
 		this.password = password;
 		this.surname = surname;
+	}
+
+	@Override
+	public String toString() {
+		return "User [iduser=" + iduser + ", email=" + email + ", name=" + name + ", password=" + password
+				+ ", surname=" + surname + "]";
 	}
 
 	public int getIduser() {

@@ -1,6 +1,7 @@
 package com.libraryDTO;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 public class UserDTO implements Serializable {
@@ -11,7 +12,7 @@ public class UserDTO implements Serializable {
 	private String surname;
 	private String password;
 	private String email;
-	private List<BorrowOrderDTO> borrowOrders;
+	private List<BorrowOrderDTO> borrowOrders = new ArrayList<BorrowOrderDTO>();
 
 	public UserDTO(String name, String surname, String password, String email) {
 		super();
