@@ -10,6 +10,7 @@ import javax.ejb.Stateless;
 import javax.persistence.*;
 
 import com.library.exception.ChangePasswordException;
+import com.library.exception.DeleteAccountException;
 import com.library.exception.LoginException;
 import com.library.model.User;
 import com.library.util.DtoToEntity;
@@ -125,6 +126,23 @@ public class UserDAO implements UserDAORemote {
 			throw new ChangePasswordException("The username is not valid!");
 		}
 
+	}
+
+	@Override
+	public UserDTO findByEmail(ChangePasswordDTO changePasswordDTO) throws DeleteAccountException{
+		User user = null;
+		try {
+			user = entityManager.createNamedQuery("findUserByEmail", User.class)
+					.setParameter("email", changePasswordDTO.getEmail()).getSingleResult();
+		} catch (NoResultException e) {
+			throw new DeleteAccountException("Account not found!");
+		}
+		if (!changePasswordDTO.getNewPassword().equals(changePasswordDTO.getOldPassword())) {
+			throw new DeleteAccountException("Passwords don't match!");
+		}
+		
+		UserDTO userDTO = entityToDTO.convertUser(user);
+		return userDTO;
 	}
 
 }

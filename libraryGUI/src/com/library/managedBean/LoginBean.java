@@ -8,8 +8,10 @@ import javax.faces.context.FacesContext;
 import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
 
+import com.library.exception.DeleteAccountException;
 import com.library.exception.LoginException;
 import com.libraryDAO.UserDAORemote;
+import com.libraryDTO.ChangePasswordDTO;
 import com.libraryDTO.LoginDTO;
 import com.libraryDTO.UserDTO;
 
@@ -19,6 +21,7 @@ import com.libraryDTO.UserDTO;
 public class LoginBean {
 	
 	LoginDTO loginDTO = new LoginDTO();
+	ChangePasswordDTO changePasswordDTO = new ChangePasswordDTO();
 	
 	@EJB
 	UserDAORemote userDAORemote;
@@ -83,6 +86,24 @@ public class LoginBean {
 		return "/pages/createAccount.xhtml?faces-redirect=true";
 	}
 	
+	public String navigateToDeleteUserAccountPage() {
+		FacesContext facesContext = FacesContext.getCurrentInstance();
+		facesContext.getExternalContext().getSessionMap().put("changePasswordDTO", changePasswordDTO);
+		return "/pages/deleteUserAccount.xhtml?faces-redirect=true";
+	}
+	
+	public String deleteUserAccount(ChangePasswordDTO changePasswordDTO){
+		FacesContext facesContext = FacesContext.getCurrentInstance();
+		try {
+			UserDTO userDTO = userDAORemote.findByEmail(changePasswordDTO);
+			userDAORemote.delete(userDTO.getId());
+			return "/index?faces-redirect=true";
+		}catch (DeleteAccountException e) {
+			facesContext.addMessage("deleteAccountForm", new FacesMessage(FacesMessage.SEVERITY_ERROR, e.message(), null));
+			return null;
+		}
+	}
+	
 	public String createAccount(UserDTO userDTO) {
 		FacesContext facesContext = FacesContext.getCurrentInstance();
 		
@@ -91,7 +112,7 @@ public class LoginBean {
 			return "/index?faces-redirect=true";
 		}
 		else {
-			facesContext.addMessage("loginForm", new FacesMessage(FacesMessage.SEVERITY_ERROR, "Email address is not valid!", null));
+			facesContext.addMessage("createAccountForm", new FacesMessage(FacesMessage.SEVERITY_ERROR, "Email address is not valid!", null));
 			return null;
 		}
 	}

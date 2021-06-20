@@ -7,45 +7,38 @@
 	xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
 <h:head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Create an account</title>
+	<title>Delete your account</title>
 	 <h:outputStylesheet name="/css/login.css" />
 </h:head>
 
 <h:body>
-<h:form label="createAccountForm"   class="form" >
+<h:form label="deleteAccountForm"   class="form" >
 		
 		<span class='text'>
-      <h2 class="title-form-login">Create an account</h2>
+      <h2 class="title-form-login">Delete your account</h2>
       	<br /> 
       	<h:outputLabel for="title" style="color: white">Email address</h:outputLabel>
 		<br /> 
 		<h:inputText class="effect-input" required="true" label="Email address"
 			placeholder="Email"
 			validatorMessage="Enter email address"
-			value="#{loginBean.userDTO.email}"></h:inputText>
-		<br />
-      	<h:outputLabel for="title" style="color: white">Name</h:outputLabel>
-		<br /> 
-		<h:inputText class="effect-input" required="true" label="Email address"
-			placeholder="Email"
-			validatorMessage="Enter email address"
-			value="#{loginBean.userDTO.name}"></h:inputText>
-		<br />
-      	<h:outputLabel for="title" style="color: white">Surname</h:outputLabel>
-		<br /> 
-		<h:inputText class="effect-input" required="true" label="Email address"
-			placeholder="Email"
-			validatorMessage="Enter email address"
-			value="#{loginBean.userDTO.surname}"></h:inputText>
+			value="#{changePasswordDTO.email}"></h:inputText>
 		<br />
 		<h:outputLabel for="title" style="color: white">Password</h:outputLabel>
 		<br /> 
 		<h:inputSecret class="effect-input" label="Password" required="true"
 			placeholder="Password"
 			validatorMessage="Enter password"
-			value="#{loginBean.userDTO.password}"></h:inputSecret>
+			value="#{changePasswordDTO.oldPassword}"></h:inputSecret>
 		<br />
-		<h:commandButton class="btns" value="Create account!" action="#{loginBean.createAccount(userDTO)}"></h:commandButton>
+		<h:outputLabel for="title" style="color: white">Confirm password</h:outputLabel>
+		<br />
+		<h:inputSecret class="effect-input" label="Password" required="true"
+			placeholder="Password"
+			validatorMessage="Enter password"
+			value="#{changePasswordDTO.newPassword}"></h:inputSecret>
+		<br />
+		<h:commandButton class="btns" value="Delete your account" action="#{loginBean.deleteUserAccount(changePasswordDTO)}"></h:commandButton>
 		<h:messages infoStyle="color:darkgreen" errorStyle="color:orange"></h:messages>
 		</span>
 	
