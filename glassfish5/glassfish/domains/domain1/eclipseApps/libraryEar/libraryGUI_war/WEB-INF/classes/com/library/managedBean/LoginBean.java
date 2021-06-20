@@ -62,6 +62,10 @@ public class LoginBean {
 		}
 
 	}
+	
+	public String changePassword() {
+		return "/pages/changePass.xhtml?faces-redirect=true";
+	}
 
 	public String logout() {
 

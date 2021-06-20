@@ -16,18 +16,21 @@
 		
 		<span class='text'>
       <h2 class="title-form-login">Welcome, please login :)</h2>
-		<br /> <h:inputText class="effect-input" required="true" label="Email address"
+		<br /> 
+		<h:inputText class="effect-input" label="Email address"
 			placeholder="Email"
 			validatorMessage="Enter email address"
 			value="#{loginBean.loginDTO.email}"></h:inputText>
 		<br />
-		<br /> <h:inputSecret class="effect-input" label="Password" required="true"
+		<br /> <h:inputSecret class="effect-input" label="Password"
 			placeholder="Password"
 			validatorMessage="Enter password"
 			value="#{loginBean.loginDTO.password}"></h:inputSecret>
 		<br />
 		<br />
 		<h:commandButton class="btns" value="Login" action="#{loginBean.loginUser}"></h:commandButton>
+		<br />
+		<h:commandButton class="btns" value="Change Password" action="#{loginBean.changePassword}"></h:commandButton>
 		<br />
 
 		<h:messages infoStyle="color:darkgreen" errorStyle="color:darkred"></h:messages>

@@ -41,9 +41,15 @@ html {
 }
 
 .title-form-login {
-  color: #00ffff;
+  color: #c0c0c0;
 	font: bold 2em 'Dancing Script', sans-serif;
 	margin-top: 25px;
+}
+
+.title-form-input {
+  color: #c0c0c0;
+	font: bold 2em 'Dancing Script', sans-serif;
+	margin-top: 20px;
 }
 
 .ctn-input {  

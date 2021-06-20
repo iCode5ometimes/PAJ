@@ -12,6 +12,11 @@ public class ChangePasswordDTO {
 				+ "]";
 	}
 	
+	public ChangePasswordDTO() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
 	public ChangePasswordDTO(String email, String oldPassword, String newPassword) {
 		super();
 		this.email = email;

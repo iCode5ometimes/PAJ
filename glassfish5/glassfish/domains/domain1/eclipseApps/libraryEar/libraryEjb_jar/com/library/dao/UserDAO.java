@@ -108,7 +108,7 @@ public class UserDAO implements UserDAORemote {
 		LOGGER.log(Level.INFO, "Trying to update password for:  " + changePasswordDTO.toString());
 		try {
 			user = entityManager.createNamedQuery("findUserByEmail", User.class)
-					.setParameter("username", changePasswordDTO.getEmail()).getSingleResult();
+					.setParameter("email", changePasswordDTO.getEmail()).getSingleResult();
 			if (user.getPassword().equals(changePasswordDTO.getOldPassword())) {
 				if (!changePasswordDTO.getOldPassword().equals(changePasswordDTO.getNewPassword())) {
 					user.setPassword(changePasswordDTO.getNewPassword());
