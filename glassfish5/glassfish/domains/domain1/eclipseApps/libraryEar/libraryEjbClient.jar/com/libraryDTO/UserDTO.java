@@ -1,6 +1,7 @@
 package com.libraryDTO;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class UserDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
@@ -10,7 +11,8 @@ public class UserDTO implements Serializable {
 	private String surname;
 	private String password;
 	private String email;
-	
+	private List<BorrowOrderDTO> borrowOrders;
+
 	public UserDTO(String name, String surname, String password, String email) {
 		super();
 		this.name = name;
@@ -62,6 +64,28 @@ public class UserDTO implements Serializable {
 
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	public List<BorrowOrderDTO> getBorrowOrders() {
+		return borrowOrders;
+	}
+
+	public void setBorrowOrders(List<BorrowOrderDTO> borrowOrders) {
+		this.borrowOrders = borrowOrders;
+	}
+	
+	public BorrowOrderDTO addBorrowOrder(BorrowOrderDTO borrowOrderDTO) {
+		getBorrowOrders().add(borrowOrderDTO);
+		borrowOrderDTO.setUser(this);
+
+		return borrowOrderDTO;
+	}
+
+	public BorrowOrderDTO removeBorrowOrder(BorrowOrderDTO borrowOrderDTO) {
+		getBorrowOrders().remove(borrowOrderDTO);
+		borrowOrderDTO.setUser(null);
+
+		return borrowOrderDTO;
 	}
 
 	@Override

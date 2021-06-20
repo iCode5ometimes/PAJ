@@ -15,6 +15,14 @@ public class BorrowOrderDTO implements Serializable{
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
+	public BorrowOrderDTO(String bookName, String endingAt, String startingFrom, UserDTO user) {
+		super();
+		this.bookName = bookName;
+		this.endingAt = endingAt;
+		this.startingFrom = startingFrom;
+		this.user = user;
+	}
 
 	public int getId() {
 		return id;
@@ -53,14 +61,6 @@ public class BorrowOrderDTO implements Serializable{
 	}
 
 	public void setUser(UserDTO user) {
-		this.user = user;
-	}
-
-	public BorrowOrderDTO(String bookName, String endingAt, String startingFrom, UserDTO user) {
-		super();
-		this.bookName = bookName;
-		this.endingAt = endingAt;
-		this.startingFrom = startingFrom;
 		this.user = user;
 	}
 

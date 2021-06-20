@@ -79,6 +79,7 @@ public class BookBean {
 	public String confirmBookBorrowOrder(BookDTO bookDTO, BorrowOrderDTO borrowOrderDTO) {
 		borrowOrderDTO.setUser(userDTO);
 		borrowOrderDTO.setBookName(bookDTO.getTitle());
+		userDTO.addBorrowOrder(borrowOrderDTO);
 		
 		System.out.println(borrowOrderDTO.toString());
 		

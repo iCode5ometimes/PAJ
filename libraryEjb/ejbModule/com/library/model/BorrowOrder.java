@@ -28,7 +28,7 @@ public class BorrowOrder implements Serializable {
 	private String startingFrom;
 
 	//bi-directional many-to-one association to User
-	@ManyToOne
+	@ManyToOne(cascade = CascadeType.PERSIST)
 	@JoinColumn(name="user_id")
 	private User user;
 
@@ -43,7 +43,11 @@ public class BorrowOrder implements Serializable {
 		this.user = user;
 	}
 
-
+	@Override
+	public String toString() {
+		return "BorrowOrder [idborrowOrder=" + idborrowOrder + ", bookName=" + bookName + ", endingAt=" + endingAt
+				+ ", startingFrom=" + startingFrom + ", user=" + user + "]";
+	}
 
 	public int getIdborrowOrder() {
 		return this.idborrowOrder;

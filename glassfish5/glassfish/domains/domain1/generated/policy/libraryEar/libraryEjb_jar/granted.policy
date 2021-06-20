@@ -1,4 +1,4 @@
-/* AUTOMATICALLY GENERATED ON Sun Jun 20 17:22:45 EEST 2021*/
+/* AUTOMATICALLY GENERATED ON Sun Jun 20 18:30:09 EEST 2021*/
 /* DO NOT EDIT */
 
 grant {
@@ -14,22 +14,22 @@ grant {
   permission javax.security.jacc.EJBMethodPermission "BorrowOrderDAO", "update,Local,com.libraryDTO.BorrowOrderDTO";
   permission javax.security.jacc.EJBMethodPermission "BorrowOrderDAO", "update,Local,java.lang.Object";
   permission javax.security.jacc.EJBMethodPermission "UserDAO", "updatePassword,Remote,com.libraryDTO.ChangePasswordDTO";
-  permission javax.security.jacc.EJBMethodPermission "BookDAO", "findAll,Remote,";
   permission javax.security.jacc.EJBMethodPermission "UserDAO", "findByEmail,Local,com.libraryDTO.DeleteAccountDTO";
   permission javax.security.jacc.EJBMethodPermission "UserDAO", "update,Remote,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "BookDAO", "findAll,Remote,";
   permission javax.security.jacc.EJBMethodPermission "UserDAO", "findAll,Local,";
   permission javax.security.jacc.EJBMethodPermission "UserDAO", "create,Remote,java.lang.Object";
   permission javax.security.jacc.EJBMethodPermission "UserDAO", "delete,Remote,int";
   permission javax.security.jacc.EJBMethodPermission "UserDAO", "loginUser,Remote,com.libraryDTO.LoginDTO";
-  permission javax.security.jacc.EJBMethodPermission "BookDAO", "update,Local,com.libraryDTO.BookDTO";
   permission javax.security.jacc.EJBMethodPermission "UserDAO", "create,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "BookDAO", "update,Local,com.libraryDTO.BookDTO";
   permission javax.security.jacc.EJBMethodPermission "UserDAO", "findAll,Remote,";
   permission javax.security.jacc.EJBMethodPermission "BookDAO", "findAll,Local,";
   permission javax.security.jacc.EJBMethodPermission "BorrowOrderDAO", "create,Local,java.lang.Object";
   permission javax.security.jacc.EJBMethodPermission "BorrowOrderDAO", "findAll,Local,";
   permission javax.security.jacc.EJBMethodPermission "BookDAO", "findById,Local,int";
-  permission javax.security.jacc.EJBMethodPermission "BorrowOrderDAO", "create,Local,com.libraryDTO.BorrowOrderDTO";
   permission javax.security.jacc.EJBMethodPermission "UserDAO", "updatePassword,Local,com.libraryDTO.ChangePasswordDTO";
+  permission javax.security.jacc.EJBMethodPermission "BorrowOrderDAO", "create,Local,com.libraryDTO.BorrowOrderDTO";
   permission javax.security.jacc.EJBMethodPermission "BorrowOrderDAO", "create,Remote,java.lang.Object";
   permission javax.security.jacc.EJBMethodPermission "BorrowOrderDAO", "findById,Remote,int";
   permission javax.security.jacc.EJBMethodPermission "BookDAO", "delete,Remote,int";
@@ -40,8 +40,8 @@ grant {
   permission javax.security.jacc.EJBMethodPermission "BookDAO", "findById,Remote,int";
   permission javax.security.jacc.EJBMethodPermission "BorrowOrderDAO", "delete,Local,int";
   permission javax.security.jacc.EJBMethodPermission "BorrowOrderDAO", "findById,Local,int";
-  permission javax.security.jacc.EJBMethodPermission "BookDAO", "update,Local,java.lang.Object";
   permission javax.security.jacc.EJBMethodPermission "UserDAO", "delete,Local,int";
+  permission javax.security.jacc.EJBMethodPermission "BookDAO", "update,Local,java.lang.Object";
   permission javax.security.jacc.EJBMethodPermission "UserDAO", "findById,Local,int";
   permission javax.security.jacc.EJBMethodPermission "BookDAO", "create,Local,java.lang.Object";
 };
