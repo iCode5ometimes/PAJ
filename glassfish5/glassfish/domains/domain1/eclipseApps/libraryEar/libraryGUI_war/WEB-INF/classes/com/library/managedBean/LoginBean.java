@@ -5,6 +5,8 @@ import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
+import javax.mail.internet.AddressException;
+import javax.mail.internet.InternetAddress;
 
 import com.library.exception.LoginException;
 import com.libraryDAO.UserDAORemote;
@@ -63,6 +65,17 @@ public class LoginBean {
 
 	}
 	
+	private boolean isValidEmailAddress(String email) {
+		   boolean result = true;
+		   try {
+		      InternetAddress emailAddr = new InternetAddress(email);
+		      emailAddr.validate();
+		   } catch (AddressException ex) {
+		      result = false;
+		   }
+		   return result;
+		}
+	
 	public String goToAccountCreationPage() {
 		FacesContext facesContext = FacesContext.getCurrentInstance();
 		userDTO = new UserDTO();
@@ -71,8 +84,16 @@ public class LoginBean {
 	}
 	
 	public String createAccount(UserDTO userDTO) {
-		userDAORemote.create(userDTO);
-		return "/index?faces-redirect=true";
+		FacesContext facesContext = FacesContext.getCurrentInstance();
+		
+		if(isValidEmailAddress(userDTO.getEmail())) {
+			userDAORemote.create(userDTO);
+			return "/index?faces-redirect=true";
+		}
+		else {
+			facesContext.addMessage("loginForm", new FacesMessage(FacesMessage.SEVERITY_ERROR, "Email address is not valid!", null));
+			return null;
+		}
 	}
 	
 	public String changePassword() {
