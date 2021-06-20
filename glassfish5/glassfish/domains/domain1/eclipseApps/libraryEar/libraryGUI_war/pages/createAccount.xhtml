@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Create an account</title>
+	 <h:outputStylesheet name="/css/login.css" />
+</h:head>
+
+<h:body>
+<h:form label="loginForm"   class="form" >
+		
+		<span class='text'>
+      <h2 class="title-form-login">Create an account</h2>
+      	<br /> 
+      	<h:outputLabel for="title" style="color: white">Email address</h:outputLabel>
+		<br /> 
+		<h:inputText class="effect-input" required="true" label="Email address"
+			placeholder="Email"
+			validatorMessage="Enter email address"
+			value="#{loginBean.userDTO.email}"></h:inputText>
+		<br />
+      	<h:outputLabel for="title" style="color: white">Name</h:outputLabel>
+		<br /> 
+		<h:inputText class="effect-input" required="true" label="Email address"
+			placeholder="Email"
+			validatorMessage="Enter email address"
+			value="#{loginBean.userDTO.name}"></h:inputText>
+		<br />
+      	<h:outputLabel for="title" style="color: white">Surname</h:outputLabel>
+		<br /> 
+		<h:inputText class="effect-input" required="true" label="Email address"
+			placeholder="Email"
+			validatorMessage="Enter email address"
+			value="#{loginBean.userDTO.surname}"></h:inputText>
+		<br />
+		<h:outputLabel for="title" style="color: white">Password</h:outputLabel>
+		<br /> 
+		<h:inputSecret class="effect-input" label="Password" required="true"
+			placeholder="Password"
+			validatorMessage="Enter password"
+			value="#{loginBean.userDTO.password}"></h:inputSecret>
+		<br />
+		<h:commandButton class="btns" value="Create account!" action="#{loginBean.createAccount(userDTO)}"></h:commandButton>
+		<h:messages infoStyle="color:darkgreen" errorStyle="color:darkred"></h:messages>
+		</span>
+	
+	</h:form>
+	
+	
+</h:body>
+</html>

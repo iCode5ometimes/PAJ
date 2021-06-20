@@ -63,6 +63,18 @@ public class LoginBean {
 
 	}
 	
+	public String goToAccountCreationPage() {
+		FacesContext facesContext = FacesContext.getCurrentInstance();
+		userDTO = new UserDTO();
+		facesContext.getExternalContext().getSessionMap().put("userDTO", userDTO);
+		return "/pages/createAccount.xhtml?faces-redirect=true";
+	}
+	
+	public String createAccount(UserDTO userDTO) {
+		userDAORemote.create(userDTO);
+		return "/index?faces-redirect=true";
+	}
+	
 	public String changePassword() {
 		return "/pages/changePass.xhtml?faces-redirect=true";
 	}
