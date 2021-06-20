@@ -99,13 +99,5 @@ public class LoginBean {
 	public String changePassword() {
 		return "/pages/changePass.xhtml?faces-redirect=true";
 	}
-
-	public String logout() {
-
-		FacesContext.getCurrentInstance().getExternalContext().invalidateSession();
-		userDTO = null;
-
-		return "/index?faces-redirect=true";
-	}
 	
 }

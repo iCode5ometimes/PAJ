@@ -87,4 +87,10 @@ public class BookBean {
 	    return "/pages/bookList.xhtml?faces-redirect=true";
 	}
 	
+	public String logout() {
+		FacesContext.getCurrentInstance().getExternalContext().invalidateSession();
+		userDTO = null;
+		return "/index?faces-redirect=true";
+	}
+	
 }
