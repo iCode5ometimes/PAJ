@@ -25,9 +25,9 @@ public class BookBean {
 	
 	static final Logger LOGGER = Logger.getLogger(LoginBean.class.getName());
 	
-	private BookDTO bookDTO = new BookDTO();
-	private BorrowOrderDTO borrowOrderDTO = new BorrowOrderDTO();
-	private UserDTO userDTO = new UserDTO();
+	private BookDTO bookDTO;
+	private BorrowOrderDTO borrowOrderDTO;
+	private UserDTO userDTO;
 	
 	public ArrayList<BookDTO> bookList;
 
@@ -48,6 +48,9 @@ public class BookBean {
 	
 	@PostConstruct
 	public void init() {
+		bookDTO = new BookDTO();
+		borrowOrderDTO = new BorrowOrderDTO();
+		userDTO = new UserDTO();
 		bookList = (ArrayList<BookDTO>) bookDAORemote.findAll();
 		fetchLoggedUser();
 	}
@@ -73,7 +76,7 @@ public class BookBean {
 		FacesContext facesContext = FacesContext.getCurrentInstance();
 		facesContext.getExternalContext().getSessionMap().put("bookDTO", bookDTO);
 		facesContext.getExternalContext().getSessionMap().put("borrowOrderDTO", borrowOrderDTO);
-		return "borrowOrder.xhtml?faces-redirect=true";
+		return "/pages/borrowOrder.xhtml?faces-redirect=true";
 	}
 	
 	public String confirmBookBorrowOrder(BookDTO bookDTO, BorrowOrderDTO borrowOrderDTO) {

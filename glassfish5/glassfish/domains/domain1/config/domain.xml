@@ -657,7 +657,7 @@
       <property name="keepstate" value="true"></property>
       <property name="isComposite" value="true"></property>
       <property name="appLocation" value="${com.sun.aas.instanceRootURI}/eclipseApps/libraryEar/"></property>
-      <property name="org.glassfish.ejb.container.application_unique_id" value="106438362147782656"></property>
+      <property name="org.glassfish.ejb.container.application_unique_id" value="106448269683064832"></property>
       <property name="defaultAppName" value="libraryEar"></property>
       <module name="libraryEjb.jar">
         <engine sniffer="ejb"></engine>

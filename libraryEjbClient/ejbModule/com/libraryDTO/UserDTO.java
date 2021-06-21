@@ -21,6 +21,21 @@ public class UserDTO implements Serializable {
 		this.password = password;
 		this.email = email;
 	}
+	
+	public static UserDTO getCopy(UserDTO other) {
+		UserDTO copy = new UserDTO();
+		copy.setId(other.getId());
+		copy.setName(other.getName());
+		copy.setSurname(other.getSurname());
+		copy.setPassword(other.getPassword());
+		copy.setEmail(other.getEmail());
+		
+		for(BorrowOrderDTO borrowOrderDTO : other.getBorrowOrders()) {
+			copy.addBorrowOrder(borrowOrderDTO);
+		}
+		
+		return copy;
+	}
 
 	public UserDTO() {
 		super();

@@ -30,7 +30,7 @@ public class User implements Serializable {
 	private String surname;
 
 	//bi-directional many-to-one association to BorrowOrder
-	@OneToMany(mappedBy="user", cascade = CascadeType.ALL)
+	@OneToMany(mappedBy="user", cascade = CascadeType.PERSIST)
 	private List<BorrowOrder> borrowOrders = new ArrayList<BorrowOrder>();
 
 	public User() {

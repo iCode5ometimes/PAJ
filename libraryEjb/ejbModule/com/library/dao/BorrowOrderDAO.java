@@ -8,12 +8,12 @@ import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
-
 import com.library.model.BorrowOrder;
 import com.library.util.DtoToEntity;
 import com.library.util.EntityToDTO;
 import com.libraryDAO.BorrowOrderDAORemote;
 import com.libraryDTO.BorrowOrderDTO;
+import com.libraryDTO.UserDTO;
 
 /**
  * Session Bean implementation class BorrowOrderDAO
@@ -51,6 +51,18 @@ public class BorrowOrderDAO implements BorrowOrderDAORemote{
 			dtoBorrowOrders.add(entityToDTO.convertBorrowOrder(borrowOrder));
 		}
 		return dtoBorrowOrders;
+	}
+	
+	@Override
+	public List<BorrowOrderDTO> findAllByUser(UserDTO userDTO) {
+		List<BorrowOrderDTO> borrowOrders = findAll();
+		List<BorrowOrderDTO> borrowOrderNeeded = new ArrayList<BorrowOrderDTO>();
+		for(BorrowOrderDTO borrowOrderDTO : borrowOrders) {
+			if(borrowOrderDTO.getUser().getId() == userDTO.getId()) {
+				borrowOrderNeeded.add(borrowOrderDTO);
+			}
+		}
+		return borrowOrderNeeded;
 	}
 
 	@Override
