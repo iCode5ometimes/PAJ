@@ -1,55 +1,69 @@
 <!DOCTYPE HTML>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" 
-	xmlns:h="http://java.sun.com/jsf/html" 
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:f="http://xmlns.jcp.org/jsf/core">
 
 <h:head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" http-equiv="X-UA-Conpatible" />
-    <h:outputStylesheet library="css" name="bootstrap.min.css" />
-    <title>Borrow a book</title>
-    <style type="text/css">
-        .updateBtnStyle {
-        	width: 80px !important;        	
-        }
-    </style>
+	<meta charset="utf-8" name="viewport"
+		content="width=device-width, initial-scale=1"
+		http-equiv="X-UA-Conpatible" />
+	<h:outputStylesheet library="css" name="bootstrap.min.css" />
+	<title>Borrow a book</title>
+	<style type="text/css">
+.updateBtnStyle {
+	width: 80px !important;
+}
+</style>
 </h:head>
 <h:body>
-        <h:form id="form" class="form-horizontal">
-            <div class="form-group">
-                <div class="col-sm-2"></div>
-                <h2 style="text-align: center" class="col-sm-4">Borrow a book</h2>
-            </div>
-            <hr/>
-            <div class="form-group">
-                <h:outputLabel for="title" class="control-label col-sm-2">Book title:</h:outputLabel>
-                <div class="col-sm-4">
-                    <h:outputLabel value="#{bookDTO.title}" class="form-control"/>
-                </div>
-            </div>
-            <div class="form-group">
-                <h:outputLabel for="author" class="control-label col-sm-2">Author:</h:outputLabel>
-                <div class="col-sm-4">
-                    <h:outputLabel value="#{bookDTO.authorName} #{bookDTO.authorSurname}" class="form-control"/>
-                </div>
-            </div>
-            <div class="form-group">
-                <h:outputLabel for="startDate" class="control-label col-sm-2">Starting date:</h:outputLabel>
-                <div class="col-sm-4">
-                    <h:inputText id="startingDate-id" value="#{borrowOrderDTO.startingFrom}" class="form-control"/>
-                </div>
-            </div>
-            <div class="form-group">
-                <h:outputLabel for="startDate" class="control-label col-sm-2">Ending at:</h:outputLabel>
-                <div class="col-sm-4">
-                    <h:inputText id="endingDate-id" value="#{borrowOrderDTO.endingAt}" class="form-control"/>
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-4">
-                    <h:commandButton value="Confirm" action="#{bookBean.confirmBookBorrowOrder(bookDTO, borrowOrderDTO)}" class="btn btn-primary updateBtnStyle" />
-                </div>
-            </div>
-        </h:form>
-    </h:body>
+	<h:form id="form" class="form-horizontal">
+		<div class="form-group">
+			<div class="col-sm-2"></div>
+			<h2 style="text-align: center" class="col-sm-4">Borrow a book</h2>
+		</div>
+		<hr />
+		<center>
+			<div class="form-group">
+				<h:commandButton action="/pages/bookList.xhtml?faces-redirect=true"
+					value="Go back" class="btn btn-success btnSpace" />
+			</div>
+		</center>
+		<div class="form-group">
+			<h:outputLabel for="title" class="control-label col-sm-2">Book title:</h:outputLabel>
+			<div class="col-sm-4">
+				<h:outputLabel value="#{bookDTO.title}" class="form-control" />
+			</div>
+		</div>
+		<div class="form-group">
+			<h:outputLabel for="author" class="control-label col-sm-2">Author:</h:outputLabel>
+			<div class="col-sm-4">
+				<h:outputLabel
+					value="#{bookDTO.authorName} #{bookDTO.authorSurname}"
+					class="form-control" />
+			</div>
+		</div>
+		<div class="form-group">
+			<h:outputLabel for="startDate" class="control-label col-sm-2">Starting date:</h:outputLabel>
+			<div class="col-sm-4">
+				<h:inputText id="startingDate-id"
+					value="#{borrowOrderDTO.startingFrom}" class="form-control" />
+			</div>
+		</div>
+		<div class="form-group">
+			<h:outputLabel for="startDate" class="control-label col-sm-2">Ending at:</h:outputLabel>
+			<div class="col-sm-4">
+				<h:inputText id="endingDate-id" value="#{borrowOrderDTO.endingAt}"
+					class="form-control" />
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-4">
+				<h:commandButton value="Confirm"
+					action="#{bookBean.confirmBookBorrowOrder(bookDTO, borrowOrderDTO)}"
+					class="btn btn-primary updateBtnStyle" />
+			</div>
+		</div>
+	</h:form>
+</h:body>
 </html>

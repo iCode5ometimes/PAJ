@@ -3,47 +3,40 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:f="http://java.sun.com/jsf/core"
-	
 	xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
 <h:head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Change your password</title>
-	 <h:outputStylesheet name="/css/login.css" />
+	<h:outputStylesheet name="/css/login.css" />
 </h:head>
 
 <h:body>
-<h:form label="loginForm"   class="form" >
-		
+	<h:form label="loginForm" class="form">
+
 		<span class='text'>
-      <h2 class="title-form-login">Change you password</h2>
-      	<br /> 
-      	<h:outputLabel for="title" style="color: white">Email address</h:outputLabel>
-		<br /> 
-		<h:inputText class="effect-input" required="true" label="Email address"
-			placeholder="Email"
-			validatorMessage="Enter email address"
-			value="#{changePasswordBean.changePasswordDTO.email}"></h:inputText>
-		<br />
-		<h:outputLabel for="title" style="color: white">Old password</h:outputLabel>
-		<br /> 
-		<h:inputSecret class="effect-input" label="Password" required="true"
-			placeholder="Password"
-			validatorMessage="Enter password"
-			value="#{changePasswordBean.changePasswordDTO.oldPassword}"></h:inputSecret>
-		<br />
-		<h:outputLabel for="title" style="color: white">New password</h:outputLabel>
-		<br />
-		<h:inputSecret class="effect-input" label="Password" required="true"
-			placeholder="Password"
-			validatorMessage="Enter password"
-			value="#{changePasswordBean.changePasswordDTO.newPassword}"></h:inputSecret>
-		<br />
-		<h:commandButton class="btns" value="Change password" action="#{changePasswordBean.changeUserPassword}"></h:commandButton>
-		<h:messages infoStyle="color:darkgreen" errorStyle="color:orange"></h:messages>
+			<h2 class="title-form-login">Change you password</h2> <br /> <h:outputLabel
+				for="title" style="color: white">Email address</h:outputLabel> <br />
+			<h:inputText class="effect-input" required="true"
+				label="Email address" placeholder="Email"
+				validatorMessage="Enter email address"
+				value="#{changePasswordBean.changePasswordDTO.email}"></h:inputText>
+			<br /> <h:outputLabel for="title" style="color: white">Old password</h:outputLabel>
+			<br /> <h:inputSecret class="effect-input" label="Password"
+				required="true" placeholder="Password"
+				validatorMessage="Enter password"
+				value="#{changePasswordBean.changePasswordDTO.oldPassword}"></h:inputSecret>
+			<br /> <h:outputLabel for="title" style="color: white">New password</h:outputLabel>
+			<br /> <h:inputSecret class="effect-input" label="Password"
+				required="true" placeholder="Password"
+				validatorMessage="Enter password"
+				value="#{changePasswordBean.changePasswordDTO.newPassword}"></h:inputSecret>
+			<br /> <h:commandButton class="btns" value="Change password"
+				action="#{changePasswordBean.changeUserPassword}"></h:commandButton>
+			<h:messages infoStyle="color:darkgreen" errorStyle="color:orange"></h:messages>
 		</span>
-	
+
 	</h:form>
-	
-	
+
+
 </h:body>
 </html>

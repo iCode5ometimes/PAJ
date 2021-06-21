@@ -14976,3 +14976,1218 @@ com.library.exception.LoginException: Wrong authentication!
 [2021-06-21T17:45:57.354+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624286757354] [levelValue: 800] [[
   All books with the details are:  ]]
 
+[2021-06-21T17:48:09.542+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=159 _ThreadName=Thread-56] [timeMillis: 1624286889542] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2021-06-21T17:48:09.551+0300] [glassfish 5.0] [INFO] [NCLS-BOOTSTRAP-00028] [javax.enterprise.bootstrap] [tid: _ThreadID=159 _ThreadName=Thread-56] [timeMillis: 1624286889551] [levelValue: 800] [[
+  Unregistered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@1a5f7e7c from service registry.]]
+
+[2021-06-21T17:48:09.552+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=159 _ThreadName=Thread-8] [timeMillis: 1624286889552] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2021-06-21T17:48:09.555+0300] [glassfish 5.0] [INFO] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=159 _ThreadName=Thread-56] [timeMillis: 1624286889555] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2021-06-21T17:48:09.555+0300] [glassfish 5.0] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=159 _ThreadName=Thread-56] [timeMillis: 1624286889555] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2021-06-21T17:48:09.636+0300] [glassfish 5.0] [INFO] [] [org.eclipse.persistence.session./file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb.connection] [tid: _ThreadID=163 _ThreadName=RunLevelControllerThread-1624286889588] [timeMillis: 1624286889636] [levelValue: 800] [[
+  /file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb logout successful]]
+
+[2021-06-21T17:48:09.684+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=162 _ThreadName=Thread-8] [timeMillis: 1624286889684] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource]]]
+
+[2021-06-21T17:48:09.691+0300] [glassfish 5.0] [INFO] [ra.stop-successful] [javax.enterprise.resource.resourceadapter.com.sun.enterprise.connectors.service] [tid: _ThreadID=172 _ThreadName=Thread-68] [timeMillis: 1624286889691] [levelValue: 800] [[
+  RAR7094: __cp_jdbc_ra shutdown successful.]]
+
+[2021-06-21T17:48:28.030+0300] [glassfish 5.0] [INFO] [NCLS-LOGGING-00009] [javax.enterprise.logging] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1624286907954] [timeMillis: 1624286908030] [levelValue: 800] [[
+  Running GlassFish Version: GlassFish Server Open Source Edition  5.0.1  (build 5)]]
+
+[2021-06-21T17:48:28.031+0300] [glassfish 5.0] [INFO] [NCLS-LOGGING-00010] [javax.enterprise.logging] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1624286907954] [timeMillis: 1624286908031] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2021-06-21T17:48:28.105+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624286907953] [timeMillis: 1624286908105] [levelValue: 800] [[
+  Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2021-06-21T17:48:28.106+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624286907953] [timeMillis: 1624286908106] [levelValue: 800] [[
+  Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2021-06-21T17:48:28.110+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624286907953] [timeMillis: 1624286908110] [levelValue: 800] [[
+  Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.]]
+
+[2021-06-21T17:48:28.352+0300] [glassfish 5.0] [INFO] [SEC-SVCS-00100] [javax.enterprise.security.services] [tid: _ThreadID=29 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286908352] [levelValue: 800] [[
+  Authorization Service has successfully initialized.]]
+
+[2021-06-21T17:48:28.395+0300] [glassfish 5.0] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=29 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286908395] [levelValue: 800] [[
+  Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry]]
+
+[2021-06-21T17:48:28.429+0300] [glassfish 5.0] [INFO] [jts.startup_msg] [javax.enterprise.system.core.transaction.com.sun.jts.CosTransactions] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286908429] [levelValue: 800] [[
+  JTS5014: Recoverable JTS instance, serverId = [100]]]
+
+[2021-06-21T17:48:28.480+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624286907953] [timeMillis: 1624286908480] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 20ms - bound to [/0.0.0.0:8080]]]
+
+[2021-06-21T17:48:28.495+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624286907953] [timeMillis: 1624286908495] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 2ms - bound to [/0.0.0.0:8181]]]
+
+[2021-06-21T17:48:28.500+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1624286907953] [timeMillis: 1624286908500] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 1ms - bound to [/0.0.0.0:4848]]]
+
+[2021-06-21T17:48:28.527+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1624286907954] [timeMillis: 1624286908527] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 1ms - bound to [/0.0.0.0:3700]]]
+
+[2021-06-21T17:48:29.136+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286909136] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-21T17:48:29.609+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286909609] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-21T17:48:29.911+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286909911] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-21T17:48:29.954+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286909954] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-21T17:48:30.425+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01002] [javax.enterprise.system.core.security] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286910425] [levelValue: 800] [[
+  Java security manager is disabled.]]
+
+[2021-06-21T17:48:30.426+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01010] [javax.enterprise.system.core.security] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286910426] [levelValue: 800] [[
+  Entering Security Startup Service.]]
+
+[2021-06-21T17:48:30.429+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01143] [javax.enterprise.system.core.security] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286910429] [levelValue: 800] [[
+  Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.]]
+
+[2021-06-21T17:48:30.459+0300] [glassfish 5.0] [INFO] [NCLS-SECURITY-01011] [javax.enterprise.system.core.security] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286910459] [levelValue: 800] [[
+  Security Service(s) started successfully.]]
+
+[2021-06-21T17:48:30.596+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.dol] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286910596] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-21T17:48:30.757+0300] [glassfish 5.0] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286910757] [levelValue: 800] [[
+  HV000001: Hibernate Validator 6.0.10.Final]]
+
+[2021-06-21T17:48:31.512+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286911512] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:8080]]
+
+[2021-06-21T17:48:31.516+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286911516] [levelValue: 800] [[
+  Created HTTP listener http-listener-2 on host/port 0.0.0.0:8181]]
+
+[2021-06-21T17:48:31.517+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286911517] [levelValue: 800] [[
+  Created HTTP listener admin-listener on host/port 0.0.0.0:4848]]
+
+[2021-06-21T17:48:31.534+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286911534] [levelValue: 800] [[
+  Created virtual server server]]
+
+[2021-06-21T17:48:31.535+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286911535] [levelValue: 800] [[
+  Created virtual server __asadmin]]
+
+[2021-06-21T17:48:31.609+0300] [glassfish 5.0] [INFO] [AS-WEB-CORE-00306] [javax.enterprise.web.core] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286911609] [levelValue: 800] [[
+  Setting JAAS app name glassfish-web]]
+
+[2021-06-21T17:48:31.610+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00201] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286911610] [levelValue: 800] [[
+  Virtual server server loaded default web module ]]
+
+[2021-06-21T17:48:33.035+0300] [glassfish 5.0] [INFO] [jts.startup_msg] [javax.enterprise.system.core.transaction.com.sun.jts.CosTransactions] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286913035] [levelValue: 800] [[
+  JTS5014: Recoverable JTS instance, serverId = [3700]]]
+
+[2021-06-21T17:48:33.406+0300] [glassfish 5.0] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286913406] [levelValue: 800] [[
+  Portable JNDI names for EJB BookDAO: [java:global/libraryEar/libraryEjb/BookDAO!com.libraryDAO.BookDAORemote, java:global/libraryEar/libraryEjb/BookDAO!com.library.dao.BookDAO]]]
+
+[2021-06-21T17:48:33.406+0300] [glassfish 5.0] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286913406] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB BookDAO: [com.libraryDAO.BookDAORemote#com.libraryDAO.BookDAORemote, com.libraryDAO.BookDAORemote]]]
+
+[2021-06-21T17:48:33.472+0300] [glassfish 5.0] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286913472] [levelValue: 800] [[
+  Portable JNDI names for EJB BorrowOrderDAO: [java:global/libraryEar/libraryEjb/BorrowOrderDAO!com.libraryDAO.BorrowOrderDAORemote, java:global/libraryEar/libraryEjb/BorrowOrderDAO!com.library.dao.BorrowOrderDAO]]]
+
+[2021-06-21T17:48:33.472+0300] [glassfish 5.0] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286913472] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB BorrowOrderDAO: [com.libraryDAO.BorrowOrderDAORemote#com.libraryDAO.BorrowOrderDAORemote, com.libraryDAO.BorrowOrderDAORemote]]]
+
+[2021-06-21T17:48:33.518+0300] [glassfish 5.0] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286913518] [levelValue: 800] [[
+  Portable JNDI names for EJB UserDAO: [java:global/libraryEar/libraryEjb/UserDAO!com.library.dao.UserDAO, java:global/libraryEar/libraryEjb/UserDAO!com.libraryDAO.UserDAORemote]]]
+
+[2021-06-21T17:48:33.518+0300] [glassfish 5.0] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286913518] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB UserDAO: [com.libraryDAO.UserDAORemote, com.libraryDAO.UserDAORemote#com.libraryDAO.UserDAORemote]]]
+
+[2021-06-21T17:48:33.539+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Version] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286913539] [levelValue: 800] [[
+  WELD-000900: 3.0.0 (Final)]]
+
+[2021-06-21T17:48:33.950+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286913950] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] org.glassfish.sse.impl.ServerSentEventCdiExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-21T17:48:33.955+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286913955] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.hibernate.validator.cdi.ValidationExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-21T17:48:33.965+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286913965] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.glassfish.jms.injection.JMSCDIExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-21T17:48:33.981+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286913981] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-21T17:48:33.993+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286913993] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider$JaxRsParamProducer is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:34.002+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286914002] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.servlet.internal.CdiExternalRequestScope is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:34.009+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286914009] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorMandatory is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:34.013+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286914013] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNever is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:34.015+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286914015] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNotSupported is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:34.016+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286914016] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequired is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:34.018+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286914018] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequiresNew is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:34.019+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286914019] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorSupports is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:34.032+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286914032] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.ibm.jbatch.container.cdi.BatchProducerBean is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:34.055+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286914055] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionHolder is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:34.058+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286914058] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionInterceptor is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:34.059+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286914059] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.TransactionalExceptionMapper is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:34.061+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286914061] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:34.550+0300] [glassfish 5.0] [WARNING] [AS-WEB-UTIL-00035] [javax.enterprise.web.util] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286914550] [levelValue: 900] [[
+  Unable to load class org.eclipse.persistence.jpa.rs.service.JPARSApplication, reason: java.lang.ClassNotFoundException: org.eclipse.persistence.jpa.rs.service.JPARSApplication]]
+
+[2021-06-21T17:48:34.615+0300] [glassfish 5.0] [WARNING] [AS-WEB-UTIL-00035] [javax.enterprise.web.util] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286914615] [levelValue: 900] [[
+  Unable to load class org.eclipse.persistence.jpa.rs.service.JPARSApplication, reason: java.lang.ClassNotFoundException: org.eclipse.persistence.jpa.rs.service.JPARSApplication]]
+
+[2021-06-21T17:48:34.682+0300] [glassfish 5.0] [INFO] [] [org.glassfish.soteria.servlet.SamRegistrationInstaller] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286914682] [levelValue: 800] [[
+  Initializing Soteria 1.0 for context '/libraryGUI']]
+
+[2021-06-21T17:48:34.738+0300] [glassfish 5.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286914738] [levelValue: 800] [[
+  Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '/libraryGUI']]
+
+[2021-06-21T17:48:35.466+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286915466] [levelValue: 800] [[
+  Loading application [libraryEar#libraryGUI.war] at [libraryGUI]]]
+
+[2021-06-21T17:48:35.468+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1624286907958] [timeMillis: 1624286915468] [levelValue: 800] [[
+  Loading application libraryEar done in 7.085 ms]]
+
+[2021-06-21T17:48:35.469+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1624286915469] [levelValue: 800] [[
+  GlassFish Server Open Source Edition  5.0.1  (5) startup time : Felix (1.760ms), startup services(7.521ms), total(9.281ms)]]
+
+[2021-06-21T17:48:35.484+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1624286907954] [timeMillis: 1624286915484] [levelValue: 800] [[
+  Grizzly Framework 2.4.3 started in: 3ms - bound to [/0.0.0.0:7676]]]
+
+[2021-06-21T17:48:35.581+0300] [glassfish 5.0] [INFO] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=90 _ThreadName=Thread-29] [timeMillis: 1624286915581] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://192.168.56.1:8686/jndi/rmi://192.168.56.1:8686/jmxrmi]]
+
+[2021-06-21T17:48:36.950+0300] [glassfish 5.0] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1624286916950] [levelValue: 800] [[
+  Listening to REST requests at context: /management/domain.]]
+
+[2021-06-21T17:48:37.252+0300] [glassfish 5.0] [INFO] [NCLS-BOOTSTRAP-00027] [javax.enterprise.bootstrap] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1624286917252] [levelValue: 800] [[
+  Registered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@1a5f7e7c as OSGi service registration: org.apache.felix.framework.ServiceRegistrationImpl@5b22b970.]]
+
+[2021-06-21T17:48:37.355+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=109 _ThreadName=Thread-30] [timeMillis: 1624286917355] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-21T17:48:37.370+0300] [glassfish 5.0] [INFO] [] [org.jvnet.hk2.osgiadapter] [tid: _ThreadID=21 _ThreadName=FelixStartLevel] [timeMillis: 1624286917370] [levelValue: 800] [[
+  Skipping registration of inhabitant for service reference [org.osgi.service.cm.ManagedService] as the service object could not be obtained.]]
+
+[2021-06-21T17:48:37.373+0300] [glassfish 5.0] [INFO] [] [org.jvnet.hk2.osgiadapter] [tid: _ThreadID=21 _ThreadName=FelixStartLevel] [timeMillis: 1624286917373] [levelValue: 800] [[
+  Skipping registration of inhabitant for service reference [org.osgi.service.metatype.MetaTypeProvider] as the service object could not be obtained.]]
+
+[2021-06-21T17:48:37.506+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=109 _ThreadName=Thread-30] [timeMillis: 1624286917506] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-21T17:48:37.510+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=109 _ThreadName=Thread-30] [timeMillis: 1624286917510] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-21T17:48:37.511+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=109 _ThreadName=Thread-30] [timeMillis: 1624286917511] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-21T17:48:38.173+0300] [glassfish 5.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=109 _ThreadName=Thread-30] [timeMillis: 1624286918173] [levelValue: 800] [[
+  Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '']]
+
+[2021-06-21T17:48:38.590+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=109 _ThreadName=Thread-30] [timeMillis: 1624286918590] [levelValue: 800] [[
+  Loading application [__admingui] at [/]]]
+
+[2021-06-21T17:48:38.591+0300] [glassfish 5.0] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=109 _ThreadName=Thread-30] [timeMillis: 1624286918591] [levelValue: 800] [[
+  Loading application __admingui done in 1.340 ms]]
+
+[2021-06-21T17:48:40.681+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.container.ejb.org.glassfish.ejb.startup] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286920681] [levelValue: 800] [[
+  keepstate options resolved to true, saving appId 106448269683064832 for application libraryEar.]]
+
+[2021-06-21T17:48:41.254+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286921254] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-21T17:48:41.486+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286921486] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-21T17:48:41.535+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286921535] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-21T17:48:41.544+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286921544] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-06-21T17:48:41.623+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286921623] [levelValue: 800] [[
+  com.library.model.BorrowOrder actually got transformed]]
+
+[2021-06-21T17:48:41.666+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286921666] [levelValue: 800] [[
+  com.library.model.User actually got transformed]]
+
+[2021-06-21T17:48:41.691+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286921691] [levelValue: 800] [[
+  com.library.model.Author actually got transformed]]
+
+[2021-06-21T17:48:41.694+0300] [glassfish 5.0] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286921694] [levelValue: 800] [[
+  com.library.model.Book actually got transformed]]
+
+[2021-06-21T17:48:41.724+0300] [glassfish 5.0] [INFO] [] [org.eclipse.persistence.session./file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286921724] [levelValue: 800] [[
+  EclipseLink, version: Eclipse Persistence Services - 2.7.0.v20170811-d680af5]]
+
+[2021-06-21T17:48:42.047+0300] [glassfish 5.0] [INFO] [] [org.eclipse.persistence.session./file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb.connection] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922047] [levelValue: 800] [[
+  /file:/D:/Uni/Semestrul 2/PAJ/glassfish5/glassfish/domains/domain1/eclipseApps/libraryEar/libraryEjb_jar/_libraryEjb login successful]]
+
+[2021-06-21T17:48:42.110+0300] [glassfish 5.0] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922110] [levelValue: 800] [[
+  Portable JNDI names for EJB UserDAO: [java:global/libraryEar/libraryEjb/UserDAO!com.library.dao.UserDAO, java:global/libraryEar/libraryEjb/UserDAO!com.libraryDAO.UserDAORemote]]]
+
+[2021-06-21T17:48:42.110+0300] [glassfish 5.0] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922110] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB UserDAO: [com.libraryDAO.UserDAORemote, com.libraryDAO.UserDAORemote#com.libraryDAO.UserDAORemote]]]
+
+[2021-06-21T17:48:42.139+0300] [glassfish 5.0] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922139] [levelValue: 800] [[
+  Portable JNDI names for EJB BorrowOrderDAO: [java:global/libraryEar/libraryEjb/BorrowOrderDAO!com.libraryDAO.BorrowOrderDAORemote, java:global/libraryEar/libraryEjb/BorrowOrderDAO!com.library.dao.BorrowOrderDAO]]]
+
+[2021-06-21T17:48:42.139+0300] [glassfish 5.0] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922139] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB BorrowOrderDAO: [com.libraryDAO.BorrowOrderDAORemote#com.libraryDAO.BorrowOrderDAORemote, com.libraryDAO.BorrowOrderDAORemote]]]
+
+[2021-06-21T17:48:42.167+0300] [glassfish 5.0] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922167] [levelValue: 800] [[
+  Portable JNDI names for EJB BookDAO: [java:global/libraryEar/libraryEjb/BookDAO!com.libraryDAO.BookDAORemote, java:global/libraryEar/libraryEjb/BookDAO!com.library.dao.BookDAO]]]
+
+[2021-06-21T17:48:42.167+0300] [glassfish 5.0] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922167] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB BookDAO: [com.libraryDAO.BookDAORemote#com.libraryDAO.BookDAORemote, com.libraryDAO.BookDAORemote]]]
+
+[2021-06-21T17:48:42.238+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922238] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.glassfish.jms.injection.JMSCDIExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-21T17:48:42.242+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922242] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.hibernate.validator.cdi.ValidationExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-21T17:48:42.243+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922243] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] org.glassfish.sse.impl.ServerSentEventCdiExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-21T17:48:42.249+0300] [glassfish 5.0] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922249] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-06-21T17:48:42.250+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922250] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider$JaxRsParamProducer is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:42.251+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922251] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.servlet.internal.CdiExternalRequestScope is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:42.251+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922251] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorMandatory is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:42.252+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922252] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNever is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:42.253+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922253] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNotSupported is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:42.253+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922253] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequired is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:42.254+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922254] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequiresNew is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:42.254+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922254] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorSupports is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:42.255+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922255] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.ibm.jbatch.container.cdi.BatchProducerBean is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:42.258+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922258] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:42.258+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922258] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionHolder is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:42.259+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922259] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionInterceptor is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:42.259+0300] [glassfish 5.0] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922259] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.TransactionalExceptionMapper is deprecated from CDI 1.1!]]
+
+[2021-06-21T17:48:42.409+0300] [glassfish 5.0] [WARNING] [AS-WEB-UTIL-00035] [javax.enterprise.web.util] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922409] [levelValue: 900] [[
+  Unable to load class org.eclipse.persistence.jpa.rs.service.JPARSApplication, reason: java.lang.ClassNotFoundException: org.eclipse.persistence.jpa.rs.service.JPARSApplication]]
+
+[2021-06-21T17:48:42.419+0300] [glassfish 5.0] [WARNING] [AS-WEB-UTIL-00035] [javax.enterprise.web.util] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922419] [levelValue: 900] [[
+  Unable to load class org.eclipse.persistence.jpa.rs.service.JPARSApplication, reason: java.lang.ClassNotFoundException: org.eclipse.persistence.jpa.rs.service.JPARSApplication]]
+
+[2021-06-21T17:48:42.424+0300] [glassfish 5.0] [INFO] [] [org.glassfish.soteria.servlet.SamRegistrationInstaller] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922424] [levelValue: 800] [[
+  Initializing Soteria 1.0 for context '/libraryGUI']]
+
+[2021-06-21T17:48:42.431+0300] [glassfish 5.0] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922431] [levelValue: 800] [[
+  Initializing Mojarra 2.3.2 ( 20170627-2139 e63598abf2ed2bb1a24674f308a734e0dce18a72) for context '/libraryGUI']]
+
+[2021-06-21T17:48:42.599+0300] [glassfish 5.0] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922599] [levelValue: 800] [[
+  Loading application [libraryEar#libraryGUI.war] at [libraryGUI]]]
+
+[2021-06-21T17:48:42.639+0300] [glassfish 5.0] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=52 _ThreadName=admin-listener(1)] [timeMillis: 1624286922639] [levelValue: 800] [[
+  libraryEar was successfully deployed in 1.998 milliseconds.]]
+
+[2021-06-21T17:48:43.236+0300] [glassfish 5.0] [WARNING] [] [javax.enterprise.system.container.web.com.sun.web.security] [tid: _ThreadID=40 _ThreadName=http-listener-1(3)] [timeMillis: 1624286923236] [levelValue: 900] [[
+  Context path from ServletContext: /libraryGUI differs from path from bundle: libraryGUI]]
+
+[2021-06-21T17:48:52.661+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624286932661] [levelValue: 800] [[
+  user logged]]
+
+[2021-06-21T17:48:52.726+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=Thread-8] [timeMillis: 1624286932726] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:48:52.729+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624286932729] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:48:52.733+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624286932733] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:48:52.752+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624286932752] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:48:56.366+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1624286936366] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:48:56.368+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624286936368] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:48:56.371+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624286936371] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:48:56.373+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624286936373] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:48:56.378+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624286936378] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:48:56.381+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624286936381] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:48:56.383+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624286936383] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:48:56.386+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624286936386] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:48:56.389+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624286936389] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:48:56.392+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624286936392] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:48:56.395+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624286936395] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:48:56.397+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624286936397] [levelValue: 800] [[
+  Trying to launch book borrow page with the details: ]]
+
+[2021-06-21T17:50:24.859+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624287024859] [levelValue: 800] [[
+  user logged]]
+
+[2021-06-21T17:50:24.884+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=Thread-8] [timeMillis: 1624287024884] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:50:24.887+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287024887] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:50:24.890+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287024890] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:50:24.899+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287024899] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:50:25.529+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1624287025529] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:50:25.531+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287025531] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:50:25.533+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287025533] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:50:25.535+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287025535] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:50:25.539+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287025539] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:50:25.541+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287025541] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:50:25.544+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287025544] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:50:25.546+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287025546] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:50:25.548+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287025548] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:50:25.550+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287025550] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:50:25.552+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287025552] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:50:25.553+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287025553] [levelValue: 800] [[
+  Trying to launch book borrow page with the details: ]]
+
+[2021-06-21T17:51:19.181+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=Thread-8] [timeMillis: 1624287079181] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:51:19.183+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287079183] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:19.185+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287079185] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:19.191+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287079191] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:20.992+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1624287080992] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:51:20.994+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287080994] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:20.996+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287080996] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:20.997+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287080997] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:21.000+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287081000] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:21.002+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287081002] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:21.004+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287081004] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:21.006+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287081006] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:21.009+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287081009] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:21.010+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287081010] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:21.025+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287081025] [levelValue: 800] [[
+  We are in init()]]
+
+[2021-06-21T17:51:21.026+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287081026] [levelValue: 800] [[
+  2]]
+
+[2021-06-21T17:51:21.026+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287081026] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:51:21.995+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=Thread-8] [timeMillis: 1624287081995] [levelValue: 800] [[
+  We are in init()]]
+
+[2021-06-21T17:51:21.995+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=Thread-8] [timeMillis: 1624287081995] [levelValue: 800] [[
+  2]]
+
+[2021-06-21T17:51:21.995+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=Thread-8] [timeMillis: 1624287081995] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:51:22.020+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624287082020] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:51:22.022+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287082022] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:22.023+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287082023] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:22.028+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287082028] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:23.106+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=Thread-8] [timeMillis: 1624287083106] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:51:23.107+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287083107] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:23.109+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287083109] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:23.110+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287083110] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:23.112+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287083112] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:23.114+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287083114] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:23.116+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287083116] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:23.117+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287083117] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:23.120+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287083120] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:23.121+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287083121] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:23.122+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287083122] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:23.123+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287083123] [levelValue: 800] [[
+  Trying to launch book borrow page with the details: ]]
+
+[2021-06-21T17:51:23.858+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=Thread-8] [timeMillis: 1624287083858] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:51:23.859+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287083859] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:23.861+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287083861] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:23.866+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287083866] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:30.044+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624287090044] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:51:30.046+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287090046] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:30.047+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287090047] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:30.049+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287090049] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:30.052+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287090052] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:30.054+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287090054] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:30.055+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287090055] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:30.058+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287090058] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:30.060+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287090060] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:51:30.061+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287090061] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:35.973+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287155973] [levelValue: 800] [[
+  user logged]]
+
+[2021-06-21T17:52:35.989+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=Thread-8] [timeMillis: 1624287155989] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:35.990+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287155990] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:35.991+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287155991] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:35.996+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287155996] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:37.232+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624287157232] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:37.233+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287157233] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:37.235+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287157235] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:37.236+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287157236] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:37.237+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287157237] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:37.239+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287157239] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:37.240+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287157240] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:37.242+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287157242] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:37.243+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287157243] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:37.245+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287157245] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:37.247+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287157247] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:37.247+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287157247] [levelValue: 800] [[
+  Trying to launch book borrow page with the details: ]]
+
+[2021-06-21T17:52:38.270+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287158270] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:38.272+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=40 _ThreadName=http-listener-1(3)] [timeMillis: 1624287158272] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:38.273+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=40 _ThreadName=http-listener-1(3)] [timeMillis: 1624287158273] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:38.278+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=40 _ThreadName=http-listener-1(3)] [timeMillis: 1624287158278] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:39.279+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=Thread-8] [timeMillis: 1624287159279] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:39.280+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287159280] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:39.282+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287159282] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:39.283+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287159283] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:39.285+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287159285] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:39.287+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287159287] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:39.289+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287159289] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:39.291+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287159291] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:39.293+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287159293] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:39.295+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287159295] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:39.308+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624287159308] [levelValue: 800] [[
+  We are in init()]]
+
+[2021-06-21T17:52:39.309+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624287159309] [levelValue: 800] [[
+  2]]
+
+[2021-06-21T17:52:39.309+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624287159309] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:41.086+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=Thread-8] [timeMillis: 1624287161086] [levelValue: 800] [[
+  We are in init()]]
+
+[2021-06-21T17:52:41.087+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=Thread-8] [timeMillis: 1624287161087] [levelValue: 800] [[
+  2]]
+
+[2021-06-21T17:52:41.087+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=Thread-8] [timeMillis: 1624287161087] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:41.112+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=Thread-8] [timeMillis: 1624287161112] [levelValue: 800] [[
+  We are in init()]]
+
+[2021-06-21T17:52:41.113+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=Thread-8] [timeMillis: 1624287161113] [levelValue: 800] [[
+  2]]
+
+[2021-06-21T17:52:41.113+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=Thread-8] [timeMillis: 1624287161113] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:41.123+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1624287161123] [levelValue: 800] [[
+  We are in init()]]
+
+[2021-06-21T17:52:41.124+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1624287161124] [levelValue: 800] [[
+  2]]
+
+[2021-06-21T17:52:41.124+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1624287161124] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:42.296+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287162296] [levelValue: 800] [[
+  We are in init()]]
+
+[2021-06-21T17:52:42.297+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287162297] [levelValue: 800] [[
+  2]]
+
+[2021-06-21T17:52:42.297+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287162297] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:42.311+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=Thread-8] [timeMillis: 1624287162311] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:42.312+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287162312] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:42.313+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287162313] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:42.317+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287162317] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:43.333+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624287163333] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:43.335+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287163335] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:43.336+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287163336] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:43.338+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287163338] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:43.340+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287163340] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:43.341+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287163341] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:43.343+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287163343] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:43.345+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287163345] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:43.346+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287163346] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:43.348+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287163348] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:43.349+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287163349] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:43.350+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287163350] [levelValue: 800] [[
+  Trying to launch book borrow page with the details: ]]
+
+[2021-06-21T17:52:46.858+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1624287166858] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:46.914+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287166914] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:46.916+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=40 _ThreadName=http-listener-1(3)] [timeMillis: 1624287166916] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:46.918+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=40 _ThreadName=http-listener-1(3)] [timeMillis: 1624287166918] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:46.922+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=40 _ThreadName=http-listener-1(3)] [timeMillis: 1624287166922] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:47.889+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=Thread-8] [timeMillis: 1624287167889] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:47.891+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287167891] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:47.893+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287167893] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:47.894+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287167894] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:47.896+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287167896] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:47.898+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287167898] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:47.899+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287167899] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:47.901+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287167901] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:47.902+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287167902] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:47.903+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287167903] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:47.914+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624287167914] [levelValue: 800] [[
+  We are in init()]]
+
+[2021-06-21T17:52:47.915+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624287167915] [levelValue: 800] [[
+  1]]
+
+[2021-06-21T17:52:47.915+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624287167915] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:49.246+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=Thread-8] [timeMillis: 1624287169246] [levelValue: 800] [[
+  We are in init()]]
+
+[2021-06-21T17:52:49.247+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=Thread-8] [timeMillis: 1624287169247] [levelValue: 800] [[
+  1]]
+
+[2021-06-21T17:52:49.247+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=Thread-8] [timeMillis: 1624287169247] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:49.261+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1624287169261] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:49.262+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287169262] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:49.264+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287169264] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:49.267+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287169267] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:50.840+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287170840] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:50.841+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=40 _ThreadName=http-listener-1(3)] [timeMillis: 1624287170841] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:50.843+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=40 _ThreadName=http-listener-1(3)] [timeMillis: 1624287170843] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:50.844+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=40 _ThreadName=http-listener-1(3)] [timeMillis: 1624287170844] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:50.846+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=40 _ThreadName=http-listener-1(3)] [timeMillis: 1624287170846] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:50.847+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=40 _ThreadName=http-listener-1(3)] [timeMillis: 1624287170847] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:50.849+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=40 _ThreadName=http-listener-1(3)] [timeMillis: 1624287170849] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:50.851+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=40 _ThreadName=http-listener-1(3)] [timeMillis: 1624287170851] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:50.853+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=40 _ThreadName=http-listener-1(3)] [timeMillis: 1624287170853] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:50.855+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=40 _ThreadName=http-listener-1(3)] [timeMillis: 1624287170855] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:50.857+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=40 _ThreadName=http-listener-1(3)] [timeMillis: 1624287170857] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:50.857+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=40 _ThreadName=http-listener-1(3)] [timeMillis: 1624287170857] [levelValue: 800] [[
+  Trying to launch book borrow page with the details: ]]
+
+[2021-06-21T17:52:53.119+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624287173119] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:53.144+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=Thread-8] [timeMillis: 1624287173144] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:53.145+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287173145] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:53.146+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287173146] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:53.150+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287173150] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:54.099+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1624287174099] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:54.100+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287174100] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:54.101+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287174101] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:54.102+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287174102] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:54.103+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287174103] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:54.104+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287174104] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:54.105+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287174105] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:54.107+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287174107] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:54.108+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287174108] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:54.110+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287174110] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:54.118+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287174118] [levelValue: 800] [[
+  We are in init()]]
+
+[2021-06-21T17:52:54.119+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287174119] [levelValue: 800] [[
+  1]]
+
+[2021-06-21T17:52:54.119+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287174119] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:54.971+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=Thread-8] [timeMillis: 1624287174971] [levelValue: 800] [[
+  We are in init()]]
+
+[2021-06-21T17:52:54.972+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=Thread-8] [timeMillis: 1624287174972] [levelValue: 800] [[
+  1]]
+
+[2021-06-21T17:52:54.972+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=Thread-8] [timeMillis: 1624287174972] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:54.987+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624287174987] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:54.988+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287174988] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:54.989+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287174989] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:54.992+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287174992] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:55.671+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=Thread-8] [timeMillis: 1624287175671] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:55.673+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287175673] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:55.674+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287175674] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:55.675+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287175675] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:55.677+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287175677] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:55.678+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287175678] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:55.680+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287175680] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:55.682+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287175682] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:55.683+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287175683] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:55.685+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287175685] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:55.694+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1624287175694] [levelValue: 800] [[
+  We are in init()]]
+
+[2021-06-21T17:52:55.695+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1624287175695] [levelValue: 800] [[
+  1]]
+
+[2021-06-21T17:52:55.695+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1624287175695] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:56.536+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287176536] [levelValue: 800] [[
+  We are in init()]]
+
+[2021-06-21T17:52:56.536+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287176536] [levelValue: 800] [[
+  1]]
+
+[2021-06-21T17:52:56.536+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287176536] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:56.556+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287176556] [levelValue: 800] [[
+  We are in init()]]
+
+[2021-06-21T17:52:56.556+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287176556] [levelValue: 800] [[
+  1]]
+
+[2021-06-21T17:52:56.556+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287176556] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:56.566+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=Thread-8] [timeMillis: 1624287176566] [levelValue: 800] [[
+  We are in init()]]
+
+[2021-06-21T17:52:56.567+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=Thread-8] [timeMillis: 1624287176567] [levelValue: 800] [[
+  1]]
+
+[2021-06-21T17:52:56.567+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=Thread-8] [timeMillis: 1624287176567] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:57.552+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624287177552] [levelValue: 800] [[
+  We are in init()]]
+
+[2021-06-21T17:52:57.553+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624287177553] [levelValue: 800] [[
+  1]]
+
+[2021-06-21T17:52:57.553+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624287177553] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:57.564+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=Thread-8] [timeMillis: 1624287177564] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:57.565+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287177565] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:57.566+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287177566] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:57.569+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287177569] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:59.292+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1624287179292] [levelValue: 800] [[
+  User logged has id: 21]]
+
+[2021-06-21T17:52:59.293+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287179293] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:59.294+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287179294] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:59.304+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287179304] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:59.306+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287179306] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:59.307+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287179307] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:59.308+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287179308] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:59.310+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287179310] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:59.311+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287179311] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:52:59.312+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=39 _ThreadName=http-listener-1(2)] [timeMillis: 1624287179312] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:03.042+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=Thread-8] [timeMillis: 1624287183042] [levelValue: 800] [[
+  user logged]]
+
+[2021-06-21T17:53:03.052+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624287183052] [levelValue: 800] [[
+  User logged has id: 19]]
+
+[2021-06-21T17:53:03.053+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287183053] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:03.054+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287183054] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:03.057+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287183057] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:03.797+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=Thread-8] [timeMillis: 1624287183797] [levelValue: 800] [[
+  User logged has id: 19]]
+
+[2021-06-21T17:53:03.798+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287183798] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:03.799+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287183799] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:03.800+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287183800] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:03.802+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287183802] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:03.803+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287183803] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:03.805+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287183805] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:03.806+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287183806] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:03.807+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287183807] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:03.808+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=42 _ThreadName=http-listener-1(5)] [timeMillis: 1624287183808] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:03.818+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1624287183818] [levelValue: 800] [[
+  We are in init()]]
+
+[2021-06-21T17:53:03.819+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1624287183819] [levelValue: 800] [[
+  1]]
+
+[2021-06-21T17:53:03.819+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=Thread-8] [timeMillis: 1624287183819] [levelValue: 800] [[
+  User logged has id: 19]]
+
+[2021-06-21T17:53:05.271+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287185271] [levelValue: 800] [[
+  We are in init()]]
+
+[2021-06-21T17:53:05.271+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287185271] [levelValue: 800] [[
+  1]]
+
+[2021-06-21T17:53:05.271+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=Thread-8] [timeMillis: 1624287185271] [levelValue: 800] [[
+  User logged has id: 19]]
+
+[2021-06-21T17:53:05.282+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=Thread-8] [timeMillis: 1624287185282] [levelValue: 800] [[
+  User logged has id: 19]]
+
+[2021-06-21T17:53:05.283+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287185283] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:05.285+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287185285] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:05.287+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=41 _ThreadName=http-listener-1(4)] [timeMillis: 1624287185287] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:07.189+0300] [glassfish 5.0] [INFO] [] [] [tid: _ThreadID=38 _ThreadName=Thread-8] [timeMillis: 1624287187189] [levelValue: 800] [[
+  User logged has id: 19]]
+
+[2021-06-21T17:53:07.190+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287187190] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:07.194+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287187194] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:07.195+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287187195] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:07.197+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287187197] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:07.197+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287187197] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:07.199+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287187199] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:07.200+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287187200] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:07.202+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287187202] [levelValue: 800] [[
+  All books with the details are:  ]]
+
+[2021-06-21T17:53:07.203+0300] [glassfish 5.0] [INFO] [] [com.library.managedBean.LoginBean] [tid: _ThreadID=38 _ThreadName=http-listener-1(1)] [timeMillis: 1624287187203] [levelValue: 800] [[
+  All books with the details are:  ]]
+

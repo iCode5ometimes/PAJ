@@ -1,51 +1,59 @@
 <!DOCTYPE HTML>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" 
-	xmlns:h="http://java.sun.com/jsf/html" 
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:f="http://xmlns.jcp.org/jsf/core">
-	
+
 <h:head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" http-equiv="X-UA-Conpatible" />
-    <h:outputStylesheet library="css" name="bootstrap.min.css" />     
-    <title>Books</title>
-    <style type="text/css">
-        .tableUpdated {
-        	width: 90% !important;
-        	margin: 17px 58px 0 !important;
-        }
-        .btnSpace {
-        	margin: 17px;
-        }     
-    </style>
+	<meta charset="utf-8" name="viewport"
+		content="width=device-width, initial-scale=1"
+		http-equiv="X-UA-Conpatible" />
+	<h:outputStylesheet library="css" name="bootstrap.min.css" />
+	<title>Books</title>
+	<style type="text/css">
+.tableUpdated {
+	width: 90% !important;
+	margin: 17px 58px 0 !important;
+}
+
+.btnSpace {
+	margin: 17px;
+}
+</style>
 </h:head>
 <h:body>
-    <center><h2><h:outputText value="Books you can borrow 📖"/></h2></center>
-    <h:form id="bookForm">
-    	<center>
-			<h:commandButton
-				action="userBorrowOrders.xhtml?faces-redirect=true"
+	<center>
+		<h2>
+			<h:outputText value="Books you can borrow 📖" />
+		</h2>
+	</center>
+	<h:form id="bookForm">
+		<center>
+			<h:commandButton action="userBorrowOrders.xhtml?faces-redirect=true"
 				value="See my borrowed books" class="btn btn-success btnSpace" />
 		</center>
-        <h:dataTable id="bookTable" binding="#{table}" value="#{bookBean.bookList()}" var="book" class="table table-striped table-hover table-bordered tableUpdated">
-            <h:column>
-                <f:facet name="header">Id</f:facet>
-                <h:outputText value="#{table.rowIndex + 1}" />
-            </h:column>
-            <h:column>
-                <f:facet name="header">Title</f:facet>
-                <h:outputText value="#{book.title}" />
-            </h:column>
-            <h:column>
-                <f:facet name="header"> Author</f:facet>
-                <h:outputText value="#{book.authorName} #{book.authorSurname}" />
-            </h:column>
-            <h:column>
-                <f:facet name="header">Borrow</f:facet>
-                <h:commandButton action="#{bookBean.borrowBookOrder(book.id)}" value="Borrow" class="btn btn-primary" />
-            </h:column>
-        </h:dataTable>
-			<h:commandButton
-				action="#{bookBean.logout}"
-				value="Logout" class="btn btn-success btnSpace" />
-    </h:form>
+		<h:dataTable id="bookTable" binding="#{table}"
+			value="#{bookBean.bookList()}" var="book"
+			class="table table-striped table-hover table-bordered tableUpdated">
+			<h:column>
+				<f:facet name="header">Id</f:facet>
+				<h:outputText value="#{table.rowIndex + 1}" />
+			</h:column>
+			<h:column>
+				<f:facet name="header">Title</f:facet>
+				<h:outputText value="#{book.title}" />
+			</h:column>
+			<h:column>
+				<f:facet name="header"> Author</f:facet>
+				<h:outputText value="#{book.authorName} #{book.authorSurname}" />
+			</h:column>
+			<h:column>
+				<f:facet name="header">Borrow</f:facet>
+				<h:commandButton action="#{bookBean.borrowBookOrder(book.id)}"
+					value="Borrow" class="btn btn-primary" />
+			</h:column>
+		</h:dataTable>
+		<h:commandButton action="#{bookBean.logout}" value="Logout"
+			class="btn btn-success btnSpace" />
+	</h:form>
 </h:body>
 </html>
