@@ -111,6 +111,11 @@ public class LoginBean {
 		FacesContext facesContext = FacesContext.getCurrentInstance();
 
 		if (isValidEmailAddress(userDTO.getEmail())) {
+			if(userDAORemote.findByEmail(userDTO.getEmail())) {
+				facesContext.addMessage("createAccountForm",
+						new FacesMessage(FacesMessage.SEVERITY_ERROR, "User already exist!", null));
+				return null;
+			}
 			userDAORemote.create(userDTO);
 			return "/index?faces-redirect=true";
 		} else {

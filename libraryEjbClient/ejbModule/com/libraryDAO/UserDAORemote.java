@@ -18,4 +18,6 @@ public interface UserDAORemote extends GenericDAO<UserDTO> {
 	Boolean updatePassword(ChangePasswordDTO changePasswordDTO) throws ChangePasswordException;
 
 	UserDTO findByEmail(DeleteAccountDTO deleteAccountDTO) throws DeleteAccountException;
+	
+	boolean findByEmail(String email);
 }

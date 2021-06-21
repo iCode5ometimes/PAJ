@@ -146,4 +146,18 @@ public class UserDAO implements UserDAORemote {
 		return userDTO;
 	}
 
+	@Override
+	public boolean findByEmail(String email) {
+		User user = null;
+		try {
+			user = entityManager.createNamedQuery("findUserByEmail", User.class)
+					.setParameter("email", email).getSingleResult();
+		} catch (NoResultException e) {
+		}
+		if(user != null) {
+			return true;
+		}
+		return false;
+	}
+
 }
