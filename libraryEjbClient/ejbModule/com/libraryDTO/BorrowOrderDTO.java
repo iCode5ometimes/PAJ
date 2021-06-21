@@ -2,20 +2,20 @@ package com.libraryDTO;
 
 import java.io.Serializable;
 
-public class BorrowOrderDTO implements Serializable{
+public class BorrowOrderDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	private int id;
 	private String bookName;
 	private String endingAt;
 	private String startingFrom;
 	private UserDTO user;
-	
+
 	public BorrowOrderDTO() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	
+
 	public BorrowOrderDTO(String bookName, String endingAt, String startingFrom, UserDTO user) {
 		super();
 		this.bookName = bookName;
@@ -90,39 +90,39 @@ public class BorrowOrderDTO implements Serializable{
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		BorrowOrderDTO other = (BorrowOrderDTO)obj;
-		if(this.bookName == null) {
-			if(other.bookName != null) {
+		BorrowOrderDTO other = (BorrowOrderDTO) obj;
+		if (this.bookName == null) {
+			if (other.bookName != null) {
 				return false;
 			}
-		}else if(!this.bookName.equals(other.bookName)) {
+		} else if (!this.bookName.equals(other.bookName)) {
 			return false;
 		}
-		if(this.id != other.id) {
+		if (this.id != other.id) {
 			return false;
 		}
-		if(this.user == null) {
-			if(other.user != null) {
+		if (this.user == null) {
+			if (other.user != null) {
 				return false;
 			}
-		}else if(!this.user.equals(other.user)) {
+		} else if (!this.user.equals(other.user)) {
 			return false;
 		}
-		if(this.endingAt == null) {
-			if(other.endingAt != null) {
+		if (this.endingAt == null) {
+			if (other.endingAt != null) {
 				return false;
 			}
-		}else if(!this.endingAt.equals(other.endingAt)) {
+		} else if (!this.endingAt.equals(other.endingAt)) {
 			return false;
 		}
-		if(this.startingFrom == null) {
-			if(other.startingFrom != null) {
+		if (this.startingFrom == null) {
+			if (other.startingFrom != null) {
 				return false;
 			}
-		}else if(!this.startingFrom.equals(other.startingFrom)) {
+		} else if (!this.startingFrom.equals(other.startingFrom)) {
 			return false;
 		}
 		return true;
 	}
-	
+
 }

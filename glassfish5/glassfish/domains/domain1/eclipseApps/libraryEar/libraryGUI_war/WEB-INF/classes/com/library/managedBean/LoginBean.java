@@ -20,14 +20,14 @@ import com.libraryDTO.UserDTO;
 @ManagedBean
 @SessionScoped
 public class LoginBean {
-	
+
 	LoginDTO loginDTO = new LoginDTO();
 	ChangePasswordDTO changePasswordDTO = new ChangePasswordDTO();
 	DeleteAccountDTO deleteAccountDTO = new DeleteAccountDTO();
-	
+
 	@EJB
 	UserDAORemote userDAORemote;
-	
+
 	UserDTO userDTO;
 
 	public LoginDTO getLoginDTO() {
@@ -53,7 +53,7 @@ public class LoginBean {
 	public void setUserDTO(UserDTO userDTO) {
 		this.userDTO = userDTO;
 	}
-	
+
 	public String loginUser() {
 		FacesContext facesContext = FacesContext.getCurrentInstance();
 		try {
@@ -69,58 +69,59 @@ public class LoginBean {
 		}
 
 	}
-	
+
 	private boolean isValidEmailAddress(String email) {
-		   boolean result = true;
-		   try {
-		      InternetAddress emailAddr = new InternetAddress(email);
-		      emailAddr.validate();
-		   } catch (AddressException ex) {
-		      result = false;
-		   }
-		   return result;
+		boolean result = true;
+		try {
+			InternetAddress emailAddr = new InternetAddress(email);
+			emailAddr.validate();
+		} catch (AddressException ex) {
+			result = false;
 		}
-	
+		return result;
+	}
+
 	public String goToAccountCreationPage() {
 		FacesContext facesContext = FacesContext.getCurrentInstance();
 		userDTO = new UserDTO();
 		facesContext.getExternalContext().getSessionMap().put("userDTO", userDTO);
 		return "/pages/createAccount.xhtml?faces-redirect=true";
 	}
-	
+
 	public String navigateToDeleteUserAccountPage() {
 		FacesContext facesContext = FacesContext.getCurrentInstance();
 		facesContext.getExternalContext().getSessionMap().put("deleteAccountDTO", deleteAccountDTO);
 		return "/pages/deleteUserAccount.xhtml?faces-redirect=true";
 	}
-	
-	public String deleteUserAccount(DeleteAccountDTO deleteAccountDTO){
+
+	public String deleteUserAccount(DeleteAccountDTO deleteAccountDTO) {
 		FacesContext facesContext = FacesContext.getCurrentInstance();
 		try {
 			UserDTO userDTO = userDAORemote.findByEmail(deleteAccountDTO);
 			userDAORemote.delete(userDTO.getId());
 			return "/index?faces-redirect=true";
-		}catch (DeleteAccountException e) {
-			facesContext.addMessage("deleteAccountForm", new FacesMessage(FacesMessage.SEVERITY_ERROR, e.message(), null));
+		} catch (DeleteAccountException e) {
+			facesContext.addMessage("deleteAccountForm",
+					new FacesMessage(FacesMessage.SEVERITY_ERROR, e.message(), null));
 			return null;
 		}
 	}
-	
+
 	public String createAccount(UserDTO userDTO) {
 		FacesContext facesContext = FacesContext.getCurrentInstance();
-		
-		if(isValidEmailAddress(userDTO.getEmail())) {
+
+		if (isValidEmailAddress(userDTO.getEmail())) {
 			userDAORemote.create(userDTO);
 			return "/index?faces-redirect=true";
-		}
-		else {
-			facesContext.addMessage("createAccountForm", new FacesMessage(FacesMessage.SEVERITY_ERROR, "Email address is not valid!", null));
+		} else {
+			facesContext.addMessage("createAccountForm",
+					new FacesMessage(FacesMessage.SEVERITY_ERROR, "Email address is not valid!", null));
 			return null;
 		}
 	}
-	
+
 	public String changePassword() {
 		return "/pages/changePass.xhtml?faces-redirect=true";
 	}
-	
+
 }

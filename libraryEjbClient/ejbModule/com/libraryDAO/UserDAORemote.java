@@ -12,10 +12,10 @@ import com.libraryDTO.UserDTO;
 
 @Remote
 public interface UserDAORemote extends GenericDAO<UserDTO> {
-	
+
 	UserDTO loginUser(LoginDTO loginDTO) throws LoginException;
 
 	Boolean updatePassword(ChangePasswordDTO changePasswordDTO) throws ChangePasswordException;
-	
+
 	UserDTO findByEmail(DeleteAccountDTO deleteAccountDTO) throws DeleteAccountException;
 }

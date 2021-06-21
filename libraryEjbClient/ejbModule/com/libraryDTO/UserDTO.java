@@ -6,7 +6,7 @@ import java.util.List;
 
 public class UserDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	private int id;
 	private String name;
 	private String surname;
@@ -21,7 +21,7 @@ public class UserDTO implements Serializable {
 		this.password = password;
 		this.email = email;
 	}
-	
+
 	public static UserDTO getCopy(UserDTO other) {
 		UserDTO copy = new UserDTO();
 		copy.setId(other.getId());
@@ -29,11 +29,11 @@ public class UserDTO implements Serializable {
 		copy.setSurname(other.getSurname());
 		copy.setPassword(other.getPassword());
 		copy.setEmail(other.getEmail());
-		
-		for(BorrowOrderDTO borrowOrderDTO : other.getBorrowOrders()) {
+
+		for (BorrowOrderDTO borrowOrderDTO : other.getBorrowOrders()) {
 			copy.addBorrowOrder(borrowOrderDTO);
 		}
-		
+
 		return copy;
 	}
 
@@ -89,7 +89,7 @@ public class UserDTO implements Serializable {
 	public void setBorrowOrders(List<BorrowOrderDTO> borrowOrders) {
 		this.borrowOrders = borrowOrders;
 	}
-	
+
 	public BorrowOrderDTO addBorrowOrder(BorrowOrderDTO borrowOrderDTO) {
 		getBorrowOrders().add(borrowOrderDTO);
 		borrowOrderDTO.setUser(this);
@@ -109,5 +109,5 @@ public class UserDTO implements Serializable {
 		return "UserDTO [id=" + id + ", name=" + name + ", surname=" + surname + ", password=" + password + ", email="
 				+ email + "]";
 	}
-	
+
 }

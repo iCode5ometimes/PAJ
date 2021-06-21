@@ -27,22 +27,22 @@ import com.libraryDTO.UserDTO;
 @Stateless
 @LocalBean
 public class UserDAO implements UserDAORemote {
-	
+
 	static final Logger LOGGER = Logger.getLogger(UserDAO.class.getName());
-	
+
 	@PersistenceContext
 	private EntityManager entityManager;
-	
+
 	private EntityToDTO entityToDTO = new EntityToDTO();
 
 	private DtoToEntity dtoToEntity = new DtoToEntity();
 
-    /**
-     * Default constructor. 
-     */
-    public UserDAO() {
-        // TODO Auto-generated constructor stub
-    }
+	/**
+	 * Default constructor.
+	 */
+	public UserDAO() {
+		// TODO Auto-generated constructor stub
+	}
 
 	@Override
 	public UserDTO findById(int id) {
@@ -130,7 +130,7 @@ public class UserDAO implements UserDAORemote {
 	}
 
 	@Override
-	public UserDTO findByEmail(DeleteAccountDTO deleteAccountDTO) throws DeleteAccountException{
+	public UserDTO findByEmail(DeleteAccountDTO deleteAccountDTO) throws DeleteAccountException {
 		User user = null;
 		try {
 			user = entityManager.createNamedQuery("findUserByEmail", User.class)
@@ -141,7 +141,7 @@ public class UserDAO implements UserDAORemote {
 		if (!deleteAccountDTO.getPassword().equals(deleteAccountDTO.getConfirmedPassword())) {
 			throw new DeleteAccountException("Passwords don't match!");
 		}
-		
+
 		UserDTO userDTO = entityToDTO.convertUser(user);
 		return userDTO;
 	}

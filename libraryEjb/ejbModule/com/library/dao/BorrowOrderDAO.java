@@ -20,11 +20,11 @@ import com.libraryDTO.UserDTO;
  */
 @Stateless
 @LocalBean
-public class BorrowOrderDAO implements BorrowOrderDAORemote{
-	
+public class BorrowOrderDAO implements BorrowOrderDAORemote {
+
 	@PersistenceContext
 	private EntityManager entityManager;
-	
+
 	private EntityToDTO entityToDTO = new EntityToDTO();
 
 	private DtoToEntity dtoToEntity = new DtoToEntity();
@@ -52,13 +52,13 @@ public class BorrowOrderDAO implements BorrowOrderDAORemote{
 		}
 		return dtoBorrowOrders;
 	}
-	
+
 	@Override
 	public List<BorrowOrderDTO> findAllByUser(UserDTO userDTO) {
 		List<BorrowOrderDTO> borrowOrders = findAll();
 		List<BorrowOrderDTO> borrowOrderNeeded = new ArrayList<BorrowOrderDTO>();
-		for(BorrowOrderDTO borrowOrderDTO : borrowOrders) {
-			if(borrowOrderDTO.getUser().getId() == userDTO.getId()) {
+		for (BorrowOrderDTO borrowOrderDTO : borrowOrders) {
+			if (borrowOrderDTO.getUser().getId() == userDTO.getId()) {
 				borrowOrderNeeded.add(borrowOrderDTO);
 			}
 		}

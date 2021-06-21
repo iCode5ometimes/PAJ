@@ -4,7 +4,7 @@ public class DeleteAccountDTO {
 	private String email;
 	private String password;
 	private String confirmedPassword;
-	
+
 	@Override
 	public String toString() {
 		return "DeleteAccountDTO [email=" + email + ", password=" + password + ", confirmedPassword="
@@ -46,5 +46,5 @@ public class DeleteAccountDTO {
 	public void setConfirmedPassword(String confirmedPassword) {
 		this.confirmedPassword = confirmedPassword;
 	}
-	
+
 }

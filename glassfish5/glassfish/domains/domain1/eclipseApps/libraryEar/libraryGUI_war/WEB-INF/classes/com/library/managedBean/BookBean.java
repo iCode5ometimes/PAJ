@@ -22,13 +22,13 @@ import com.libraryDTO.UserDTO;
 @ManagedBean
 @RequestScoped
 public class BookBean {
-	
+
 	static final Logger LOGGER = Logger.getLogger(LoginBean.class.getName());
-	
+
 	private BookDTO bookDTO;
 	private BorrowOrderDTO borrowOrderDTO;
 	private UserDTO userDTO;
-	
+
 	public ArrayList<BookDTO> bookList;
 
 	public ArrayList<BookDTO> getBookList() {
@@ -38,14 +38,14 @@ public class BookBean {
 	public void setBookList(ArrayList<BookDTO> bookList) {
 		this.bookList = bookList;
 	}
-	
+
 	@EJB
 	private BookDAORemote bookDAORemote;
 	@EJB
 	private UserDAORemote userDAORemote;
 	@EJB
 	private BorrowOrderDAORemote borrowOrderDAORemote;
-	
+
 	@PostConstruct
 	public void init() {
 		bookDTO = new BookDTO();
@@ -54,22 +54,22 @@ public class BookBean {
 		bookList = (ArrayList<BookDTO>) bookDAORemote.findAll();
 		fetchLoggedUser();
 	}
-	
-    private void fetchLoggedUser() {
-        final FacesContext context = FacesContext.getCurrentInstance();
-        HttpSession session = (HttpSession) context.getExternalContext().getSession(true);
-        LoginBean loggedUser = (LoginBean) session.getAttribute("loginBean");
-        if (loggedUser == null)
-            return;
-        userDTO = userDAORemote.findById(loggedUser.getUserDTO().getId());
-        System.out.println("User logged has id: " + userDTO.getId());
-    }
-	
-	public ArrayList<BookDTO> bookList(){
+
+	private void fetchLoggedUser() {
+		final FacesContext context = FacesContext.getCurrentInstance();
+		HttpSession session = (HttpSession) context.getExternalContext().getSession(true);
+		LoginBean loggedUser = (LoginBean) session.getAttribute("loginBean");
+		if (loggedUser == null)
+			return;
+		userDTO = userDAORemote.findById(loggedUser.getUserDTO().getId());
+		System.out.println("User logged has id: " + userDTO.getId());
+	}
+
+	public ArrayList<BookDTO> bookList() {
 		LOGGER.log(Level.INFO, "All books with the details are:  ", bookDAORemote.findAll().toString());
 		return bookList;
 	}
-	
+
 	public String borrowBookOrder(int bookId) {
 		bookDTO = bookDAORemote.findById(bookId);
 		LOGGER.log(Level.INFO, "Trying to launch book borrow page with the details: ", bookDTO.toString());
@@ -78,21 +78,21 @@ public class BookBean {
 		facesContext.getExternalContext().getSessionMap().put("borrowOrderDTO", borrowOrderDTO);
 		return "/pages/borrowOrder.xhtml?faces-redirect=true";
 	}
-	
+
 	public String confirmBookBorrowOrder(BookDTO bookDTO, BorrowOrderDTO borrowOrderDTO) {
 		borrowOrderDTO.setBookName(bookDTO.getTitle());
 		userDTO.getBorrowOrders().clear();
 		userDTO.addBorrowOrder(borrowOrderDTO);
-		
+
 		userDAORemote.update(userDTO);
-		
-	    return "/pages/bookList.xhtml?faces-redirect=true";
+
+		return "/pages/bookList.xhtml?faces-redirect=true";
 	}
-	
+
 	public String logout() {
 		FacesContext.getCurrentInstance().getExternalContext().invalidateSession();
 		userDTO = null;
 		return "/index?faces-redirect=true";
 	}
-	
+
 }

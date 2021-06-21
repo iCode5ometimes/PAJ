@@ -6,19 +6,18 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-
 /**
  * The persistent class for the user database table.
  * 
  */
 @Entity
-@NamedQuery(name="User.findAll", query="SELECT u FROM User u")
+@NamedQuery(name = "User.findAll", query = "SELECT u FROM User u")
 @NamedQuery(name = "findUserByEmail", query = "SELECT u FROM User u WHERE u.email = :email")
 public class User implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int iduser;
 
 	private String email;
@@ -29,8 +28,8 @@ public class User implements Serializable {
 
 	private String surname;
 
-	//bi-directional many-to-one association to BorrowOrder
-	@OneToMany(mappedBy="user", cascade = CascadeType.PERSIST)
+	// bi-directional many-to-one association to BorrowOrder
+	@OneToMany(mappedBy = "user", cascade = CascadeType.PERSIST)
 	private List<BorrowOrder> borrowOrders = new ArrayList<BorrowOrder>();
 
 	public User() {

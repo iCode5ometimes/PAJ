@@ -20,11 +20,11 @@ import com.libraryDTO.BookDTO;
  */
 @Stateless
 @LocalBean
-public class BookDAO  implements BookDAORemote{
-	
+public class BookDAO implements BookDAORemote {
+
 	@PersistenceContext
 	private EntityManager entityManager;
-	
+
 	private EntityToDTO entityToDTO = new EntityToDTO();
 
 	private DtoToEntity dtoToEntity = new DtoToEntity();

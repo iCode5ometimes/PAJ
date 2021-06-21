@@ -14,9 +14,9 @@ import com.libraryDTO.ChangePasswordDTO;
 @ManagedBean
 @SessionScoped
 public class ChangePasswordBean {
-	
+
 	ChangePasswordDTO changePasswordDTO = new ChangePasswordDTO();
-	
+
 	@EJB
 	UserDAORemote userDAORemote;
 
@@ -27,13 +27,12 @@ public class ChangePasswordBean {
 	public void setChangePasswordDTO(ChangePasswordDTO changePasswordDTO) {
 		this.changePasswordDTO = changePasswordDTO;
 	}
-	
-	public String changeUserPassword(){
+
+	public String changeUserPassword() {
 		FacesContext facesContext = FacesContext.getCurrentInstance();
-		
+
 		try {
-			if(userDAORemote.updatePassword(changePasswordDTO))
-			{
+			if (userDAORemote.updatePassword(changePasswordDTO)) {
 				return "/index?faces-redirect=true";
 			}
 		} catch (ChangePasswordException e) {
@@ -43,5 +42,5 @@ public class ChangePasswordBean {
 		}
 		return null;
 	}
-	
+
 }

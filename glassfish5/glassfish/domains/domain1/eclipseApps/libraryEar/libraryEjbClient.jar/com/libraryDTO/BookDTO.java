@@ -3,18 +3,18 @@ package com.libraryDTO;
 import java.io.Serializable;
 
 public class BookDTO implements Serializable {
-	
+
 	private static final long serialVersionUID = 3378951911146318277L;
-	
+
 	private int id;
 	private String title;
 	private String authorName;
 	private String authorSurname;
-	
+
 	public BookDTO() {
 		super();
 	}
-	
+
 	public BookDTO(String title, String authorName, String authorSurname) {
 		super();
 		this.title = title;
@@ -79,32 +79,32 @@ public class BookDTO implements Serializable {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		BookDTO other = (BookDTO)obj;
-		if(this.title == null) {
-			if(other.title != null) {
+		BookDTO other = (BookDTO) obj;
+		if (this.title == null) {
+			if (other.title != null) {
 				return false;
 			}
-		}else if(!this.title.equals(other.title)) {
+		} else if (!this.title.equals(other.title)) {
 			return false;
 		}
-		if(this.id != other.id) {
+		if (this.id != other.id) {
 			return false;
 		}
-		if(this.authorSurname == null) {
-			if(other.authorSurname != null) {
+		if (this.authorSurname == null) {
+			if (other.authorSurname != null) {
 				return false;
 			}
-		}else if(!this.authorSurname.equals(other.authorSurname)) {
+		} else if (!this.authorSurname.equals(other.authorSurname)) {
 			return false;
 		}
-		if(this.authorName == null) {
-			if(other.authorName != null) {
+		if (this.authorName == null) {
+			if (other.authorName != null) {
 				return false;
 			}
-		}else if(!this.authorName.equals(other.authorName)) {
+		} else if (!this.authorName.equals(other.authorName)) {
 			return false;
 		}
 		return true;
 	}
-	
+
 }
