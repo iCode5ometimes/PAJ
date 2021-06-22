@@ -17,7 +17,7 @@ import com.libraryDTO.LoginDTO;
 import com.libraryDTO.UserDTO;
 
 @SuppressWarnings("deprecation")
-@ManagedBean
+@ManagedBean(name = "loginBean")
 @SessionScoped
 public class LoginBean {
 

@@ -1,8 +1,5 @@
 package com.library.util;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.library.model.Book;
 import com.library.model.BorrowOrder;
 import com.library.model.User;
@@ -15,13 +12,16 @@ public class DtoToEntity {
 	public User convertUser(UserDTO userDTO) {
 		User user = new User(userDTO.getEmail(), userDTO.getName(), userDTO.getPassword(), userDTO.getSurname());
 
-		List<BorrowOrder> borrowOrders = new ArrayList<BorrowOrder>();
+		//List<BorrowOrder> borrowOrders = new ArrayList<BorrowOrder>();
 		for (BorrowOrderDTO borrowOrderDTO : userDTO.getBorrowOrders()) {
-			borrowOrders.add(new BorrowOrder(borrowOrderDTO.getBookName(), borrowOrderDTO.getEndingAt(),
-					borrowOrderDTO.getStartingFrom(), user));
+//			borrowOrders.add(new BorrowOrder(borrowOrderDTO.getBookName(), borrowOrderDTO.getEndingAt(),
+//					borrowOrderDTO.getStartingFrom(), user));
+			BorrowOrder borrowOrder = new BorrowOrder(borrowOrderDTO.getBookName(), borrowOrderDTO.getEndingAt(),
+					borrowOrderDTO.getStartingFrom(), user);
+			user.addBorrowOrder(borrowOrder);
 		}
 
-		user.setBorrowOrders(borrowOrders);
+		//user.setBorrowOrders(borrowOrders);
 
 		return user;
 	}
